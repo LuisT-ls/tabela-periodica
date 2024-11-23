@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore os elementos químicos de forma interativa com a Tabela Periódica Interativa"
+    />
+    <title>Tabela Periódica Interativa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <h1>Tabela Periódica Interativa</h1>
+        <p class="subtitle">
+          Explore os elementos químicos de forma interativa
+        </p>
+        <!-- Botão de modo noturno -->
+        <button id="darkModeToggle" class="dark-mode-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </header>
+
+      <!-- Barra de Pesquisa -->
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          id="searchElement"
+          placeholder="Busque por elemento, símbolo ou número atômico..."
+        />
+      </div>
+
+      <!-- Filtros -->
+      <div class="filters">
+        <div class="filter-group">
+          <label for="categoryFilter">
+            <i class="fas fa-filter"></i> Categoria:
+          </label>
+          <select id="categoryFilter">
+            <option value="todos">Todas Categorias</option>
+            <option value="nao-metal">Não Metais</option>
+            <option value="metal-alcalino">Metais Alcalinos</option>
+            <option value="metal-alcalino-terroso">
+              Metais Alcalinos Terrosos
+            </option>
+            <option value="metal-transicao">Metais de Transição</option>
+            <option value="semimetal">Semimetais</option>
+            <option value="halogenio">Halogênios</option>
+            <option value="gas-nobre">Gases Nobres</option>
+            <option value="lantanideo">Lantanídeos</option>
+            <option value="actinideo">Actinídeos</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="blockFilter"> <i class="fas fa-cube"></i> Bloco: </label>
+          <select id="blockFilter">
+            <option value="todos">Todos Blocos</option>
+            <option value="s">Bloco s</option>
+            <option value="p">Bloco p</option>
+            <option value="d">Bloco d</option>
+            <option value="f">Bloco f</option>
+          </select>
+        </div>
+
+        <!-- Novo filtro de tendências periódicas -->
+        <div class="filter-group">
+          <label for="trendFilter">
+            <i class="fas fa-chart-line"></i> Tendências:
+          </label>
+          <select id="trendFilter">
+            <option value="none">Selecione uma tendência</option>
+            <option value="electronegativity">Eletronegatividade</option>
+            <option value="atomicRadius">Raio Atômico</option>
+            <option value="ionizationEnergy">Energia de Ionização</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Container Principal -->
+      <div class="periodic-container">
+        <!-- Tabela Periódica Principal -->
+        <div class="periodic-table"></div>
+
+        <!-- Séries Separadas -->
+        <div class="series-container">
+          <div class="lanthanides">
+            <div class="series-label">Lantanídeos</div>
+            <div class="series-elements" id="lanthanide-series"></div>
+          </div>
+          <div class="actinides">
+            <div class="series-label">Actinídeos</div>
+            <div class="series-elements" id="actinide-series"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal do Elemento -->
+      <div id="elementModal" class="modal">
+        <div class="modal-content">
+          <span class="close"><i class="fas fa-times"></i></span>
+          <div class="modal-header">
+            <div class="element-symbol"></div>
+            <h2 id="elementName"></h2>
+            <button id="favoriteBtn" class="favorite-btn">
+              <i class="far fa-star"></i>
+            </button>
+          </div>
+          <div class="modal-tabs">
+            <button class="tab-btn active" data-tab="basics">Básico</button>
+            <button class="tab-btn" data-tab="properties">Propriedades</button>
+            <button class="tab-btn" data-tab="electron">Eletrônico</button>
+            <button class="tab-btn" data-tab="applications">Aplicações</button>
+          </div>
+          <div class="element-details">
+            <div class="tab-content active" id="basics">
+              <div class="info-grid">
+                <div class="info-item">
+                  <i class="fas fa-hashtag"></i>
+                  <span>Número Atômico</span>
+                  <strong id="atomicNumber"></strong>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-atom"></i>
+                  <span>Massa Atômica</span>
+                  <strong id="atomicMass"></strong>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-layer-group"></i>
+                  <span>Categoria</span>
+                  <strong id="category"></strong>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-calendar"></i>
+                  <span>Descoberto em</span>
+                  <strong id="discovery"></strong>
+                </div>
+              </div>
+              <div class="element-description">
+                <h3>Descrição</h3>
+                <p id="elementDescription"></p>
+              </div>
+              <div class="comparison-tools">
+                <button id="compareBtn" class="compare-btn">
+                  <i class="fas fa-balance-scale"></i> Comparar Elemento
+                </button>
+              </div>
+            </div>
+            <div class="tab-content" id="properties">
+              <div class="properties-grid">
+                <div class="property-item">
+                  <span>Densidade</span>
+                  <strong id="density"></strong>
+                  <small>g/cm³</small>
+                </div>
+                <div class="property-item">
+                  <span>Ponto de Fusão</span>
+                  <strong id="meltingPoint"></strong>
+                  <small>K</small>
+                </div>
+                <div class="property-item">
+                  <span>Ponto de Ebulição</span>
+                  <strong id="boilingPoint"></strong>
+                  <small>K</small>
+                </div>
+                <div class="property-item">
+                  <span>Eletronegatividade</span>
+                  <strong id="electronegativity"></strong>
+                  <small>Pauling</small>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="electron">
+              <div class="electron-config">
+                <h3>Configuração Eletrônica</h3>
+                <p id="electronConfig"></p>
+                <div id="electronAnimation" class="electron-animation"></div>
+              </div>
+              <div class="block-info">
+                <span>Bloco:</span>
+                <strong id="block"></strong>
+              </div>
+            </div>
+            <div class="tab-content" id="applications">
+              <h3>Aplicações Práticas</h3>
+              <div id="elementApplications" class="applications-list"></div>
+              <div class="related-compounds">
+                <h4>Compostos Importantes</h4>
+                <div id="relatedCompounds"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal de Comparação -->
+      <div id="comparisonModal" class="modal">
+        <div class="modal-content">
+          <span class="close"><i class="fas fa-times"></i></span>
+          <h2>Comparação de Elementos</h2>
+          <div class="comparison-container">
+            <div class="element-comparison" id="element1"></div>
+            <div class="comparison-arrows">
+              <i class="fas fa-exchange-alt"></i>
+            </div>
+            <div class="element-comparison" id="element2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legenda -->
+      <div class="legend">
+        <h3><i class="fas fa-info-circle"></i> Legenda</h3>
+        <div class="legend-items"></div>
+      </div>
+
+      <!-- Lista de Favoritos -->
+      <div id="favorites" class="favorites-panel">
+        <h3><i class="fas fa-star"></i> Elementos Favoritos</h3>
+        <div class="favorites-list"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
