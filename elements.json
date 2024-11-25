@@ -49,10 +49,13 @@
       "ionizationEnergy": 2372.3,
       "atomicRadius": 31,
       "applications": [
-        "Balões",
-        "Resfriamento de supercondutores",
-        "Mergulho"
-      ],
+        "Balões e dirigíveis",
+        "Resfriamento de imãs supercondutores",
+        "Mistura respiratória para mergulhadores",
+        "Proteção em soldagem a arco",
+        "Detectores de vazamentos",
+        "Laser de hélio-neônio"
+    ],
       "compounds": [
         "Hélio-Neônio (HeNe)",
         "Hélio-Oxigênio (HeO₂)"
@@ -75,7 +78,16 @@
       "description": "O lítio é o metal mais leve e menos denso dos sólidos em temperatura ambiente. É altamente reativo e inflamável. Muito usado em baterias recarregáveis e tratamentos psiquiátricos.",
       "electronegativity": 0.98,
       "ionizationEnergy": 520.2,
-      "atomicRadius": 152
+      "atomicRadius": 152,
+      "applications": [
+        "Baterias recarregáveis",
+        "Tratamento bipolar",
+        "Lubrificantes"
+      ],
+      "compounds": [
+        "Carbonato de Lítio (Li₂CO₃)",
+        "Hidreto de Lítio (LiH)"
+      ]
     },
     {
       "atomicNumber": 4,
@@ -94,7 +106,16 @@
       "description": "O berílio é um metal alcalino-terroso tóxico, duro e quebradiço. Tem alta condutividade térmica e é usado em ligas metálicas, especialmente em aplicações aeroespaciais.",
       "electronegativity": 1.57,
       "ionizationEnergy": 899.5,
-      "atomicRadius": 112
+      "atomicRadius": 112,
+      "applications": [
+        "Ligas metálicas",
+        "Componentes eletrônicos",
+        "Detectores de radiação"
+      ],
+      "compounds": [
+        "Óxido de Berílio (BeO)",
+        "Cloreto de Berílio (BeCl₂)"
+      ]
     },
     {
       "atomicNumber": 5,
@@ -113,7 +134,16 @@
       "description": "O boro é um semimetal que ocorre naturalmente em minerais. É essencial para o crescimento das plantas e é usado em detergentes, fibra de vidro e componentes eletrônicos.",
       "electronegativity": 2.04,
       "ionizationEnergy": 800.6,
-      "atomicRadius": 85
+      "atomicRadius": 85,
+      "applications": [
+        "Fibra de vidro",
+        "Detergentes",
+        "Componentes eletrônicos"
+      ],
+      "compounds": [
+        "Ácido Bórico (H₃BO₃)",
+        "Borato de Sódio (Na₂B₄O₇)"
+      ]
     },
     {
       "atomicNumber": 6,
@@ -132,7 +162,16 @@
       "description": "O carbono é a base da vida como conhecemos. Forma mais compostos que todos os outros elementos combinados. Existe em várias formas alotrópicas, incluindo diamante e grafite.",
       "electronegativity": 2.55,
       "ionizationEnergy": 1086.5,
-      "atomicRadius": 70
+      "atomicRadius": 70,
+      "applications": [
+        "Diamantes",
+        "Grafite",
+        "Fibras de carbono"
+      ],
+      "compounds": [
+        "Dióxido de Carbono (CO₂)",
+        "Metano (CH₄)"
+      ]
     },
     {
       "atomicNumber": 7,
@@ -151,7 +190,16 @@
       "description": "O nitrogênio é um gás incolor e inodoro que constitui 78% da atmosfera terrestre. É essencial para a vida e usado em fertilizantes, explosivos e refrigeração criogênica.",
       "electronegativity": 3.04,
       "ionizationEnergy": 1402.3,
-      "atomicRadius": 65
+      "atomicRadius": 65,
+      "applications": [
+        "Fertilizantes",
+        "Explosivos",
+        "Refrigeração"
+      ],
+      "compounds": [
+        "Amônia (NH₃)",
+        "Ácido Nítrico (HNO₃)"
+      ]
     },
     {
       "atomicNumber": 8,
@@ -170,7 +218,16 @@
       "description": "O oxigênio é essencial para a vida, sendo necessário para a respiração da maioria dos organismos vivos. É o terceiro elemento mais abundante no universo e compõe cerca de 21% da atmosfera terrestre.",
       "electronegativity": 3.44,
       "ionizationEnergy": 13.618,
-      "atomicRadius": 0.53
+      "atomicRadius": 0.53,
+      "applications": [
+        "Oxigênio medicinal",
+        "Oxigênio industrial",
+        "Combustível de foguetes"
+      ],
+      "compounds": [
+        "Dióxido de Carbono (CO₂)",
+        "Água (H₂O)"
+      ]
     },
     {
       "atomicNumber": 9,
@@ -189,7 +246,16 @@
       "description": "O flúor é o elemento mais eletronegativo e reativo de todos. É usado em pasta de dente, tratamento de água e na produção de diversos materiais industriais.",
       "electronegativity": 3.98,
       "ionizationEnergy": 17.4228,
-      "atomicRadius": 42
+      "atomicRadius": 42,
+      "applications": [
+        "Pasta de dente",
+        "Tratamento de água",
+        "Polímeros"
+      ],
+      "compounds": [
+        "Fluoreto de Sódio (NaF)",
+        "Ácido Fluorídrico (HF)"
+      ]
     },
     {
       "atomicNumber": 10,
@@ -208,7 +274,16 @@
       "description": "O neônio é um gás nobre inerte que emite uma luz vermelho-alaranjada quando eletricamente excitado. É muito usado em letreiros luminosos e lasers.",
       "electronegativity": 0,
       "ionizationEnergy": 21.5645,
-      "atomicRadius": 38
+      "atomicRadius": 38,
+      "applications": [
+        "Letreiros luminosos",
+        "Lasers",
+        "Lâmpadas de descarga"
+      ],
+      "compounds": [
+        "Neônio-Lítio (NeLi)",
+        "Neônio-Flúor (NeF)"
+      ]
     },
     {
       "atomicNumber": 11,
@@ -227,7 +302,16 @@
       "description": "O sódio é um metal alcalino macio e altamente reativo. É essencial para a vida e muito usado na forma de cloreto de sódio (sal de cozinha).",
       "electronegativity": 0.93,
       "ionizationEnergy": 5.139,
-      "atomicRadius": 186
+      "atomicRadius": 186,
+      "applications": [
+        "Sal de cozinha",
+        "Soda cáustica",
+        "Baterias"
+      ],
+      "compounds": [
+        "Cloreto de Sódio (NaCl)",
+        "Hidróxido de Sódio (NaOH)"
+      ]
     },
     {
       "atomicNumber": 12,
@@ -246,7 +330,16 @@
       "description": "O magnésio é um metal leve e forte, essencial para a vida. É usado em ligas leves, fogos de artifício e suplementos nutricionais.",
       "electronegativity": 1.31,
       "ionizationEnergy": 7.646,
-      "atomicRadius": 160
+      "atomicRadius": 160,
+      "applications": [
+        "Ligas leves",
+        "Suplementos nutricionais",
+        "Fogos de artifício"
+      ],
+      "compounds": [
+        "Óxido de Magnésio (MgO)",
+        "Sulfato de Magnésio (MgSO₄)"
+      ]
     },
     {
       "atomicNumber": 13,
@@ -265,7 +358,16 @@
       "description": "O alumínio é um metal leve, durável e resistente à corrosão. É o metal mais abundante na crosta terrestre e muito usado em embalagens e construção.",
       "electronegativity": 1.61,
       "ionizationEnergy": 5.9858,
-      "atomicRadius": 143
+      "atomicRadius": 143,
+      "applications": [
+        "Embalagens",
+        "Construção",
+        "Fios elétricos"
+      ],
+      "compounds": [
+        "Óxido de Alumínio (Al₂O₃)",
+        "Sulfato de Alumínio (Al₂(SO₄)₃)"
+      ]
     },
     {
       "atomicNumber": 14,
@@ -284,7 +386,16 @@
       "description": "O silício é um semimetal fundamental para a eletrônica moderna. É o segundo elemento mais abundante na crosta terrestre e base da indústria de semicondutores.",
       "electronegativity": 1.9,
       "ionizationEnergy": 8.1517,
-      "atomicRadius": 111
+      "atomicRadius": 111,
+      "applications": [
+        "Semicondutores",
+        "Vidro",
+        "Silício metálico"
+      ],
+      "compounds": [
+        "Dióxido de Silício (SiO₂)",
+        "Silano (SiH₄)"
+      ]
     },
     {
       "atomicNumber": 15,
@@ -303,7 +414,16 @@
       "description": "O fósforo é essencial para a vida, sendo componente do DNA e ATP. É usado em fertilizantes, fósforos e componentes eletrônicos.",
       "electronegativity": 2.19,
       "ionizationEnergy": 10.4867,
-      "atomicRadius": 98
+      "atomicRadius": 98,
+      "applications": [
+        "Fertilizantes",
+        "Fósforos",
+        "Componentes eletrônicos"
+      ],
+      "compounds": [
+        "Ácido Fosfórico (H₃PO₄)",
+        "Fosfina (PH₃)"
+      ]
     },
     {
       "atomicNumber": 16,
@@ -322,7 +442,16 @@
       "description": "O enxofre é um não-metal amarelo usado na vulcanização da borracha e produção de ácido sulfúrico. É essencial para a vida e presente em muitos aminoácidos.",
       "electronegativity": 2.58,
       "ionizationEnergy": 10.36,
-      "atomicRadius": 88
+      "atomicRadius": 88,
+      "applications": [
+        "Ácido sulfúrico",
+        "Vulcanização da borracha",
+        "Fertilizantes"
+      ],
+      "compounds": [
+        "Ácido Sulfúrico (H₂SO₄)",
+        "Sulfeto de Hidrogênio (H₂S)"
+      ]
     },
     {
           "atomicNumber": 17,
@@ -341,7 +470,16 @@
           "description": "O cloro é um halogênio amarelo-esverdeado altamente reativo. É usado no tratamento de água, produção de plásticos e como desinfetante.",
           "electronegativity": 3.16,
           "ionizationEnergy": 12.9676,
-          "atomicRadius": 79
+          "atomicRadius": 79,
+          "applications": [
+            "Tratamento de água",
+            "Desinfetante",
+            "Produção de plásticos"
+          ],
+          "compounds": [
+            "Cloreto de Sódio (NaCl)",
+            "Ácido Clorídrico (HCl)"
+          ]
         },
         {
           "atomicNumber": 18,
@@ -360,7 +498,16 @@
           "description": "O argônio é um gás nobre inerte usado em lâmpadas fluorescentes e soldagem. É o terceiro gás mais abundante na atmosfera terrestre.",
           "electronegativity": 0,
           "ionizationEnergy": 15.7596,
-          "atomicRadius": 71
+          "atomicRadius": 71,
+          "applications": [
+            "Lâmpadas fluorescentes",
+            "Soldagem",
+            "Datação por argônio"
+          ],
+          "compounds": [
+            "Argônio-Flúor (ArF)",
+            "Argônio-Cloro (ArCl)"
+          ]
         },
         {
           "atomicNumber": 19,
@@ -379,7 +526,16 @@
           "description": "O potássio é um metal alcalino essencial para a vida, importante na função nervosa e muscular. É amplamente usado em fertilizantes.",
           "electronegativity": 0.82,
           "ionizationEnergy": 4.3407,
-          "atomicRadius": 227
+          "atomicRadius": 227,
+          "applications": [
+            "Fertilizantes",
+            "Sabão",
+            "Baterias"
+          ],
+          "compounds": [
+            "Cloreto de Potássio (KCl)",
+            "Hidróxido de Potássio (KOH)"
+          ]
         },
         {
           "atomicNumber": 20,
@@ -398,7 +554,16 @@
           "description": "O cálcio é um metal alcalino-terroso essencial para ossos e dentes. É o quinto elemento mais abundante na crosta terrestre.",
           "electronegativity": 1.00,
           "ionizationEnergy": 6.1132,
-          "atomicRadius": 197
+          "atomicRadius": 197,
+          "applications": [
+            "Construção",
+            "Suplementos nutricionais",
+            "Produção de aço"
+          ],
+          "compounds": [
+            "Carbonato de Cálcio (CaCO₃)",
+            "Óxido de Cálcio (CaO)"
+          ]
         },
         {
           "atomicNumber": 21,
@@ -417,7 +582,16 @@
           "description": "O escândio é um metal de transição prateado usado em lâmpadas de alta intensidade e ligas de alumínio para aplicações aeroespaciais.",
           "electronegativity": 1.36,
           "ionizationEnergy": 6.5615,
-          "atomicRadius": 162
+          "atomicRadius": 162,
+          "applications": [
+            "Lâmpadas de alta intensidade",
+            "Ligas de alumínio",
+            "Baterias"
+          ],
+          "compounds": [
+            "Óxido de Escândio (Sc₂O₃)",
+            "Fluoreto de Escândio (ScF₃)"
+          ]
         },
         {
           "atomicNumber": 22,
@@ -436,7 +610,16 @@
           "description": "O titânio é um metal leve e forte, resistente à corrosão. É usado em implantes médicos, aeronaves e pigmentos brancos.",
           "electronegativity": 1.54,
           "ionizationEnergy": 6.8281,
-          "atomicRadius": 147
+          "atomicRadius": 147,
+          "applications": [
+            "Implantes médicos",
+            "Aeronaves",
+            "Pigmentos"
+          ],
+          "compounds": [
+            "Dióxido de Titânio (TiO₂)",
+            "Tetracloreto de Titânio (TiCl₄)"
+          ]
         },
         {
           "atomicNumber": 23,
@@ -455,7 +638,16 @@
           "description": "O vanádio é um metal duro usado principalmente em ligas de aço. Também é importante em algumas enzimas biológicas.",
           "electronegativity": 1.63,
           "ionizationEnergy": 6.8281,
-          "atomicRadius": 134
+          "atomicRadius": 134,
+          "applications": [
+            "Ligas de aço",
+            "Catalisadores",
+            "Baterias"
+          ],
+          "compounds": [
+            "Óxido de Vanádio (V₂O₵)",
+            "Pentóxido de Vanádio (V₂O₅)"
+          ]
         },
         {
           "atomicNumber": 24,
@@ -474,7 +666,16 @@
           "description": "O cromo é um metal brilhante usado em cromagem e aço inoxidável. É essencial para o metabolismo da glicose em humanos.",
           "electronegativity": 1.66,
           "ionizationEnergy": 6.7665,
-          "atomicRadius": 128
+          "atomicRadius": 128,
+          "applications": [
+            "Cromagem",
+            "Aço inoxidável",
+            "Pigmentos"
+          ],
+          "compounds": [
+            "Óxido de Cromo (Cr₂O₃)",
+            "Cloreto de Cromo (CrCl₃)"
+          ]
         },
         {
           "atomicNumber": 25,
@@ -493,7 +694,16 @@
           "description": "O manganês é um metal quebradiço usado na produção de aço. É essencial para a fotossíntese em plantas.",
           "electronegativity": 1.55,
           "ionizationEnergy": 7.434,
-          "atomicRadius": 127
+          "atomicRadius": 127,
+          "applications": [
+            "Aço",
+            "Baterias",
+            "Fertilizantes"
+          ],
+          "compounds": [
+            "Óxido de Manganês (MnO₂)",
+            "Sulfato de Manganês (MnSO₄)"
+          ]
         },
         {
           "atomicNumber": 26,
@@ -512,7 +722,16 @@
           "description": "O ferro é o metal mais usado na indústria. É essencial para a vida, sendo componente crucial da hemoglobina no sangue.",
           "electronegativity": 1.83,
           "ionizationEnergy": 7.9024,
-          "atomicRadius": 126
+          "atomicRadius": 126,
+          "applications": [
+            "Aço",
+            "Construção",
+            "Imãs"
+          ],
+          "compounds": [
+            "Óxido de Ferro (Fe₂O₃)",
+            "Sulfato de Ferro (FeSO₄)"
+          ]
         },
         {
           "atomicNumber": 27,
@@ -531,7 +750,16 @@
           "description": "O cobalto é um metal usado em ligas magnéticas e baterias. É essencial para a vitamina B12 e pigmentos azuis.",
           "electronegativity": 1.88,
           "ionizationEnergy": 7.881,
-          "atomicRadius": 125
+          "atomicRadius": 125,
+          "applications": [
+            "Baterias",
+            "Ligas magnéticas",
+            "Pigmentos"
+          ],
+          "compounds": [
+            "Óxido de Cobalto (CoO)",
+            "Cloreto de Cobalto (CoCl₂)"
+          ]
         },
         {
           "atomicNumber": 28,
@@ -550,7 +778,16 @@
           "description": "O níquel é um metal prateado usado em moedas e aço inoxidável. É resistente à corrosão e importante em baterias recarregáveis.",
           "electronegativity": 1.91,
           "ionizationEnergy": 7.6398,
-          "atomicRadius": 124
+          "atomicRadius": 124,
+          "applications": [
+            "Aço inoxidável",
+            "Moedas",
+            "Baterias"
+          ],
+          "compounds": [
+            "Óxido de Níquel (NiO)",
+            "Sulfato de Níquel (NiSO₄)"
+          ]
         },
         {
           "atomicNumber": 29,
@@ -569,7 +806,16 @@
           "description": "O cobre é um metal avermelhado, excelente condutor elétrico. É usado em fios elétricos e tubulações.",
           "electronegativity": 1.90,
           "ionizationEnergy": 7.7264,
-          "atomicRadius": 128
+          "atomicRadius": 128,
+          "applications": [
+            "Fios elétricos",
+            "Tubulações",
+            "Moedas"
+          ],
+          "compounds": [
+            "Óxido de Cobre (Cu₂O)",
+            "Sulfato de Cobre (CuSO₄)"
+          ]
         },
         {
           "atomicNumber": 30,
@@ -588,7 +834,16 @@
           "description": "O zinco é um metal usado na galvanização do aço. É essencial para várias enzimas e para o sistema imunológico.",
           "electronegativity": 1.65,
           "ionizationEnergy": 9.3942,
-          "atomicRadius": 134
+          "atomicRadius": 134,
+          "applications": [
+            "Galvanização",
+            "Baterias",
+            "Suplementos nutricionais"
+          ],
+          "compounds": [
+            "Óxido de Zinco (ZnO)",
+            "Sulfato de Zinco (ZnSO₄)"
+          ]
         },
         {
           "atomicNumber": 31,
@@ -607,7 +862,16 @@
           "description": "O gálio é um metal que derrete na mão. É usado em semicondutores e termômetros de alta temperatura.",
           "electronegativity": 1.81,
           "ionizationEnergy": 5.9993,
-          "atomicRadius": 135
+          "atomicRadius": 135,
+          "applications": [
+            "Semicondutores",
+            "Termômetros",
+            "Laser"
+          ],
+          "compounds": [
+            "Óxido de Gálio (Ga₂O₃)",
+            "Cloreto de Gálio (GaCl₃)"
+          ]
         },
         {
           "atomicNumber": 32,
@@ -626,7 +890,16 @@
           "description": "O germânio é um semimetal usado em semicondutores e fibras ópticas. Foi o primeiro elemento usado em transistores.",
           "electronegativity": 2.01,
           "ionizationEnergy": 7.8994,
-          "atomicRadius": 122
+          "atomicRadius": 122,
+          "applications": [
+            "Semicondutores",
+            "Fibras ópticas",
+            "Transistores"
+          ],
+          "compounds": [
+            "Óxido de Germânio (GeO₂)",
+            "Tetracloreto de Germânio (GeCl₄)"
+          ]
         },
         {
           "atomicNumber": 33,
@@ -645,7 +918,16 @@
           "description": "O arsênio é um não-metal tóxico usado em pesticidas e ligas de chumbo. Foi usado historicamente como veneno.",
           "electronegativity": 2.18,
           "ionizationEnergy": 9.7886,
-          "atomicRadius": 119
+          "atomicRadius": 119,
+          "applications": [
+            "Pesticidas",
+            "Ligas de chumbo",
+            "Veneno"
+          ],
+          "compounds": [
+            "Trióxido de Arsênio (As₂O₃)",
+            "Arseniato de Cálcio (Ca₃(AsO₄)₂)"
+          ]
         },
         {
           "atomicNumber": 34,
@@ -664,7 +946,16 @@
           "description": "O selênio é um não-metal essencial para a vida, usado em fotocélulas e medicina. É tóxico em grandes quantidades.",
           "electronegativity": 2.55,
           "ionizationEnergy": 9.7524,
-          "atomicRadius": 120
+          "atomicRadius": 120,
+          "applications": [
+            "Produção de vidro resistente ao calor e coloração",
+            "Fabricantes de semicondutores e fotocélulas",
+            "Suplementos alimentares e fortificação de alimentos para saúde"
+          ],
+          "compounds": [
+            "Dissulfeto de Selênio (SeS₂)",
+            "Seleneto de Zinco (ZnSe)"
+          ]
         },
         {
           "atomicNumber": 35,
@@ -683,7 +974,16 @@
           "description": "O bromo é um halogênio vermelho escuro usado em retardantes de chama e inseticidas. É tóxico e volátil.",
           "electronegativity": 2.96,
           "ionizationEnergy": 11.8138,
-          "atomicRadius": 120
+          "atomicRadius": 120,
+          "applications": [
+            "Produção de retardantes de chama",
+            "Fabricação de produtos farmacêuticos e pesticidas",
+            "Tratamento de águas industriais e piscinas"
+          ],
+          "compounds": [
+            "Brometo de Potássio (KBr)",
+            "Tetrabromobisfenol A (C15H12Br4O2)"
+          ]
         },
         {
           "atomicNumber": 36,
@@ -702,7 +1002,16 @@
           "description": "O criptônio é um gás nobre inerte usado em lâmpadas de descarga e lasers. É o sexto gás mais abundante na atmosfera terrestre.",
           "electronegativity": 3.00,
           "ionizationEnergy": 13.9996,
-          "atomicRadius": 88
+          "atomicRadius": 88,
+          "applications": [
+            "Lâmpadas fluorescentes e luzes de alta intensidade",
+            "Laseres de criptônio para aplicações médicas e científicas",
+            "Detectores de radiação em dispositivos de medição"
+          ],
+          "compounds": [
+            "Difluoreto de Criptônio (KrF₂)",
+            "Criptônio ionizado em lasers (Kr⁺)"
+          ]
         },
         {
           "atomicNumber": 37,
@@ -721,7 +1030,16 @@
           "description": "O rubídio é um metal alcalino macio usado em relógios atômicos e células fotoelétricas. É altamente reativo e inflamável.",
           "electronegativity": 0.82,
           "ionizationEnergy": 4.1771,
-          "atomicRadius": 248
+          "atomicRadius": 248,
+          "applications": [
+            "Células fotoelétricas e dispositivos de detecção",
+            "Pesquisa em resfriamento e armadilhas atômicas",
+            "Produção de relógios atômicos de alta precisão"
+          ],
+          "compounds": [
+            "Cloreto de Rubídio (RbCl)",
+            "Óxido de Rubídio (Rb₂O)"
+          ]
         },
         {
           "atomicNumber": 38,
@@ -740,7 +1058,16 @@
           "description": "O estrôncio é um metal alcalino-terroso usado em pirotecnia e em lâmpadas de raios X. É tóxico e inflamável.",
           "electronegativity": 0.95,
           "ionizationEnergy": 5.6949,
-          "atomicRadius": 215
+          "atomicRadius": 215,
+          "applications": [
+            "Produção de fogos de artifício e sinalizadores vermelhos",
+            "Fabricação de cerâmicas e vidros especiais",
+            "Radioisótopo para tratamento de câncer ósseo"
+          ],
+          "compounds": [
+            "Nitrato de Estrôncio (Sr(NO₃)₂)",
+            "Carbonato de Estrôncio (SrCO₃)"
+          ]
         },
         {
           "atomicNumber": 39,
@@ -759,7 +1086,16 @@
           "description": "O ítrio é um metal de transição prateado usado em lâmpadas de vapor de mercúrio e supercondutores. É tóxico e inflamável.",
           "electronegativity": 1.22,
           "ionizationEnergy": 6.2173,
-          "atomicRadius": 180
+          "atomicRadius": 180,
+          "applications": [
+            "Produção de fosforos para telas e LEDs",
+            "Fabricantes de supercondutores de alta temperatura",
+            "Materiais cerâmicos para isoladores e filtros ópticos"
+          ],
+          "compounds": [
+            "Óxido de Ítrio (Y₂O₃)",
+            "Granada de Ítrio e Alumínio (Y₃Al₅O₁₂)"
+          ]
         },
         {
           "atomicNumber": 40,
@@ -778,7 +1114,16 @@
           "description": "O zircônio é um metal resistente à corrosão usado em reatores nucleares e joias. É tóxico e inflamável.",
           "electronegativity": 1.33,
           "ionizationEnergy": 6.6339,
-          "atomicRadius": 160
+          "atomicRadius": 160,
+          "applications": [
+            "Revestimento de combustível nuclear em reatores",
+            "Produção de cerâmicas resistentes ao calor",
+            "Materiais odontológicos, como coroas e implantes"
+          ],
+          "compounds": [
+            "Óxido de Zircônio (ZrO₂)",
+            "Tetracloreto de Zircônio (ZrCl₄)"
+          ]
         },
         {
           "atomicNumber": 41,
@@ -797,7 +1142,16 @@
           "description": "O nióbio é um metal cinza usado em superligas e supercondutores. É tóxico e inflamável.",
           "electronegativity": 1.6,
           "ionizationEnergy": 6.7589,
-          "atomicRadius": 146
+          "atomicRadius": 146,
+          "applications": [
+            "Ligas de alta resistência para a indústria aeroespacial",
+            "Supercondutores de alta temperatura",
+            "Fabricção de catalisadores e eletrônicos"
+          ],
+          "compounds": [
+            "Óxido de Nióbio (Nb₂O₅)",
+            "Nióbio Cálcio (NbCa)"
+          ]
         },
         {
           "atomicNumber": 42,
@@ -816,7 +1170,16 @@
           "description": "O molibdênio é um metal prateado usado em ligas de aço e catalisadores. É tóxico e inflamável.",
           "electronegativity": 2.16,
           "ionizationEnergy": 7.0924,
-          "atomicRadius": 139
+          "atomicRadius": 139,
+          "applications": [
+            "Ligas de aço de alta resistência",
+            "Catalisadores em indústrias petroquímicas",
+            "Fios e filamentos para lâmpadas e eletrônicos"
+          ],
+          "compounds": [
+            "Disulfeto de Molibdênio (MoS₂)",
+            "Trióxido de Molibdênio (MoO₃)"
+          ]
         },
         {
           "atomicNumber": 43,
@@ -835,7 +1198,16 @@
           "description": "O tecnécio é um metal radioativo usado em medicina nuclear. É tóxico e inflamável.",
           "electronegativity": 1.9,
           "ionizationEnergy": 7.28,
-          "atomicRadius": 136
+          "atomicRadius": 136,
+          "applications": [
+            "Radioterapia e diagnóstico médico (usado em imagens de PET)",
+            "Fontes de radiação para radiografia e testes industriais",
+            "Pesquisa científica em reatores nucleares"
+          ],
+          "compounds": [
+            "Pertecnetato de sódio (NaTcO₄)",
+            "Tecnécio-99m (Tc-99m)"
+          ]
         },
         {
           "atomicNumber": 44,
@@ -854,7 +1226,16 @@
           "description": "O rutênio é um metal branco prateado usado em ligas de platina e catalisadores. É tóxico e inflamável.",
           "electronegativity": 2.2,
           "ionizationEnergy": 7.3605,
-          "atomicRadius": 134
+          "atomicRadius": 134,
+          "applications": [
+            "Catalisadores para reações químicas industriais",
+            "Dispositivos eletrônicos e contatos elétricos",
+            "Tratamentos de câncer (quimioterapia com compostos de rutênio)"
+          ],
+          "compounds": [
+            "Óxido de Rutênio (RuO₂)",
+            "Cloreto de Rutênio (RuCl₃)"
+          ]
         },
         {
           "atomicNumber": 45,
@@ -873,7 +1254,16 @@
           "description": "O ródio é um metal branco prateado usado em joias e catalisadores. É tóxico e inflamável.",
           "electronegativity": 2.28,
           "ionizationEnergy": 7.4589,
-          "atomicRadius": 134
+          "atomicRadius": 134,
+          "applications": [
+            "Catalisadores automotivos para redução de emissões",
+            "Jóias e revestimentos de alta durabilidade",
+            "Indústria de eletrônicos, como contatos elétricos e conectores"
+          ],
+          "compounds": [
+            "Cloreto de Ródio (RhCl₃)",
+            "Nitrato de Ródio (Rh(NO₃)₃)"
+          ]
         },
         {
           "atomicNumber": 46,
@@ -892,7 +1282,16 @@
           "description": "O paládio é um metal branco prateado usado em joias e catalisadores. É tóxico e inflamável.",
           "electronegativity": 2.20,
           "ionizationEnergy": 8.3369,
-          "atomicRadius": 137
+          "atomicRadius": 137,
+          "applications": [
+            "Catalisadores automotivos para conversão de gases tóxicos",
+            "Indústria de joias e relojoaria",
+            "Hidrogenação de compostos orgânicos em processos industriais"
+          ],
+          "compounds": [
+            "Cloreto de Paládio (PdCl₂)",
+            "Nitrato de Paládio (Pd(NO₃)₂)"
+          ]
         },
         {
           "atomicNumber": 47,
@@ -911,7 +1310,16 @@
           "description": "A prata é um metal branco brilhante usado em joias e moedas. É tóxico e inflamável.",
           "electronegativity": 1.93,
           "ionizationEnergy": 7.5762,
-          "atomicRadius": 144
+          "atomicRadius": 144,
+          "applications": [
+            "Joias, moedas e artigos de luxo",
+            "Condutores elétricos e componentes eletrônicos",
+            "Antissépticos e tratamentos médicos (como cremes e pastas)"
+          ],
+          "compounds": [
+            "Nitrato de Prata (AgNO₃)",
+            "Cloreto de Prata (AgCl)"
+          ]
         },
         {
           "atomicNumber": 48,
@@ -930,7 +1338,16 @@
           "description": "O cádmio é um metal branco azulado usado em baterias e pigmentos. É tóxico e inflamável.",
           "electronegativity": 1.69,
           "ionizationEnergy": 8.9938,
-          "atomicRadius": 151
+          "atomicRadius": 151,
+          "applications": [
+            "Baterias recarregáveis (como baterias de níquel-cádmio)",
+            "Revestimentos metálicos para proteção contra corrosão",
+            "Pigmentos em tintas e plásticos"
+          ],
+          "compounds": [
+            "Óxido de Cádmio (CdO)",
+            "Cloreto de Cádmio (CdCl₂)"
+          ]
         },
         {
           "atomicNumber": 49,
@@ -949,7 +1366,16 @@
           "description": "O índio é um metal prateado usado em telas de LCD e semicondutores. É tóxico e inflamável.",
           "electronegativity": 1.78,
           "ionizationEnergy": 5.7864,
-          "atomicRadius": 167
+          "atomicRadius": 167,
+          "applications": [
+            "Fabricacão de telas sensíveis ao toque e displays de cristal líquido (LCD)",
+            "Ligas metálicas para soldagem em eletrônicos",
+            "Revestimentos e espelhos de alta refletividade"
+          ],
+          "compounds": [
+            "Óxido de Índio (In₂O₃)",
+            "Sulfeto de Índio (In₂S₃)"
+          ]
         },
         {
           "atomicNumber": 50,
@@ -968,7 +1394,16 @@
           "description": "O estanho é um metal prateado usado em latas e soldas. É tóxico e inflamável.",
           "electronegativity": 1.96,
           "ionizationEnergy": 7.3439,
-          "atomicRadius": 140
+          "atomicRadius": 140,
+          "applications": [
+            "Revestimento de metais (como solda e latas de alimentos)",
+            "Ligas metálicas, como bronze e latão",
+            "Proteção contra corrosão em tubos e peças de metal"
+          ],
+          "compounds": [
+            "Dióxido de Estanho (SnO₂)",
+            "Cloreto de Estanho (SnCl₂)"
+          ]
         },
         {
           "atomicNumber": 51,
@@ -987,7 +1422,16 @@
           "description": "O antimônio é um metal prateado usado em ligas e retardantes de chama. É tóxico e inflamável.",
           "electronegativity": 2.05,
           "ionizationEnergy": 8.6084,
-          "atomicRadius": 140
+          "atomicRadius": 140,
+          "applications": [
+            "Ligação com chumbo em baterias de chumbo-ácido",
+            "Produção de retardantes de chama",
+            "Semicondutores em dispositivos eletrônicos"
+          ],
+          "compounds": [
+            "Trióxido de Antimônio (Sb₂O₃)",
+            "Brometo de Antimônio (SbBr₃)"
+          ]
         },
         {
           "atomicNumber": 52,
@@ -1006,7 +1450,16 @@
           "description": "O telúrio é um semimetal raro usado em ligas e semicondutores. É tóxico e inflamável.",
           "electronegativity": 2.1,
           "ionizationEnergy": 9.0096,
-          "atomicRadius": 140
+          "atomicRadius": 140,
+          "applications": [
+            "Ligas metálicas, especialmente em soldas e componentes eletrônicos",
+            "Dispositivos fotovoltaicos (painéis solares)",
+            "Produção de peltieres e termopares para geração de energia térmica"
+          ],
+          "compounds": [
+            "Dióxido de Telúrio (TeO₂)",
+            "Telureto de Cádmio (CdTe)"
+          ]
         },
         {
           "atomicNumber": 53,
@@ -1025,7 +1478,16 @@
           "description": "O iodo é um halogênio violeta usado em tinturas e medicina. É tóxico e volátil.",
           "electronegativity": 2.66,
           "ionizationEnergy": 10.4513,
-          "atomicRadius": 140
+          "atomicRadius": 140,
+          "applications": [
+            "Antissépticos e desinfetantes (como a tintura de iodo)",
+            "Produção de contraste para exames de imagem",
+            "Fabricacão de produtos farmacêuticos, como hormônios tireoidianos"
+          ],
+          "compounds": [
+            "Iodeto de Potássio (KI)",
+            "Tetraiodeto de Carbono (CCl₄I₄)"
+          ]
         },
         {
           "atomicNumber": 54,
@@ -1044,7 +1506,16 @@
           "description": "O xenônio é um gás nobre inerte usado em lâmpadas de flash e lasers. É o terceiro gás mais abundante na atmosfera terrestre.",
           "electronegativity": 2.6,
           "ionizationEnergy": 12.1298,
-          "atomicRadius": 108
+          "atomicRadius": 108,
+          "applications": [
+            "Lâmpadas de alta intensidade e iluminação de luz branca",
+            "Anestesia geral (xenônio é usado como gás anestésico)",
+            "Pesquisa científica em lasers e física de plasma"
+          ],
+          "compounds": [
+            "Hexafluoreto de Xenônio (XeF₆)",
+            "Óxido de Xenônio (XeO₃)"
+          ]
         },
         {
           "atomicNumber": 55,
@@ -1063,7 +1534,16 @@
           "description": "O césio é um metal alcalino macio usado em relógios atômicos e células fotoelétricas. É altamente reativo e inflamável.",
           "electronegativity": 0.79,
           "ionizationEnergy": 3.8939,
-          "atomicRadius": 265
+          "atomicRadius": 265,
+          "applications": [
+            "Relógios atômicos de alta precisão",
+            "Uso em dispositivos de radar e sistemas de navegação",
+            "Exploração de petróleo e gás (como traçadores em perfurações)"
+          ],
+          "compounds": [
+            "Cloreto de Césio (CsCl)",
+            "Carbonato de Césio (Cs₂CO₃)"
+          ]
         },
         {
           "atomicNumber": 56,
@@ -1082,7 +1562,16 @@
           "description": "O bário é um metal alcalino-terroso usado em pirotecnia e em lâmpadas de raios X. É tóxico e inflamável.",
           "electronegativity": 0.89,
           "ionizationEnergy": 5.2117,
-          "atomicRadius": 222
+          "atomicRadius": 222,
+          "applications": [
+            "Produção de vidros e cristais especiais",
+            "Usado em raios-X como contraste para exames médicos",
+            "Fabricacão de fogos de artifício (para efeitos verdes)"
+          ],
+          "compounds": [
+            "Óxido de Bário (BaO)",
+            "Sulfato de Bário (BaSO₄)"
+          ]
         },
         {
           "atomicNumber": 57,
@@ -1101,7 +1590,16 @@
           "description": "O lantânio é um metal prateado usado em lâmpadas de arco e baterias de hidreto metálico. É tóxico e inflamável.",
           "electronegativity": 1.10,
           "ionizationEnergy": 5.5769,
-          "atomicRadius": 187
+          "atomicRadius": 187,
+          "applications": [
+            "Produção de baterias recarregáveis (como em híbridos e veículos elétricos)",
+            "Catalisadores em processos petroquímicos",
+            "Óptica e lasers, devido à sua alta capacidade de refração"
+          ],
+          "compounds": [
+            "Óxido de Lantânio (La₂O₃)",
+            "Cloreto de Lantânio (LaCl₃)"
+          ]
         },
         {
           "atomicNumber": 58,
@@ -1120,7 +1618,16 @@
           "description": "O cério é um metal prateado usado em catalisadores e lâmpadas de arco. É tóxico e inflamável.",
           "electronegativity": 1.12,
           "ionizationEnergy": 5.5387,
-          "atomicRadius": 182
+          "atomicRadius": 182,
+          "applications": [
+            "Catalisadores automotivos para redução de emissões",
+            "Produção de vidros e polidores",
+            "Dispositivos de armazenamento de energia (como baterias e supercapacitores)"
+          ],
+          "compounds": [
+            "Óxido de Cério (CeO₂)",
+            "Nitrato de Cério (Ce(NO₃)₃)"
+          ]
         },
         {
           "atomicNumber": 59,
@@ -1139,7 +1646,16 @@
           "description": "O praseodímio é um metal prateado usado em lâmpadas de arco e vidros de solda. É tóxico e inflamável.",
           "electronegativity": 1.13,
           "ionizationEnergy": 5.473,
-          "atomicRadius": 182
+          "atomicRadius": 182,
+          "applications": [
+            "Produção de ligas metálicas de alta resistência",
+            "Usado em ímãs de alto desempenho e motores elétricos",
+            "Pigmentos verdes em vidros e cerâmicas"
+          ],
+          "compounds": [
+            "Óxido de Praseodímio (Pr₂O₃)",
+            "Cloreto de Praseodímio (PrCl₃)"
+          ]
         },
         {
           "atomicNumber": 60,
@@ -1158,7 +1674,16 @@
           "description": "O neodímio é um metal prateado usado em ímãs de terras raras e vidros de solda. É tóxico e inflamável.",
           "electronegativity": 1.14,
           "ionizationEnergy": 5.525,
-          "atomicRadius": 181
+          "atomicRadius": 181,
+          "applications": [
+            "Ímãs permanentes de alta potência para motores elétricos e discos rígidos",
+            "Lentes e lasers de neodímio usados em tratamentos médicos e científicos",
+            "Catalisadores em algumas reações químicas industriais"
+          ],
+          "compounds": [
+            "Óxido de Neodímio (Nd₂O₃)",
+            "Fosfato de Neodímio (NdPO₄)"
+          ]
         },
         {
           "atomicNumber": 61,
@@ -1177,7 +1702,16 @@
           "description": "O promécio é um metal radioativo usado em baterias nucleares e medidores de espessura. É tóxico e inflamável.",
           "electronegativity": 1.13,
           "ionizationEnergy": 5.582,
-          "atomicRadius": 185
+          "atomicRadius": 185,
+          "applications": [
+            "Fontes de radiação para geradores termoelétricos",
+            "Uso em luminóforos e dispositivos de iluminação",
+            "Pesquisa científica, especialmente em estudos de química e física nuclear"
+          ],
+          "compounds": [
+            "Óxido de Promécio (Pm₂O₃)",
+            "Cloreto de Promécio (PmCl₃)"
+          ]
         },
         {
           "atomicNumber": 62,
@@ -1196,7 +1730,16 @@
           "description": "O samário é um metal prateado usado em ímãs de terras raras e vidros de solda. É tóxico e inflamável.",
           "electronegativity": 1.17,
           "ionizationEnergy": 5.6437,
-          "atomicRadius": 180
+          "atomicRadius": 180,
+          "applications": [
+            "Ímãs permanentes de alta performance",
+            "Uso em reatores nucleares como combustível ou moderador",
+            "Lentes e lasers de samário em óptica e dispositivos laser"
+          ],
+          "compounds": [
+            "Óxido de Samário (Sm₂O₃)",
+            "Cloreto de Samário (SmCl₃)"
+          ]
         },
         {
           "atomicNumber": 63,
@@ -1215,7 +1758,16 @@
           "description": "O európio é um metal prateado usado em lâmpadas fluorescentes e ímãs de terras raras. É tóxico e inflamável.",
           "electronegativity": 1.2,
           "ionizationEnergy": 5.6704,
-          "atomicRadius": 180
+          "atomicRadius": 180,
+          "applications": [
+            "Luminóforos em telas de TV e monitores de computador",
+            "Emissão de luz em dispositivos de iluminação (como LEDs)",
+            "Usado em lasers e aplicações de óptica devido às suas propriedades de absorção e emissão de luz"
+          ],
+          "compounds": [
+            "Óxido de Európio (Eu₂O₃)",
+            "Cloreto de Európio (EuCl₃)"
+          ]
         },
         {
           "atomicNumber": 64,
@@ -1234,7 +1786,16 @@
           "description": "O gadolínio é um metal prateado usado em ímãs de terras raras e reatores nucleares. É tóxico e inflamável.",
           "electronegativity": 1.20,
           "ionizationEnergy": 6.1501,
-          "atomicRadius": 180
+          "atomicRadius": 180,
+          "applications": [
+            "Contraste em exames de ressonância magnética (RM)",
+            "Uso em ligas de alta resistência e materiais de discos rígidos",
+            "Pesquisa científica em supercondutores e materiais magnéticos"
+          ],
+          "compounds": [
+            "Óxido de Gadolínio (Gd₂O₃)",
+            "Cloreto de Gadolínio (GdCl₃)"
+          ]
         },
         {
           "atomicNumber": 65,
@@ -1253,7 +1814,16 @@
           "description": "O térbio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
           "electronegativity": 1.20,
           "ionizationEnergy": 5.8638,
-          "atomicRadius": 177
+          "atomicRadius": 177,
+          "applications": [
+            "Luminóforos para telas de TVs e monitores",
+            "Usado em dispositivos de fluorescência e lasers",
+            "Catalisadores em algumas reações químicas"
+          ],
+          "compounds": [
+            "Óxido de Térbio (Tb₂O₃)",
+            "Cloreto de Térbio (TbCl₃)"
+          ]
         },
         {
           "atomicNumber": 66,
@@ -1272,7 +1842,16 @@
           "description": "O disprósio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
           "electronegativity": 1.22,
           "ionizationEnergy": 5.9389,
-          "atomicRadius": 178
+          "atomicRadius": 178,
+          "applications": [
+            "Ímãs permanentes de alta resistência para motores e geradores",
+            "Usado em reatores nucleares como material de controle de nêutrons",
+            "Pesquisa em materiais magnéticos e sistemas de armazenamento de dados"
+          ],
+          "compounds": [
+            "Óxido de Disprósio (Dy₂O₃)",
+            "Cloreto de Disprósio (DyCl₃)"
+          ]
         },
         {
           "atomicNumber": 67,
@@ -1291,7 +1870,16 @@
           "description": "O hólmio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
           "electronegativity": 1.23,
           "ionizationEnergy": 6.0215,
-          "atomicRadius": 176
+          "atomicRadius": 176,
+          "applications": [
+            "Uso em lasers de alta potência para tratamentos médicos e pesquisas científicas",
+            "Ímãs permanentes de alto desempenho",
+            "Material de contraste para ressonância magnética"
+          ],
+          "compounds": [
+            "Óxido de Hólmio (Ho₂O₃)",
+            "Cloreto de Hólmio (HoCl₃)"
+          ]
         },
         {
           "atomicNumber": 68,
@@ -1310,7 +1898,16 @@
           "description": "O érbio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
           "electronegativity": 1.24,
           "ionizationEnergy": 6.1077,
-          "atomicRadius": 176
+          "atomicRadius": 176,
+          "applications": [
+            "Amplificadores ópticos em sistemas de comunicação por fibra óptica",
+            "Luminóforos em telas de LED e dispositivos de iluminação",
+            "Usado em materiais para laser e óptica devido às suas propriedades de absorção"
+          ],
+          "compounds": [
+            "Óxido de Érbio (Er₂O₃)",
+            "Cloreto de Érbio (ErCl₃)"
+          ]
         },
         {
           "atomicNumber": 69,
@@ -1329,7 +1926,16 @@
           "description": "O túlio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
           "electronegativity": 1.25,
           "ionizationEnergy": 6.1843,
-          "atomicRadius": 176
+          "atomicRadius": 176,
+          "applications": [
+            "Uso em lasers de alta potência para aplicações médicas e industriais",
+            "Como material de dopagem em fibras ópticas para amplificação de sinal",
+            "Ímãs permanentes de alto desempenho"
+          ],
+          "compounds": [
+            "Óxido de Túlio (Tm₂O₃)",
+            "Cloreto de Túlio (TmCl₃)"
+          ]
         },
         {
           "atomicNumber": 70,
@@ -1348,7 +1954,16 @@
           "description": "O itérbio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
           "electronegativity": 1.1,
           "ionizationEnergy": 6.2542,
-          "atomicRadius": 176
+          "atomicRadius": 176,
+          "applications": [
+            "Uso em lasers de alta potência, especialmente em lasers de fibra",
+            "Dopagem de fibras ópticas para amplificação de sinais em telecomunicações",
+            "Material de contraste em ressonância magnética"
+          ],
+          "compounds": [
+            "Óxido de Itérbio (Yb₂O₃)",
+            "Cloreto de Itérbio (YbCl₃)"
+          ]
         },
         {
           "atomicNumber": 71,
@@ -1367,7 +1982,16 @@
           "description": "O lutécio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
           "electronegativity": 1.27,
           "ionizationEnergy": 5.4259,
-          "atomicRadius": 174
+          "atomicRadius": 174,
+          "applications": [
+            "Uso em sistemas de imagem por tomografia por emissão de positrões (PET)",
+            "Pesquisa científica, especialmente em física nuclear e reatores",
+            "Usado em ligas metálicas de alta resistência e em dispositivos de alta precisão"
+          ],
+          "compounds": [
+            "Óxido de Lutécio (Lu₂O₃)",
+            "Cloreto de Lutécio (LuCl₃)"
+          ]
         },
         {
           "atomicNumber": 72,
@@ -1386,7 +2010,16 @@
           "description": "O háfnio é um metal resistente à corrosão usado em reatores nucleares e lâmpadas de arco. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 6.8251,
-          "atomicRadius": 159
+          "atomicRadius": 159,
+          "applications": [
+            "Usado em reatores nucleares como material de controle de nêutrons",
+            "Ligas metálicas de alta resistência e alta temperatura",
+            "Tecnologia de semicondutores, especialmente em transistores e chips"
+          ],
+          "compounds": [
+            "Óxido de Háfnio (HfO₂)",
+            "Cloreto de Háfnio (HfCl₄)"
+          ]
         },
         {
           "atomicNumber": 73,
@@ -1405,7 +2038,16 @@
           "description": "O tântalo é um metal cinza usado em superligas e supercondutores. É tóxico e inflamável.",
           "electronegativity": 1.5,
           "ionizationEnergy": 7.5496,
-          "atomicRadius": 146
+          "atomicRadius": 146,
+          "applications": [
+            "Usado em componentes eletrônicos, como capacitores e resistores",
+            "Implantes médicos devido à sua biocompatibilidade",
+            "Ligas metálicas de alta resistência e anticorrosivas para a indústria aeroespacial e de defesa"
+          ],
+          "compounds": [
+            "Óxido de Tântalo (Ta₂O₅)",
+            "Cloreto de Tântalo (TaCl₅)"
+          ]
         },
         {
           "atomicNumber": 74,
@@ -1424,7 +2066,16 @@
           "description": "O tungstênio é um metal cinza usado em lâmpadas incandescentes e superligas. É tóxico e inflamável.",
           "electronegativity": 2.36,
           "ionizationEnergy": 7.864,
-          "atomicRadius": 139
+          "atomicRadius": 139,
+          "applications": [
+            "Fiação e filamentos para lâmpadas incandescentes e tubos eletrônicos",
+            "Ligas metálicas de alta resistência, especialmente para aviões e motores de aeronaves",
+            "Usado em munições, como projéteis de alta penetração"
+          ],
+          "compounds": [
+            "Óxido de Tungstênio (WO₃)",
+            "Carboneto de Tungstênio (WC)"
+          ]
         },
         {
           "atomicNumber": 75,
@@ -1443,7 +2094,16 @@
           "description": "O rênio é um metal cinza usado em catalisadores e superligas. É tóxico e inflamável.",
           "electronegativity": 1.9,
           "ionizationEnergy": 7.8335,
-          "atomicRadius": 137
+          "atomicRadius": 137,
+          "applications": [
+            "Ligas de alta temperatura para motores a jato e turbinas",
+            "Catalisadores em reações petroquímicas, como a hidrogenação",
+            "Usado em termopares para medições de temperatura de alta precisão"
+          ],
+          "compounds": [
+            "Óxido de Rênio (Re₂O₇)",
+            "Cloreto de Rênio (ReCl₅)"
+          ]
         },
         {
           "atomicNumber": 76,
@@ -1462,7 +2122,16 @@
           "description": "O ósmio é um metal azul brilhante usado em ligas de platina e catalisadores. É tóxico e inflamável.",
           "electronegativity": 2.2,
           "ionizationEnergy": 8.4382,
-          "atomicRadius": 135
+          "atomicRadius": 135,
+          "applications": [
+            "Usado em ligas de alta resistência para eletrodos e contatos elétricos",
+            "Fabricacão de instrumentos de medição de alta precisão",
+            "Aplicações em joias e relógios de luxo devido à sua durabilidade"
+          ],
+          "compounds": [
+            "Óxido de Ósmio (OsO₄)",
+            "Cloreto de Ósmio (OsCl₆)"
+          ]
         },
         {
           "atomicNumber": 77,
@@ -1481,7 +2150,16 @@
           "description": "O irídio é um metal branco prateado usado em ligas de platina e catalisadores. É tóxico e inflamável.",
           "electronegativity": 2.20,
           "ionizationEnergy": 8.967,
-          "atomicRadius": 135
+          "atomicRadius": 135,
+          "applications": [
+            "Ligas de alta resistência para sistemas aeroespaciais e motores de jatos",
+            "Eletrodos e catalisadores em reações químicas e produção de ácido sulfúrico",
+            "Instrumentos de medição e joias devido à sua durabilidade e resistência à corrosão"
+          ],
+          "compounds": [
+            "Óxido de Irídio (IrO₂)",
+            "Cloreto de Irídio (IrCl₃)"
+          ]
         },
         {
           "atomicNumber": 78,
@@ -1500,7 +2178,16 @@
           "description": "A platina é um metal branco brilhante usado em joias e catalisadores. É tóxico e inflamável.",
           "electronegativity": 2.28,
           "ionizationEnergy": 8.9587,
-          "atomicRadius": 139
+          "atomicRadius": 139,
+          "applications": [
+            "Catalisadores em reações químicas, especialmente na indústria automotiva para redução de emissões",
+            "Produção de joias e relógios de luxo devido à sua resistência à corrosão",
+            "Tratamentos médicos, como em quimioterapia (com compostos de platina)"
+          ],
+          "compounds": [
+            "Cloreto de Platina (PtCl₆)",
+            "Óxido de Platina (PtO₂)"
+          ]
         },
         {
           "atomicNumber": 79,
@@ -1519,7 +2206,16 @@
           "description": "O ouro é um metal amarelo brilhante usado em joias e moedas. É tóxico e inflamável.",
           "electronegativity": 2.54,
           "ionizationEnergy": 9.2255,
-          "atomicRadius": 144
+          "atomicRadius": 144,
+          "applications": [
+            "Produção de joias e moedas",
+            "Uso em dispositivos eletrônicos e conectores devido à sua alta condutividade elétrica",
+            "Implantes médicos e odontológicos devido à sua biocompatibilidade"
+          ],
+          "compounds": [
+            "Cloreto de Ouro (AuCl₃)",
+            "Cianeto de Ouro (Au(CN)₂)"
+          ]
         },
         {
           "atomicNumber": 80,
@@ -1538,7 +2234,16 @@
           "description": "O mercúrio é um metal prateado usado em termômetros e lâmpadas fluorescentes. É tóxico e inflamável.",
           "electronegativity": 2.00,
           "ionizationEnergy": 10.4375,
-          "atomicRadius": 150
+          "atomicRadius": 150,
+          "applications": [
+            "Termômetros e barômetros, devido à sua alta densidade e capacidade de expansão térmica",
+            "Lâmpadas fluorescentes e outros dispositivos de iluminação",
+            "Uso em processos de extração de ouro e prata, como no processo de amalgamação"
+          ],
+          "compounds": [
+            "Cloreto de Mercúrio (HgCl₂)",
+            "Óxido de Mercúrio (HgO)"
+          ]
         },
         {
           "atomicNumber": 81,
@@ -1557,7 +2262,16 @@
           "description": "O tálio é um metal prateado usado em lentes e semicondutores. É tóxico e inflamável.",
           "electronegativity": 1.62,
           "ionizationEnergy": 6.1082,
-          "atomicRadius": 170
+          "atomicRadius": 170,
+          "applications": [
+            "Uso em dispositivos eletrônicos, como fotocélulas e detectores de radiação",
+            "Produção de ligas metálicas de alta resistência e baixa fusão",
+            "Tratamento de certas condições médicas, como a alopecia (queda de cabelo) em tratamentos específicos"
+          ],
+          "compounds": [
+            "Óxido de Tálio (Tl₂O₃)",
+            "Sulfato de Tálio (Tl₂SO₄)"
+          ]
         },
         {
           "atomicNumber": 82,
@@ -1576,7 +2290,16 @@
           "description": "O chumbo é um metal azul acinzentado usado em baterias e pigmentos. É tóxico e inflamável.",
           "electronegativity": 2.33,
           "ionizationEnergy": 7.4167,
-          "atomicRadius": 154
+          "atomicRadius": 154,
+          "applications": [
+            "Uso em baterias de chumbo-ácido, como em carros e sistemas de energia de reserva",
+            "Proteção contra radiação, como em equipamentos de raios-X",
+            "Produção de soldas e ligas metálicas"
+          ],
+          "compounds": [
+            "Óxido de Chumbo (PbO)",
+            "Acetato de Chumbo (Pb(C₂H₃O₂)₂)"
+          ]
         },
         {
           "atomicNumber": 83,
@@ -1595,7 +2318,16 @@
           "description": "O bismuto é um metal branco prateado usado em ligas e medicamentos. É tóxico e inflamável.",
           "electronegativity": 2.02,
           "ionizationEnergy": 7.2856,
-          "atomicRadius": 156
+          "atomicRadius": 156,
+          "applications": [
+            "Uso em cosméticos e produtos farmacêuticos, como antiácidos e cosméticos de cuidados com a pele",
+            "Ligas de baixo ponto de fusão para fusíveis e sistemas de segurança",
+            "Usado como substituto não tóxico para o chumbo em soldas"
+          ],
+          "compounds": [
+            "Óxido de Bismuto (Bi₂O₃)",
+            "Nitrato de Bismuto (Bi(NO₃)₃)"
+          ]
         },
         {
           "atomicNumber": 84,
@@ -1614,7 +2346,16 @@
           "description": "O polônio é um semimetal radioativo usado em dispositivos nucleares e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 2.0,
           "ionizationEnergy": 8.414,
-          "atomicRadius": 168
+          "atomicRadius": 168,
+          "applications": [
+            "Usado em fontes de radiação para dispositivos de ionização de ar e equipamentos de controle de qualidade",
+            "Uso em geradores termoelétricos de radioisótopos para missões espaciais",
+            "Emprego como fonte de radiação alfa em algumas aplicações científicas e industriais"
+          ],
+          "compounds": [
+            "Dióxido de Polônio (PoO₂)",
+            "Cloreto de Polônio (PoCl₂)"
+          ]
         },
         {
           "atomicNumber": 85,
@@ -1633,7 +2374,16 @@
           "description": "O astato é um halogênio radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e volátil.",
           "electronegativity": 2.2,
           "ionizationEnergy": 9.3,
-          "atomicRadius": 202
+          "atomicRadius": 202,
+          "applications": [
+            "Pesquisas em medicina nuclear, especialmente no tratamento de câncer com radiação alfa",
+            "Uso em estudos científicos devido à sua raridade e propriedades radioativas",
+            "Potencial em terapias de radiação para destruir células cancerígenas"
+          ],
+          "compounds": [
+            "Óxido de Ástato (At₂O)",
+            "Cloreto de Ástato (AtCl)"
+          ]
         },
         {
           "atomicNumber": 86,
@@ -1652,7 +2402,17 @@
           "description": "O radônio é um gás nobre radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e volátil.",
           "electronegativity": 0,
           "ionizationEnergy": 1037,
-          "atomicRadius": 120
+          "atomicRadius": 120,
+          "applications": [
+            "Uso em terapias de radiação, especialmente em tratamentos de câncer (radônio terapêutico)",
+            "Estudos em geologia e pesquisa sobre radiação natural",
+            "Monitoramento de radônio em ambientes internos para avaliar riscos à saúde"
+          ],
+          "compounds": [
+            "Óxido de Radônio (RnO)",
+            "Cloreto de Radônio (RnCl)"
+          ]
+        
         },
         {
           "atomicNumber": 87,
@@ -1671,7 +2431,16 @@
           "description": "O frâncio é um metal alcalino macio usado em pesquisas médicas e células fotoelétricas. É altamente reativo e inflamável.",
           "electronegativity": 0.7,
           "ionizationEnergy": 3.9,
-          "atomicRadius": 260
+          "atomicRadius": 260,
+          "applications": [
+            "Principalmente utilizado em pesquisas científicas devido à sua extrema raridade e radioatividade",
+            "Estudos em física nuclear e interações de radiação",
+            "Possível aplicação em tratamentos de radiação para câncer, embora seja altamente instável"
+          ],
+          "compounds": [
+            "Óxido de Frâncio (Fr₂O)",
+            "Cloreto de Frâncio (FrCl)"
+          ]
         },
         {
           "atomicNumber": 88,
@@ -1690,7 +2459,16 @@
           "description": "O rádio é um metal alcalino-terroso radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 0.9,
           "ionizationEnergy": 5.2784,
-          "atomicRadius": 215
+          "atomicRadius": 215,
+          "applications": [
+            "Usado historicamente em radioterapia para o tratamento de câncer",
+            "Empregado em dispositivos de radiação, como relógios luminosos e instrumentos de medição",
+            "Pesquisa em física nuclear, como fonte de radiação alfa"
+          ],
+          "compounds": [
+            "Cloreto de Rádio (RaCl₂)",
+            "Óxido de Rádio (RaO₂)"
+          ]
         },
         {
           "atomicNumber": 89,
@@ -1709,7 +2487,16 @@
           "description": "O actínio é um metal prateado radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.1,
           "ionizationEnergy": 5.17,
-          "atomicRadius": 195
+          "atomicRadius": 195,
+          "applications": [
+            "Uso em radioterapia, especialmente em tratamentos contra o câncer",
+            "Pesquisa científica em física nuclear e estudos sobre radiação alfa",
+            "Fontes de radiação para detectores de radônio e medição de radiação"
+          ],
+          "compounds": [
+            "Óxido de Actínio (Ac₂O₃)",
+            "Cloreto de Actínio (AcCl₃)"
+          ]
         },
         {
           "atomicNumber": 90,
@@ -1728,7 +2515,16 @@
           "description": "O tório é um metal cinza radioativo usado em lâmpadas de arco e catalisadores. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 6.3067,
-          "atomicRadius": 179
+          "atomicRadius": 179,
+          "applications": [
+            "Usado como combustível nuclear em reatores de tório",
+            "Produção de ligas metálicas de alta resistência para componentes aeroespaciais",
+            "Aplicações em iluminação, como em lâmpadas de halogênio"
+          ],
+          "compounds": [
+            "Óxido de Tório (ThO₂)",
+            "Fluoreto de Tório (ThF₄)"
+          ]
         },
         {
           "atomicNumber": 91,
@@ -1747,7 +2543,16 @@
           "description": "O protactínio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.5,
           "ionizationEnergy": 5.89,
-          "atomicRadius": 163
+          "atomicRadius": 163,
+          "applications": [
+            "Pesquisas científicas em física nuclear e radioatividade",
+            "Uso em estudos sobre a evolução de reatores nucleares",
+            "Usado como fonte de radiação em experimentos de laboratório"
+          ],
+          "compounds": [
+            "Óxido de Protactínio (Pa₂O₅)",
+            "Cloreto de Protactínio (PaCl₅)"
+          ]
         },
         {
           "atomicNumber": 92,
@@ -1766,7 +2571,16 @@
           "description": "O urânio é um metal cinza radioativo usado em reatores nucleares e armas nucleares. É tóxico e inflamável.",
           "electronegativity": 1.38,
           "ionizationEnergy": 6.1941,
-          "atomicRadius": 175
+          "atomicRadius": 175,
+          "applications": [
+            "Uso como combustível nuclear em reatores nucleares para geração de energia",
+            "Produção de armamentos nucleares, incluindo ogivas e bombas atômicas",
+            "Uso em radioterapia para o tratamento de câncer (em alguns compostos específicos)"
+          ],
+          "compounds": [
+            "Óxido de Urânio (UO₂)",
+            "Hexafluoreto de Urânio (UF₆)"
+          ]
         },
         {
           "atomicNumber": 93,
@@ -1785,7 +2599,16 @@
           "description": "O neptúnio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.36,
           "ionizationEnergy": 6.2657,
-          "atomicRadius": 155
+          "atomicRadius": 155,
+          "applications": [
+            "Usado principalmente em pesquisas científicas e estudos de física nuclear",
+            "Potencial uso em fontes de radiação para calibração de equipamentos de medição",
+            "Estudos sobre reatores nucleares, como combustível ou moderador em algumas reações nucleares"
+          ],
+          "compounds": [
+            "Óxido de Netúnio (Np₂O₅)",
+            "Cloreto de Netúnio (NpCl₄)"
+          ]
         },
         {
           "atomicNumber": 94,
@@ -1804,7 +2627,16 @@
           "description": "O plutônio é um metal cinza radioativo usado em reatores nucleares e armas nucleares. É tóxico e inflamável.",
           "electronegativity": 1.28,
           "ionizationEnergy": 6.0257,
-          "atomicRadius": 159
+          "atomicRadius": 159,
+          "applications": [
+            "Uso em reatores nucleares como combustível, especialmente no ciclo de combustível de urânio-plutônio",
+            "Produção de armas nucleares devido à sua capacidade de fissão",
+            "Emprego em geradores termoelétricos de radioisótopos para missões espaciais"
+          ],
+          "compounds": [
+            "Óxido de Plutônio (PuO₂)",
+            "Hexafluoreto de Plutônio (PuF₆)"
+          ]
         },
         {
           "atomicNumber": 95,
@@ -1823,7 +2655,16 @@
           "description": "O amerício é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 5.9738,
-          "atomicRadius": 173
+          "atomicRadius": 173,
+          "applications": [
+            "Usado em detectores de fumaça, como fonte de radiação alfa",
+            "Empregado em radioterapia, especialmente no tratamento de câncer",
+            "Fonte de radiação em geradores termoelétricos de radioisótopos"
+          ],
+          "compounds": [
+            "Óxido de Amerício (Am₂O₃)",
+            "Cloreto de Amerício (AmCl₃)"
+          ]
         },
         {
           "atomicNumber": 96,
@@ -1842,7 +2683,16 @@
           "description": "O cúrio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 5.9915,
-          "atomicRadius": 174
+          "atomicRadius": 174,
+          "applications": [
+            "Usado em geradores termoelétricos de radioisótopos para missões espaciais",
+            "Pesquisas científicas em física nuclear e reações de fissão",
+            "Fonte de radiação em estudos de materiais e calibração de instrumentos"
+          ],
+          "compounds": [
+            "Óxido de Cúrio (CmO₂)",
+            "Cloreto de Cúrio (CmCl₃)"
+          ]
         },
         {
           "atomicNumber": 97,
@@ -1861,7 +2711,16 @@
           "description": "O berquélio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 6.1979,
-          "atomicRadius": 170
+          "atomicRadius": 170,
+          "applications": [
+            "Usado em pesquisas científicas sobre reações nucleares e propriedades de elementos transurânicos",
+            "Fonte de radiação em estudos de materiais e calibração de instrumentos de medição",
+            "Potencial em geradores termoelétricos de radioisótopos para missões espaciais"
+          ],
+          "compounds": [
+            "Óxido de Berquélio (Bk₂O₃)",
+            "Cloreto de Berquélio (BkCl₃)"
+          ]
         },
         {
           "atomicNumber": 98,
@@ -1880,7 +2739,16 @@
           "description": "O califórnio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 6.2817,
-          "atomicRadius": 245
+          "atomicRadius": 245,
+          "applications": [
+            "Usado em geradores termoelétricos de radioisótopos para missões espaciais",
+            "Fonte de nêutrons em reatores nucleares e para radiografias industriais",
+            "Empregado em tratamentos de câncer, especialmente para radioterapia"
+          ],
+          "compounds": [
+            "Óxido de Califórnio (CfO₂)",
+            "Cloreto de Califórnio (CfCl₃)"
+          ]
         },
         {
           "atomicNumber": 99,
@@ -1899,7 +2767,16 @@
           "description": "O einstênio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 6.42,
-          "atomicRadius": 200
+          "atomicRadius": 200,
+          "applications": [
+            "Usado em pesquisas científicas, especialmente em estudos de física nuclear",
+            "Fonte de radiação para calibração de equipamentos de medição",
+            "Potencial em reatores nucleares e estudos sobre elementos transurânicos"
+          ],
+          "compounds": [
+            "Óxido de Einstênio (Es₂O₃)",
+            "Cloreto de Einstênio (EsCl₃)"
+          ]
         },
         {
           "atomicNumber": 100,
@@ -1918,7 +2795,16 @@
           "description": "O férmio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 6.5,
-          "atomicRadius": 0
+          "atomicRadius": 0,
+          "applications": [
+            "Usado em pesquisas científicas, especialmente em estudos de física nuclear e reações de fissão",
+            "Potencial em fontes de nêutrons para radiografias industriais e experimentos científicos",
+            "Empregado em estudos sobre elementos transurânicos e suas propriedades"
+          ],
+          "compounds": [
+            "Óxido de Férmio (Fm₂O₃)",
+            "Cloreto de Férmio (FmCl₃)"
+          ]
         },
         {
           "atomicNumber": 101,
@@ -1937,7 +2823,16 @@
           "description": "O mendelévio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 6.58,
-          "atomicRadius": 0
+          "atomicRadius": 0,
+          "applications": [
+            "Usado em pesquisas científicas sobre elementos transurânicos e suas propriedades nucleares",
+            "Empregado em estudos de física nuclear para entender as reações de fissão e fusão",
+            "Potencial em aplicações de fontes de radiação e como marcador em experimentos de laboratório"
+          ],
+          "compounds": [
+            "Óxido de Mendelévio (Md₂O₃)",
+            "Cloreto de Mendelévio (MdCl₃)"
+          ]
         },
         {
           "atomicNumber": 102,
@@ -1956,7 +2851,16 @@
           "description": "O nobélio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 6.65,
-          "atomicRadius": 0
+          "atomicRadius": 0,
+          "applications": [
+            "Usado em pesquisas científicas sobre elementos superpesados e física nuclear",
+            "Estudos sobre a química e reações de elementos transurânicos",
+            "Potencial em fontes de radiação para experimentos em laboratório e calibração de instrumentos"
+          ],
+          "compounds": [
+            "Óxido de Nobélio (No₂O₃)",
+            "Cloreto de Nobélio (NoCl₃)"
+          ]
         },
         {
           "atomicNumber": 103,
@@ -1975,7 +2879,16 @@
           "description": "O laurêncio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
           "electronegativity": 1.3,
           "ionizationEnergy": 4.9,
-          "atomicRadius": 0
+          "atomicRadius": 0,
+          "applications": [
+            "Usado em pesquisas científicas, especialmente em estudos de física nuclear e comportamento de elementos superpesados",
+            "Empregado em experimentos de química nuclear para explorar as propriedades de elementos transurânicos",
+            "Potencial em fontes de radiação para calibração de instrumentos e uso em estudos de materiais"
+          ],
+          "compounds": [
+            "Óxido de Laurêncio (Lr₂O₃)",
+            "Cloreto de Laurêncio (LrCl₃)"
+          ]
         },
         {
           "atomicNumber": 104,
@@ -1994,7 +2907,16 @@
           "description": "O Rutherfórdio é um elemento químico sintético, radioativo e metálico, pertencente ao grupo 4 da tabela periódica. Suas propriedades químicas são semelhantes às do háfnio, mas devido à sua instabilidade, pouco se sabe sobre suas propriedades físicas.",
           "electronegativity": 0,
           "ionizationEnergy": 6.1,
-          "atomicRadius": 0
+          "atomicRadius": 0,
+          "applications": [
+            "Usado em pesquisas científicas, especialmente em física nuclear e experimentos envolvendo elementos superpesados",
+            "Estudos sobre as propriedades de átomos pesados e suas reações nucleares",
+            "Potencial em futuras aplicações de fontes de radiação para experimentos em física de partículas"
+          ],
+          "compounds": [
+            "Óxido de Rutherfórdio (RfO₂)",
+            "Cloreto de Rutherfórdio (RfCl₄)"
+          ]
         },
         {
           "atomicNumber": 105,
@@ -2013,7 +2935,16 @@
           "description": "O dúbnio é um elemento químico sintético e radioativo, produzido em laboratório através de reações nucleares. Devido à sua instabilidade e curta meia-vida, suas propriedades físicas e químicas são pouco conhecidas.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 200
+          "atomicRadius": 200,
+          "applications": [
+            "Pesquisa científica em física nuclear e química nuclear",
+            "Estudo de propriedades de elementos transurânicos",
+            "Investigação de comportamentos químicos de elementos superheavy"
+          ],
+          "compounds": [
+            "Fluoreto de dúbnio (DbF6)",
+            "Óxido de dúbnio (Db2O5)"
+          ]
         },
         {
           "atomicNumber": 106,
@@ -2032,7 +2963,16 @@
           "description": "O seabório é um elemento químico artificial, criado em laboratório e não encontrado na natureza. Devido à sua instabilidade e curta meia-vida, suas propriedades físicas e químicas são pouco conhecidas.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 132
+          "atomicRadius": 132,
+          "applications": [
+            "Pesquisa em física nuclear",
+            "Estudo de propriedades de elementos transurânicos",
+            "Investigação de reações nucleares"
+          ],
+          "compounds": [
+            "Óxido de seabórgio (Sg2O5)",
+            "Fluoreto de seabórgio (SgF6)"
+          ]
         },
         {
           "atomicNumber": 107,
@@ -2051,7 +2991,16 @@
           "description": "O Bóhrio é um elemento químico sintético, radioativo e com vida curta, nomeado em homenagem ao físico Niels Bohr. Sua produção em laboratório é essencialmente para fins de pesquisa e estudo da estrutura atômica.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 128
+          "atomicRadius": 128,
+          "applications": [
+            "Pesquisa em física nuclear",
+            "Estudo de elementos superheavy",
+            "Investigação de propriedades nucleares"
+          ],
+          "compounds": [
+            "Brometo de bóhrio (BhBr)",
+            "Fluoreto de bóhrio (BhF5)"
+          ]
         },
         {
           "atomicNumber": 108,
@@ -2070,7 +3019,16 @@
           "description": "O Hássio é um elemento químico sintético, radioativo e com vida curta, pertencente ao grupo dos metais de transição. Sua produção em laboratório é essencialmente para fins de pesquisa e estudo da estrutura atômica.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 126
+          "atomicRadius": 126,
+          "applications": [
+            "Pesquisa em física nuclear",
+            "Estudo de elementos transurânicos",
+            "Investigação de propriedades de elementos superheavy"
+          ],
+          "compounds": [
+            "Tetracloreto de hássio (HsCl4)",
+            "Óxido de hássio (Hs2O5)"
+          ]
         },
         {
           "atomicNumber": 109,
@@ -2089,7 +3047,16 @@
           "description": "Elemento sintético produzido em aceleradores de partículas, com meia-vida curta e propriedades químicas semelhantes aos metais do grupo do platina.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 122
+          "atomicRadius": 122,
+          "applications": [
+            "Pesquisa em física nuclear",
+            "Estudo de elementos superheavy",
+            "Investigação de propriedades de elementos transurânicos"
+          ],
+          "compounds": [
+            "Cloreto de meitnério (MtCl3)",
+            "Óxido de meitnério (Mt2O5)"
+          ]
         },
         {
           "atomicNumber": 110,
@@ -2108,7 +3075,16 @@
           "description": "Elemento sintético produzido em aceleradores de partículas, com meia-vida curta e propriedades químicas semelhantes aos metais nobres.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 132
+          "atomicRadius": 132,
+          "applications": [
+            "Pesquisa em física nuclear",
+            "Estudo de elementos superheavy",
+            "Investigação de propriedades de átomos pesados"
+          ],
+          "compounds": [
+            "Tetracloreto de darmstádio (DsCl4)",
+            "Hexafluoreto de darmstádio (DsF6)"
+          ]
         },
         {
           "atomicNumber": 111,
@@ -2127,7 +3103,16 @@
           "description": "O roentgênio é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 10, como o níquel e o paládio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o roentgênio não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 114
+          "atomicRadius": 114,
+          "applications": [
+            "Pesquisa em física nuclear",
+            "Estudo de elementos superheavy",
+            "Investigação de propriedades de elementos transurânicos"
+          ],
+          "compounds": [
+            "Fluoreto de roentgênio (RgF2)",
+            "Cloreto de roentgênio (RgCl3)"
+          ]
         },
         {
           "atomicNumber": 112,
@@ -2146,7 +3131,16 @@
           "description": "O copernício é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 12, como o zinco e o cádmio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o copernício não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 110
+          "atomicRadius": 110,
+          "applications": [
+            "Pesquisa em física nuclear", 
+            "Estudo de elementos superheavy",
+            "Investigação de propriedades de elementos transurânicos"
+          ],
+          "compounds": [
+            "Dicloreto de copernício (CnCl2)",
+            "Tetracloreto de copernício (CnCl4)"
+          ]
         },
         {
           "atomicNumber": 113,
@@ -2165,7 +3159,16 @@
           "description": "O nihônio é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 13, como o boro e o alumínio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o nihônio não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 170
+          "atomicRadius": 170,
+          "applications": [
+            "Pesquisa em física nuclear",
+            "Estudo de elementos superheavy",
+            "Investigação de propriedades de elementos transurânicos"
+          ],
+          "compounds": [
+            "Cloreto de nihônio (NhCl3)",
+            "Fluoreto de nihônio (NhF3)"
+          ]
         },
         {
           "atomicNumber": 114,
@@ -2184,7 +3187,15 @@
           "description": "O fleróvio é um elemento sintético, o que significa que ele não é encontrado na natureza e é produzido em laboratório através de reações nucleares. Devido à sua instabilidade, as propriedades do fleróvio são difíceis de medir e estudar. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 14, como o carbono e o silício, mas os efeitos relativísticos podem causar algumas diferenças.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 160
+          "atomicRadius": 160,
+          "applications": [
+              "Pesquisa científica em física nuclear",
+              "Estudo da estabilidade de núcleos atômicos",
+              "Verificação de modelos teóricos sobre elementos superpesados"
+          ],
+          "compounds": [
+              "Não há compostos conhecidos de fleróvio."
+          ]
         },
         {
           "atomicNumber": 115,
@@ -2203,7 +3214,15 @@
           "description": "O moscóvio é um elemento extremamente instável, com meia-vida muito curta. Isso significa que seus átomos decaem rapidamente, transformando-se em outros elementos. Devido à sua instabilidade, as propriedades físicas e químicas do moscóvio são difíceis de medir e estudar. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 15, como o nitrogênio e o fósforo, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 200
+          "atomicRadius": 200,
+          "aplicações": [
+            "Pesquisa científica em física nuclear",
+            "Estudo da estabilidade de núcleos atômicos",
+            "Verificação de modelos teóricos sobre elementos superpesados"
+          ],
+          "compostos": [
+              "Não há compostos conhecidos de Moscóvio."
+          ]
         },
         {
           "atomicNumber": 116,
@@ -2222,7 +3241,15 @@
           "description": "O Livermório é um elemento químico sintético e radioativo com número atômico 116, pertencente ao grupo dos calcogênios. Foi sintetizado pela primeira vez em 2000, sendo extremamente instável com meia-vida de milissegundos, o que torna seu estudo experimental muito limitado.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 0
+          "atomicRadius": 0,
+          "aplicações": [
+            "Pesquisa científica em física nuclear",
+            "Estudo da estabilidade de núcleos atômicos",
+            "Verificação de modelos teóricos sobre elementos superpesados"
+          ],
+          "compostos": [
+              "Não há compostos conhecidos de Livermório."
+          ]
         },
         {
           "atomicNumber": 117,
@@ -2241,7 +3268,15 @@
           "description": "O Tenesso é um elemento químico artificial superpeado com número atômico 117, pertencente ao grupo dos halogênios. Foi sintetizado pela primeira vez em 2010 e é altamente radioativo, com meia-vida de apenas alguns milissegundos, tornando seu estudo experimental extremamente desafiador.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 0
+          "atomicRadius": 0,
+          "aplicações": [
+            "Pesquisa científica em física nuclear",
+            "Estudo da estabilidade de núcleos atômicos",
+            "Verificação de modelos teóricos sobre elementos superpesados"
+          ],
+          "compostos": [
+              "Não há compostos conhecidos de Tenesso."
+          ]
         },
         {
           "atomicNumber": 118,
@@ -2260,7 +3295,15 @@
           "description": "Oganessônio é um elemento sintético superpesado de número atômico 118, pertencente ao grupo dos gases nobres. Extremamente instável, possui uma meia-vida de milissegundos e propriedades ainda pouco conhecidas. Foi descoberto em 2002 e nomeado em homenagem ao físico Yuri Oganessian.",
           "electronegativity": 0,
           "ionizationEnergy": 0,
-          "atomicRadius": 152
+          "atomicRadius": 152,
+          "aplicações": [
+            "Pesquisa científica em física nuclear",
+            "Estudo da estabilidade de núcleos atômicos",
+            "Verificação de modelos teóricos sobre elementos superpesados"
+          ],
+          "compostos": [
+              "Não há compostos conhecidos de Oganessônio."
+          ]
         }
       ]
     }
