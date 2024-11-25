@@ -1847,14 +1847,14 @@
           "atomicMass": 293,
           "category": "metal-transicao",
           "block": "p",
-          "electronConfiguration": "[Rn] 7s² 6d¹⁰ 5f¹⁴",
+          "electronConfiguration": "[Rn] 7p⁴ 7s² 6d¹⁰ 5f¹⁴",
           "group": 16,
           "period": 7,
           "density": 12.9,
-          "meltingPoint": 2400,
-          "boilingPoint": 2400,
+          "meltingPoint": "709K",
+          "boilingPoint":  "1085K",
           "discovery": "2000",
-          "description": "O livermório é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O Livermório é um elemento químico sintético e radioativo com número atômico 116, pertencente ao grupo dos calcogênios. Foi sintetizado pela primeira vez em 2000, sendo extremamente instável com meia-vida de milissegundos, o que torna seu estudo experimental muito limitado."
         },
         {
           "atomicNumber": 117,
@@ -1867,10 +1867,10 @@
           "group": 17,
           "period": 7,
           "density": 7.2,
-          "meltingPoint": 2400,
-          "boilingPoint": 2400,
+          "meltingPoint": "Desconhecido",
+          "boilingPoint": "Desconhecido",
           "discovery": "2010",
-          "description": "O tenessino é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O Tenessino é um elemento químico artificial superpeado com número atômico 117, pertencente ao grupo dos halogênios. Foi sintetizado pela primeira vez em 2010 e é altamente radioativo, com meia-vida de apenas alguns milissegundos, tornando seu estudo experimental extremamente desafiador."
         },
         {
           "atomicNumber": 118,
@@ -1883,10 +1883,10 @@
           "group": 18,
           "period": 7,
           "density": 4.9,
-          "meltingPoint": 2400,
-          "boilingPoint": 2400,
+          "meltingPoint": "Desconhecido",
+          "boilingPoint": "Desconhecido",
           "discovery": "2002",
-          "description": "O oganesônio é um gás nobre radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e volátil."
+          "description": "Oganessônio é um elemento sintético superpesado de número atômico 118, pertencente ao grupo dos gases nobres. Extremamente instável, possui uma meia-vida de milissegundos e propriedades ainda pouco conhecidas. Foi descoberto em 2002 e nomeado em homenagem ao físico Yuri Oganessian."
         }
       ]
     }
