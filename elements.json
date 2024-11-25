@@ -1735,14 +1735,14 @@
           "atomicMass": 276,
           "category": "metal-transicao",
           "block": "d",
-          "electronConfiguration": "[Rn] 7s² 6d⁷",
+          "electronConfiguration": "[Rn] 5f¹⁴ 6d⁷ 7s²",
           "group": 9,
           "period": 7,
           "density": 37.4,
-          "meltingPoint": 2400,
-          "boilingPoint": 2400,
+          "meltingPoint": "Desconhecido",
+          "boilingPoint": "Desconhecido",
           "discovery": "1982",
-          "description": "O meitnério é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "Elemento sintético produzido em aceleradores de partículas, com meia-vida curta e propriedades químicas semelhantes aos metais do grupo do platina."
         },
         {
           "atomicNumber": 110,
@@ -1751,14 +1751,14 @@
           "atomicMass": 281,
           "category": "metal-transicao",
           "block": "d",
-          "electronConfiguration": "[Rn] 7s² 6d⁸",
+          "electronConfiguration": "[Rn] 5f¹⁴ 6d⁸ 7s²",
           "group": 10,
           "period": 7,
           "density": 34.8,
-          "meltingPoint": 2400,
-          "boilingPoint": 2400,
+          "meltingPoint": "Desconhecido",
+          "boilingPoint": "Desconhecido",
           "discovery": "1994",
-          "description": "O darmstádio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "Elemento sintético produzido em aceleradores de partículas, com meia-vida curta e propriedades químicas semelhantes aos metais nobres."
         },
         {
           "atomicNumber": 111,
@@ -1767,14 +1767,14 @@
           "atomicMass": 280,
           "category": "metal-transicao",
           "block": "d",
-          "electronConfiguration": "[Rn] 7s² 6d⁹",
+          "electronConfiguration": "[Rn] 5f¹⁴ 6d⁸ 7s²",
           "group": 11,
           "period": 7,
           "density": 28.7,
-          "meltingPoint": 2400,
-          "boilingPoint": 2400,
+          "meltingPoint": "Desconhecido",
+          "boilingPoint": "Desconhecido",
           "discovery": "1994",
-          "description": "O roentgênio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O roentgênio é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 10, como o níquel e o paládio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o roentgênio não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica."
         },
         {
           "atomicNumber": 112,
@@ -1783,14 +1783,14 @@
           "atomicMass": 285,
           "category": "metal-transicao",
           "block": "d",
-          "electronConfiguration": "[Rn] 7s² 6d¹⁰",
+          "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s²",
           "group": 12,
           "period": 7,
           "density": 23.7,
-          "meltingPoint": 2400,
-          "boilingPoint": 2400,
+          "meltingPoint": "Desconhecido",
+          "boilingPoint": "Desconhecido",
           "discovery": "1996",
-          "description": "O copernício é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O copernício é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 12, como o zinco e o cádmio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o copernício não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica."
         },
         {
           "atomicNumber": 113,
