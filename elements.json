@@ -17,7 +17,18 @@
       "description": "O hidrogênio é o elemento químico mais leve e abundante do universo. É um gás incolor, inodoro e altamente inflamável em condições normais. Fundamental para a vida, está presente na água e em todos os compostos orgânicos.",
       "electronegativity": 2.20,
       "ionizationEnergy": 1312,
-      "atomicRadius": 53
+      "atomicRadius": 53,
+      "applications": [
+        "Combustível de foguetes",
+        "Produção de amônia",
+        "Células de combustível",
+        "Soldagem por arco de hidrogênio"
+      ],
+      "compounds": [
+        "Água (H₂O)",
+        "Ácido Clorídrico (HCl)",
+        "Hidróxido de Sódio (NaOH)"
+      ]
     },
     {
       "atomicNumber": 2,
@@ -36,7 +47,16 @@
       "description": "O hélio é um gás nobre inerte, incolor e inodoro. É o segundo elemento mais abundante no universo depois do hidrogênio. Usado em balões, mergulho e resfriamento de supercondutores.",
       "electronegativity": 0,
       "ionizationEnergy": 2372.3,
-      "atomicRadius": 31
+      "atomicRadius": 31,
+      "applications": [
+        "Balões",
+        "Resfriamento de supercondutores",
+        "Mergulho"
+      ],
+      "compounds": [
+        "Hélio-Neônio (HeNe)",
+        "Hélio-Oxigênio (HeO₂)"
+      ]
     },
     {
       "atomicNumber": 3,

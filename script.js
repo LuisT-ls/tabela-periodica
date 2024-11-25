@@ -101,6 +101,28 @@ function showElementModal(element) {
   document.getElementById('electronConfig').textContent =
     element.electronConfiguration
 
+  // Preencher aplicações
+  const applicationsContainer = document.getElementById('elementApplications')
+  if (element.applications && element.applications.length > 0) {
+    applicationsContainer.innerHTML = element.applications
+      .map(app => `<div class="application-item">${app}</div>`)
+      .join('')
+  } else {
+    applicationsContainer.innerHTML =
+      '<p>Informações de aplicações não disponíveis.</p>'
+  }
+
+  // Preencher compostos importantes
+  const compoundsContainer = document.getElementById('relatedCompounds')
+  if (element.compounds && element.compounds.length > 0) {
+    compoundsContainer.innerHTML = element.compounds
+      .map(compound => `<div class="compound-item">${compound}</div>`)
+      .join('')
+  } else {
+    compoundsContainer.innerHTML =
+      '<p>Compostos importantes não encontrados.</p>'
+  }
+
   // Atualizar botão de favoritos
   updateFavoriteButton()
 

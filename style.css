@@ -428,6 +428,29 @@ body {
   }
 }
 
+/* Animação de órbita do elétron */
+.applications-list,
+.related-compounds {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+
+.application-item,
+.compound-item {
+  background-color: var(--background-secondary);
+  padding: 0.75rem;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color var(--transition-speed);
+}
+
+.application-item:hover,
+.compound-item:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
 /* Legenda */
 .legend {
   margin-top: 2rem;
