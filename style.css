@@ -1,0 +1,478 @@
+/* Variáveis CSS para tema claro/escuro e cores principais */
+:root {
+  --primary-color: #1a73e8;
+  --secondary-color: #7e57c2;
+  --text-primary: #333;
+  --text-secondary: #666;
+  --background-primary: #fff;
+  --background-secondary: #f5f5f5;
+  --border-color: #e0e0e0;
+  --modal-overlay: rgba(0, 0, 0, 0.5);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --transition-speed: 0.3s;
+}
+
+/* Tema escuro */
+body.dark-mode {
+  --primary-color: #64b5f6;
+  --secondary-color: #b39ddb;
+  --text-primary: #fff;
+  --text-secondary: #bbb;
+  --background-primary: #1a1a1a;
+  --background-secondary: #2d2d2d;
+  --border-color: #404040;
+  --modal-overlay: rgba(0, 0, 0, 0.7);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Reset e estilos base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+  transition: background-color var(--transition-speed),
+    color var(--transition-speed);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Header e título */
+.main-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.main-header h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+/* Botão modo noturno */
+.dark-mode-toggle {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: color var(--transition-speed);
+}
+
+.dark-mode-toggle:hover {
+  color: var(--primary-color);
+}
+
+/* Barra de pesquisa */
+.search-bar {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  padding: 0.8rem 1.2rem;
+  background: var(--background-secondary);
+  border-radius: 50px;
+  box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.search-bar i {
+  color: var(--text-secondary);
+  margin-right: 1rem;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.search-bar input::placeholder {
+  color: var(--text-secondary);
+}
+
+/* Filtros */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filter-group label {
+  color: var(--text-secondary);
+}
+
+.filter-group select {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  background: var(--background-secondary);
+  color: var(--text-primary);
+  cursor: pointer;
+  outline: none;
+  transition: border-color var(--transition-speed);
+}
+
+.filter-group select:hover {
+  border-color: var(--primary-color);
+}
+
+/* Tabela Periódica */
+.periodic-container {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.periodic-table {
+  display: grid;
+  grid-template-columns: repeat(18, minmax(60px, 1fr));
+  grid-template-rows: repeat(7, minmax(60px, 1fr));
+  gap: 4px;
+  margin-bottom: 2rem;
+}
+
+/* Elementos */
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+
+.element:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  z-index: 1;
+}
+
+.atomic-number {
+  font-size: 0.8rem;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.symbol {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.2rem 0;
+}
+
+.name {
+  font-size: 0.7rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mass {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+}
+
+/* Séries separadas */
+.series-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.lanthanides,
+.actinides {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.series-label {
+  min-width: 100px;
+  text-align: right;
+  color: var(--text-secondary);
+}
+
+.series-elements {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--modal-overlay);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.modal-content {
+  background: var(--background-primary);
+  border-radius: 8px;
+  max-width: 800px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 20px var(--shadow-color);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.element-symbol {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  color: var(--primary-color);
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+}
+
+/* Tabs */
+.modal-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+  overflow-x: auto;
+}
+
+.tab-btn {
+  padding: 1rem 1.5rem;
+  border: none;
+  background: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: color var(--transition-speed);
+  white-space: nowrap;
+}
+
+.tab-btn.active {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.tab-content {
+  display: none;
+  padding: 1.5rem;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Grade de informações */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  background: var(--background-secondary);
+  border-radius: 8px;
+}
+
+.info-item i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+/* Favoritos */
+.favorites-panel {
+  background: var(--background-secondary);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.favorite-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: var(--background-primary);
+}
+
+.favorite-item button {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+/* Legenda */
+.legend {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--background-secondary);
+  border-radius: 8px;
+}
+
+.legend-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+  .periodic-table {
+    grid-template-columns: repeat(18, minmax(50px, 1fr));
+  }
+
+  .element {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .periodic-table {
+    grid-template-columns: repeat(18, minmax(40px, 1fr));
+  }
+
+  .element {
+    font-size: 0.8rem;
+  }
+
+  .main-header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .periodic-table {
+    grid-template-columns: repeat(18, minmax(35px, 1fr));
+  }
+
+  .element {
+    font-size: 0.7rem;
+    padding: 0.3rem;
+  }
+
+  .main-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .modal-content {
+    width: 95%;
+  }
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
