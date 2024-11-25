@@ -43,8 +43,8 @@
       "group": 1,
       "period": 2,
       "density": 0.534,
-      "meltingPoint": 453.69,
-      "boilingPoint": 1615,
+      "meltingPoint": 453.65,
+      "boilingPoint": 1603,
       "discovery": "1817",
       "description": "O lítio é o metal mais leve e menos denso dos sólidos em temperatura ambiente. É altamente reativo e inflamável. Muito usado em baterias recarregáveis e tratamentos psiquiátricos."
     },
@@ -91,8 +91,8 @@
       "group": 14,
       "period": 2,
       "density": 2.267,
-      "meltingPoint": 3915,
-      "boilingPoint": 4300,
+      "meltingPoint": "~3823",
+      "boilingPoint": "~4098",
       "discovery": "Pré-história",
       "description": "O carbono é a base da vida como conhecemos. Forma mais compostos que todos os outros elementos combinados. Existe em várias formas alotrópicas, incluindo diamante e grafite."
     },
@@ -124,7 +124,7 @@
       "period": 2,
       "density": 0.001429,
       "meltingPoint": 54.36,
-      "boilingPoint": 90.20,
+      "boilingPoint": 90.19,
       "discovery": "1774",
       "description": "O oxigênio é essencial para a vida, sendo necessário para a respiração da maioria dos organismos vivos. É o terceiro elemento mais abundante no universo e compõe cerca de 21% da atmosfera terrestre."
     },
@@ -139,7 +139,7 @@
       "group": 17,
       "period": 2,
       "density": 0.001696,
-      "meltingPoint": 53.53,
+      "meltingPoint": 53.48,
       "boilingPoint": 85.03,
       "discovery": "1886",
       "description": "O flúor é o elemento mais eletronegativo e reativo de todos. É usado em pasta de dente, tratamento de água e na produção de diversos materiais industriais."
@@ -267,7 +267,7 @@
           "group": 17,
           "period": 3,
           "density": 0.003214,
-          "meltingPoint": 171.6,
+          "meltingPoint": 172.2,
           "boilingPoint": 239.11,
           "discovery": "1774",
           "description": "O cloro é um halogênio amarelo-esverdeado altamente reativo. É usado no tratamento de água, produção de plásticos e como desinfetante."
@@ -492,7 +492,7 @@
           "period": 4,
           "density": 5.907,
           "meltingPoint": 302.9146,
-          "boilingPoint": 2477,
+          "boilingPoint": 2673,
           "discovery": "1875",
           "description": "O gálio é um metal que derrete na mão. É usado em semicondutores e termômetros de alta temperatura."
         },
@@ -636,7 +636,7 @@
           "period": 5,
           "density": 6.52,
           "meltingPoint": 2128,
-          "boilingPoint": 4682,
+          "boilingPoint": 4650,
           "discovery": "1789",
           "description": "O zircônio é um metal resistente à corrosão usado em reatores nucleares e joias. É tóxico e inflamável."
         },
@@ -812,7 +812,7 @@
           "period": 5,
           "density": 6.685,
           "meltingPoint": 903.78,
-          "boilingPoint": 1860,
+          "boilingPoint": 1908,
           "discovery": "Antiguidade",
           "description": "O antimônio é um metal prateado usado em ligas e retardantes de chama. É tóxico e inflamável."
         },
@@ -892,7 +892,7 @@
           "period": 6,
           "density": 3.594,
           "meltingPoint": 1000,
-          "boilingPoint": 2170,
+          "boilingPoint": 2143,
           "discovery": "1808",
           "description": "O bário é um metal alcalino-terroso usado em pirotecnia e em lâmpadas de raios X. É tóxico e inflamável."
         },
@@ -988,7 +988,7 @@
           "period": 6,
           "density": 7.52,
           "meltingPoint": 1345,
-          "boilingPoint": 2067,
+          "boilingPoint": 2173,
           "discovery": "1853",
           "description": "O samário é um metal prateado usado em ímãs de terras raras e vidros de solda. É tóxico e inflamável."
         },
@@ -1484,7 +1484,7 @@
           "period": 7,
           "density": 20.45,
           "meltingPoint": 917,
-          "boilingPoint": 4175,
+          "boilingPoint": 4273,
           "discovery": "1940",
           "description": "O neptúnio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
         },
@@ -1516,7 +1516,7 @@
           "period": 7,
           "density": 13.67,
           "meltingPoint": 1449,
-          "boilingPoint": 2880,
+          "boilingPoint": 2284,
           "discovery": "1944",
           "description": "O amerício é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
         },
@@ -1595,8 +1595,8 @@
           "group": 3,
           "period": 7,
           "density": 9.7,
-          "meltingPoint": 1800,
-          "boilingPoint": 2280,
+          "meltingPoint": "1800,15",
+          "boilingPoint": "Desconhecido",
           "discovery": "1952",
           "description": "O férmio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
         },
@@ -1612,7 +1612,7 @@
           "period": 7,
           "density": 10.3,
           "meltingPoint": 1100,
-          "boilingPoint": 1100,
+          "boilingPoint": "Desconhecido",
           "discovery": "1955",
           "description": "O mendelévio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
         },
@@ -1627,8 +1627,8 @@
           "group": 3,
           "period": 7,
           "density": 9.9,
-          "meltingPoint": 1100,
-          "boilingPoint": 1100,
+          "meltingPoint": "1100,15",
+          "boilingPoint": "Desconhecido",
           "discovery": "1966",
           "description": "O nobélio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
         },
@@ -1644,7 +1644,7 @@
           "period": 7,
           "density": 15.6,
           "meltingPoint": 1900,
-          "boilingPoint": 1900,
+          "boilingPoint": "Desconhecido",
           "discovery": "1961",
           "description": "O laurêncio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
         },
@@ -1659,8 +1659,8 @@
           "group": 4,
           "period": 7,
           "density": 23,
-          "meltingPoint": "Desconhecido",
-          "boilingPoint": "Desconhecido",
+          "meltingPoint": "2373,15",
+          "boilingPoint": "5773,15",
           "discovery": "1964",
           "description": "O Rutherfórdio é um elemento químico sintético, radioativo e metálico, pertencente ao grupo 4 da tabela periódica. Suas propriedades químicas são semelhantes às do háfnio, mas devido à sua instabilidade, pouco se sabe sobre suas propriedades físicas."
         },
@@ -1803,8 +1803,8 @@
           "group": 13,
           "period": 7,
           "density": 16,
-          "meltingPoint": "Desconhecido",
-          "boilingPoint": "Desconhecido",
+          "meltingPoint": "703,15",
+          "boilingPoint": "1373,15",
           "discovery": "2004",
           "description": "O nihônio é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 13, como o boro e o alumínio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o nihônio não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica."
         },
@@ -1819,8 +1819,8 @@
           "group": 14,
           "period": 7,
           "density": 14,
-          "meltingPoint": "Desconhecido",
-          "boilingPoint": "Desconhecido",
+          "meltingPoint": "343,15",
+          "boilingPoint": "423,15",
           "discovery": "1998",
           "description": "O fleróvio é um elemento sintético, o que significa que ele não é encontrado na natureza e é produzido em laboratório através de reações nucleares. Devido à sua instabilidade, as propriedades do fleróvio são difíceis de medir e estudar. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 14, como o carbono e o silício, mas os efeitos relativísticos podem causar algumas diferenças."
         },
@@ -1851,15 +1851,15 @@
           "group": 16,
           "period": 7,
           "density": 12.9,
-          "meltingPoint": "709K",
-          "boilingPoint":  "1085K",
+          "meltingPoint": "~709",
+          "boilingPoint":  "Desconhecido",
           "discovery": "2000",
           "description": "O Livermório é um elemento químico sintético e radioativo com número atômico 116, pertencente ao grupo dos calcogênios. Foi sintetizado pela primeira vez em 2000, sendo extremamente instável com meia-vida de milissegundos, o que torna seu estudo experimental muito limitado."
         },
         {
           "atomicNumber": 117,
           "symbol": "Ts",
-          "name": "Tenessino",
+          "name": "Tenesso",
           "atomicMass": 294,
           "category": "halogenio",
           "block": "p",
@@ -1883,8 +1883,8 @@
           "group": 18,
           "period": 7,
           "density": 4.9,
-          "meltingPoint": "Desconhecido",
-          "boilingPoint": "Desconhecido",
+          "meltingPoint": "325",
+          "boilingPoint": "450",
           "discovery": "2002",
           "description": "Oganessônio é um elemento sintético superpesado de número atômico 118, pertencente ao grupo dos gases nobres. Extremamente instável, possui uma meia-vida de milissegundos e propriedades ainda pouco conhecidas. Foi descoberto em 2002 e nomeado em homenagem ao físico Yuri Oganessian."
         }
