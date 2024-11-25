@@ -1796,17 +1796,17 @@
           "atomicNumber": 113,
           "symbol": "Nh",
           "name": "Nihônio",
-          "atomicMass": 284,
+          "atomicMass": 286,
           "category": "metal-transicao",
           "block": "p",
-          "electronConfiguration": "[Rn] 7s² 6d¹⁰ 5f¹⁴",
+          "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p¹",
           "group": 13,
           "period": 7,
           "density": 16,
-          "meltingPoint": 2400,
-          "boilingPoint": 2400,
+          "meltingPoint": "Desconhecido",
+          "boilingPoint": "Desconhecido",
           "discovery": "2004",
-          "description": "O nihônio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O nihônio é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 13, como o boro e o alumínio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o nihônio não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica."
         },
         {
           "atomicNumber": 114,
@@ -1815,14 +1815,14 @@
           "atomicMass": 289,
           "category": "metal-transicao",
           "block": "p",
-          "electronConfiguration": "[Rn] 7s² 6d¹⁰ 5f¹⁴",
+          "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p²",
           "group": 14,
           "period": 7,
           "density": 14,
-          "meltingPoint": 2400,
-          "boilingPoint": 2400,
+          "meltingPoint": "Desconhecido",
+          "boilingPoint": "Desconhecido",
           "discovery": "1998",
-          "description": "O fleróvio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O fleróvio é um elemento sintético, o que significa que ele não é encontrado na natureza e é produzido em laboratório através de reações nucleares. Devido à sua instabilidade, as propriedades do fleróvio são difíceis de medir e estudar. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 14, como o carbono e o silício, mas os efeitos relativísticos podem causar algumas diferenças."
         },
         {
           "atomicNumber": 115,
@@ -1831,14 +1831,14 @@
           "atomicMass": 288,
           "category": "metal-transicao",
           "block": "p",
-          "electronConfiguration": "[Rn] 7s² 6d¹⁰ 5f¹⁴",
+          "electronConfiguration": "[Rn] 7s² 5f¹⁴ 6d¹⁰ 7p³",
           "group": 15,
           "period": 7,
           "density": 13.5,
-          "meltingPoint": 2400,
-          "boilingPoint": 2400,
+          "meltingPoint": "Desconhecido",
+          "boilingPoint": "Desconhecido",
           "discovery": "2003",
-          "description": "O moscóvio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O moscóvio é um elemento extremamente instável, com meia-vida muito curta. Isso significa que seus átomos decaem rapidamente, transformando-se em outros elementos. Devido à sua instabilidade, as propriedades físicas e químicas do moscóvio são difíceis de medir e estudar. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 15, como o nitrogênio e o fósforo, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades."
         },
         {
           "atomicNumber": 116,
