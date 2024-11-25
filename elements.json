@@ -5,7 +5,7 @@
       "symbol": "H",
       "name": "Hidrogênio",
       "atomicMass": 1.008,
-      "category": "nao-metal",
+      "category": "não-metal",
       "block": "s",
       "electronConfiguration": "1s¹",
       "group": 1,
@@ -14,14 +14,17 @@
       "meltingPoint": 14.01,
       "boilingPoint": 20.28,
       "discovery": "1766",
-      "description": "O hidrogênio é o elemento químico mais leve e abundante do universo. É um gás incolor, inodoro e altamente inflamável em condições normais. Fundamental para a vida, está presente na água e em todos os compostos orgânicos."
+      "description": "O hidrogênio é o elemento químico mais leve e abundante do universo. É um gás incolor, inodoro e altamente inflamável em condições normais. Fundamental para a vida, está presente na água e em todos os compostos orgânicos.",
+      "electronegativity": 2.20,
+      "ionizationEnergy": 1312,
+      "atomicRadius": 53
     },
     {
       "atomicNumber": 2,
       "symbol": "He",
       "name": "Hélio",
       "atomicMass": 4.002602,
-      "category": "gas-nobre",
+      "category": "gás-nobre",
       "block": "s",
       "electronConfiguration": "1s²",
       "group": 18,
@@ -30,7 +33,10 @@
       "meltingPoint": 0.95,
       "boilingPoint": 4.22,
       "discovery": "1895",
-      "description": "O hélio é um gás nobre inerte, incolor e inodoro. É o segundo elemento mais abundante no universo depois do hidrogênio. Usado em balões, mergulho e resfriamento de supercondutores."
+      "description": "O hélio é um gás nobre inerte, incolor e inodoro. É o segundo elemento mais abundante no universo depois do hidrogênio. Usado em balões, mergulho e resfriamento de supercondutores.",
+      "electronegativity": 0,
+      "ionizationEnergy": 2372.3,
+      "atomicRadius": 31
     },
     {
       "atomicNumber": 3,
@@ -46,7 +52,10 @@
       "meltingPoint": 453.65,
       "boilingPoint": 1603,
       "discovery": "1817",
-      "description": "O lítio é o metal mais leve e menos denso dos sólidos em temperatura ambiente. É altamente reativo e inflamável. Muito usado em baterias recarregáveis e tratamentos psiquiátricos."
+      "description": "O lítio é o metal mais leve e menos denso dos sólidos em temperatura ambiente. É altamente reativo e inflamável. Muito usado em baterias recarregáveis e tratamentos psiquiátricos.",
+      "electronegativity": 0.98,
+      "ionizationEnergy": 520.2,
+      "atomicRadius": 152
     },
     {
       "atomicNumber": 4,
@@ -62,7 +71,10 @@
       "meltingPoint": 1560,
       "boilingPoint": 2742,
       "discovery": "1797",
-      "description": "O berílio é um metal alcalino-terroso tóxico, duro e quebradiço. Tem alta condutividade térmica e é usado em ligas metálicas, especialmente em aplicações aeroespaciais."
+      "description": "O berílio é um metal alcalino-terroso tóxico, duro e quebradiço. Tem alta condutividade térmica e é usado em ligas metálicas, especialmente em aplicações aeroespaciais.",
+      "electronegativity": 1.57,
+      "ionizationEnergy": 899.5,
+      "atomicRadius": 112
     },
     {
       "atomicNumber": 5,
@@ -78,14 +90,17 @@
       "meltingPoint": 2349,
       "boilingPoint": 4200,
       "discovery": "1808",
-      "description": "O boro é um semimetal que ocorre naturalmente em minerais. É essencial para o crescimento das plantas e é usado em detergentes, fibra de vidro e componentes eletrônicos."
+      "description": "O boro é um semimetal que ocorre naturalmente em minerais. É essencial para o crescimento das plantas e é usado em detergentes, fibra de vidro e componentes eletrônicos.",
+      "electronegativity": 2.04,
+      "ionizationEnergy": 800.6,
+      "atomicRadius": 85
     },
     {
       "atomicNumber": 6,
       "symbol": "C",
       "name": "Carbono",
       "atomicMass": 12.011,
-      "category": "nao-metal",
+      "category": "não-metal",
       "block": "p",
       "electronConfiguration": "1s² 2s² 2p²",
       "group": 14,
@@ -94,14 +109,17 @@
       "meltingPoint": "~3823",
       "boilingPoint": "~4098",
       "discovery": "Pré-história",
-      "description": "O carbono é a base da vida como conhecemos. Forma mais compostos que todos os outros elementos combinados. Existe em várias formas alotrópicas, incluindo diamante e grafite."
+      "description": "O carbono é a base da vida como conhecemos. Forma mais compostos que todos os outros elementos combinados. Existe em várias formas alotrópicas, incluindo diamante e grafite.",
+      "electronegativity": 2.55,
+      "ionizationEnergy": 1086.5,
+      "atomicRadius": 70
     },
     {
       "atomicNumber": 7,
       "symbol": "N",
       "name": "Nitrogênio",
       "atomicMass": 14.007,
-      "category": "nao-metal",
+      "category": "não-metal",
       "block": "p",
       "electronConfiguration": "1s² 2s² 2p³",
       "group": 15,
@@ -110,14 +128,17 @@
       "meltingPoint": 63.15,
       "boilingPoint": 77.36,
       "discovery": "1772",
-      "description": "O nitrogênio é um gás incolor e inodoro que constitui 78% da atmosfera terrestre. É essencial para a vida e usado em fertilizantes, explosivos e refrigeração criogênica."
+      "description": "O nitrogênio é um gás incolor e inodoro que constitui 78% da atmosfera terrestre. É essencial para a vida e usado em fertilizantes, explosivos e refrigeração criogênica.",
+      "electronegativity": 3.04,
+      "ionizationEnergy": 1402.3,
+      "atomicRadius": 65
     },
     {
       "atomicNumber": 8,
       "symbol": "O",
       "name": "Oxigênio",
       "atomicMass": 15.999,
-      "category": "nao-metal",
+      "category": "não-metal",
       "block": "p",
       "electronConfiguration": "1s² 2s² 2p⁴",
       "group": 16,
@@ -126,14 +147,17 @@
       "meltingPoint": 54.36,
       "boilingPoint": 90.19,
       "discovery": "1774",
-      "description": "O oxigênio é essencial para a vida, sendo necessário para a respiração da maioria dos organismos vivos. É o terceiro elemento mais abundante no universo e compõe cerca de 21% da atmosfera terrestre."
+      "description": "O oxigênio é essencial para a vida, sendo necessário para a respiração da maioria dos organismos vivos. É o terceiro elemento mais abundante no universo e compõe cerca de 21% da atmosfera terrestre.",
+      "electronegativity": 3.44,
+      "ionizationEnergy": 13.618,
+      "atomicRadius": 0.53
     },
     {
       "atomicNumber": 9,
       "symbol": "F",
       "name": "Flúor",
       "atomicMass": 18.998403163,
-      "category": "halogenio",
+      "category": "halogênio",
       "block": "p",
       "electronConfiguration": "1s² 2s² 2p⁵",
       "group": 17,
@@ -142,14 +166,17 @@
       "meltingPoint": 53.48,
       "boilingPoint": 85.03,
       "discovery": "1886",
-      "description": "O flúor é o elemento mais eletronegativo e reativo de todos. É usado em pasta de dente, tratamento de água e na produção de diversos materiais industriais."
+      "description": "O flúor é o elemento mais eletronegativo e reativo de todos. É usado em pasta de dente, tratamento de água e na produção de diversos materiais industriais.",
+      "electronegativity": 3.98,
+      "ionizationEnergy": 17.4228,
+      "atomicRadius": 42
     },
     {
       "atomicNumber": 10,
       "symbol": "Ne",
       "name": "Neônio",
       "atomicMass": 20.1797,
-      "category": "gas-nobre",
+      "category": "gás-nobre",
       "block": "p",
       "electronConfiguration": "1s² 2s² 2p⁶",
       "group": 18,
@@ -158,7 +185,10 @@
       "meltingPoint": 24.56,
       "boilingPoint": 27.07,
       "discovery": "1898",
-      "description": "O neônio é um gás nobre inerte que emite uma luz vermelho-alaranjada quando eletricamente excitado. É muito usado em letreiros luminosos e lasers."
+      "description": "O neônio é um gás nobre inerte que emite uma luz vermelho-alaranjada quando eletricamente excitado. É muito usado em letreiros luminosos e lasers.",
+      "electronegativity": 0,
+      "ionizationEnergy": 21.5645,
+      "atomicRadius": 38
     },
     {
       "atomicNumber": 11,
@@ -174,7 +204,10 @@
       "meltingPoint": 370.87,
       "boilingPoint": 1156,
       "discovery": "1807",
-      "description": "O sódio é um metal alcalino macio e altamente reativo. É essencial para a vida e muito usado na forma de cloreto de sódio (sal de cozinha)."
+      "description": "O sódio é um metal alcalino macio e altamente reativo. É essencial para a vida e muito usado na forma de cloreto de sódio (sal de cozinha).",
+      "electronegativity": 0.93,
+      "ionizationEnergy": 5.139,
+      "atomicRadius": 186
     },
     {
       "atomicNumber": 12,
@@ -190,14 +223,17 @@
       "meltingPoint": 923,
       "boilingPoint": 1363,
       "discovery": "1755",
-      "description": "O magnésio é um metal leve e forte, essencial para a vida. É usado em ligas leves, fogos de artifício e suplementos nutricionais."
+      "description": "O magnésio é um metal leve e forte, essencial para a vida. É usado em ligas leves, fogos de artifício e suplementos nutricionais.",
+      "electronegativity": 1.31,
+      "ionizationEnergy": 7.646,
+      "atomicRadius": 160
     },
     {
       "atomicNumber": 13,
       "symbol": "Al",
       "name": "Alumínio",
       "atomicMass": 26.9815385,
-      "category": "metal-transicao",
+      "category": "metal-transição",
       "block": "p",
       "electronConfiguration": "[Ne] 3s² 3p¹",
       "group": 13,
@@ -206,7 +242,10 @@
       "meltingPoint": 933.47,
       "boilingPoint": 2792,
       "discovery": "1825",
-      "description": "O alumínio é um metal leve, durável e resistente à corrosão. É o metal mais abundante na crosta terrestre e muito usado em embalagens e construção."
+      "description": "O alumínio é um metal leve, durável e resistente à corrosão. É o metal mais abundante na crosta terrestre e muito usado em embalagens e construção.",
+      "electronegativity": 1.61,
+      "ionizationEnergy": 5.9858,
+      "atomicRadius": 143
     },
     {
       "atomicNumber": 14,
@@ -222,14 +261,17 @@
       "meltingPoint": 1687,
       "boilingPoint": 3538,
       "discovery": "1824",
-      "description": "O silício é um semimetal fundamental para a eletrônica moderna. É o segundo elemento mais abundante na crosta terrestre e base da indústria de semicondutores."
+      "description": "O silício é um semimetal fundamental para a eletrônica moderna. É o segundo elemento mais abundante na crosta terrestre e base da indústria de semicondutores.",
+      "electronegativity": 1.9,
+      "ionizationEnergy": 8.1517,
+      "atomicRadius": 111
     },
     {
       "atomicNumber": 15,
       "symbol": "P",
       "name": "Fósforo",
       "atomicMass": 30.973761998,
-      "category": "nao-metal",
+      "category": "não-metal",
       "block": "p",
       "electronConfiguration": "[Ne] 3s² 3p³",
       "group": 15,
@@ -238,14 +280,17 @@
       "meltingPoint": 317.3,
       "boilingPoint": 553.6,
       "discovery": "1669",
-      "description": "O fósforo é essencial para a vida, sendo componente do DNA e ATP. É usado em fertilizantes, fósforos e componentes eletrônicos."
+      "description": "O fósforo é essencial para a vida, sendo componente do DNA e ATP. É usado em fertilizantes, fósforos e componentes eletrônicos.",
+      "electronegativity": 2.19,
+      "ionizationEnergy": 10.4867,
+      "atomicRadius": 98
     },
     {
       "atomicNumber": 16,
       "symbol": "S",
       "name": "Enxofre",
       "atomicMass": 32.06,
-      "category": "nao-metal",
+      "category": "não-metal",
       "block": "p",
       "electronConfiguration": "[Ne] 3s² 3p⁴",
       "group": 16,
@@ -254,14 +299,17 @@
       "meltingPoint": 388.36,
       "boilingPoint": 717.87,
       "discovery": "Pré-história",
-      "description": "O enxofre é um não-metal amarelo usado na vulcanização da borracha e produção de ácido sulfúrico. É essencial para a vida e presente em muitos aminoácidos."
+      "description": "O enxofre é um não-metal amarelo usado na vulcanização da borracha e produção de ácido sulfúrico. É essencial para a vida e presente em muitos aminoácidos.",
+      "electronegativity": 2.58,
+      "ionizationEnergy": 10.36,
+      "atomicRadius": 88
     },
     {
           "atomicNumber": 17,
           "symbol": "Cl",
           "name": "Cloro",
           "atomicMass": 35.45,
-          "category": "halogenio",
+          "category": "halogênio",
           "block": "p",
           "electronConfiguration": "[Ne] 3s² 3p⁵",
           "group": 17,
@@ -270,14 +318,17 @@
           "meltingPoint": 172.2,
           "boilingPoint": 239.11,
           "discovery": "1774",
-          "description": "O cloro é um halogênio amarelo-esverdeado altamente reativo. É usado no tratamento de água, produção de plásticos e como desinfetante."
+          "description": "O cloro é um halogênio amarelo-esverdeado altamente reativo. É usado no tratamento de água, produção de plásticos e como desinfetante.",
+          "electronegativity": 3.16,
+          "ionizationEnergy": 12.9676,
+          "atomicRadius": 79
         },
         {
           "atomicNumber": 18,
           "symbol": "Ar",
           "name": "Argônio",
           "atomicMass": 39.948,
-          "category": "gas-nobre",
+          "category": "gás-nobre",
           "block": "p",
           "electronConfiguration": "[Ne] 3s² 3p⁶",
           "group": 18,
@@ -286,7 +337,10 @@
           "meltingPoint": 83.8,
           "boilingPoint": 87.3,
           "discovery": "1894",
-          "description": "O argônio é um gás nobre inerte usado em lâmpadas fluorescentes e soldagem. É o terceiro gás mais abundante na atmosfera terrestre."
+          "description": "O argônio é um gás nobre inerte usado em lâmpadas fluorescentes e soldagem. É o terceiro gás mais abundante na atmosfera terrestre.",
+          "electronegativity": 0,
+          "ionizationEnergy": 15.7596,
+          "atomicRadius": 71
         },
         {
           "atomicNumber": 19,
@@ -302,7 +356,10 @@
           "meltingPoint": 336.53,
           "boilingPoint": 1032,
           "discovery": "1807",
-          "description": "O potássio é um metal alcalino essencial para a vida, importante na função nervosa e muscular. É amplamente usado em fertilizantes."
+          "description": "O potássio é um metal alcalino essencial para a vida, importante na função nervosa e muscular. É amplamente usado em fertilizantes.",
+          "electronegativity": 0.82,
+          "ionizationEnergy": 4.3407,
+          "atomicRadius": 227
         },
         {
           "atomicNumber": 20,
@@ -318,14 +375,17 @@
           "meltingPoint": 1115,
           "boilingPoint": 1757,
           "discovery": "1808",
-          "description": "O cálcio é um metal alcalino-terroso essencial para ossos e dentes. É o quinto elemento mais abundante na crosta terrestre."
+          "description": "O cálcio é um metal alcalino-terroso essencial para ossos e dentes. É o quinto elemento mais abundante na crosta terrestre.",
+          "electronegativity": 1.00,
+          "ionizationEnergy": 6.1132,
+          "atomicRadius": 197
         },
         {
           "atomicNumber": 21,
           "symbol": "Sc",
           "name": "Escândio",
           "atomicMass": 44.955908,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Ar] 3d¹ 4s²",
           "group": 3,
@@ -334,14 +394,17 @@
           "meltingPoint": 1814,
           "boilingPoint": 3109,
           "discovery": "1879",
-          "description": "O escândio é um metal de transição prateado usado em lâmpadas de alta intensidade e ligas de alumínio para aplicações aeroespaciais."
+          "description": "O escândio é um metal de transição prateado usado em lâmpadas de alta intensidade e ligas de alumínio para aplicações aeroespaciais.",
+          "electronegativity": 1.36,
+          "ionizationEnergy": 6.5615,
+          "atomicRadius": 162
         },
         {
           "atomicNumber": 22,
           "symbol": "Ti",
           "name": "Titânio",
           "atomicMass": 47.867,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Ar] 3d² 4s²",
           "group": 4,
@@ -350,14 +413,17 @@
           "meltingPoint": 1941,
           "boilingPoint": 3560,
           "discovery": "1791",
-          "description": "O titânio é um metal leve e forte, resistente à corrosão. É usado em implantes médicos, aeronaves e pigmentos brancos."
+          "description": "O titânio é um metal leve e forte, resistente à corrosão. É usado em implantes médicos, aeronaves e pigmentos brancos.",
+          "electronegativity": 1.54,
+          "ionizationEnergy": 6.8281,
+          "atomicRadius": 147
         },
         {
           "atomicNumber": 23,
           "symbol": "V",
           "name": "Vanádio",
           "atomicMass": 50.9415,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Ar] 3d³ 4s²",
           "group": 5,
@@ -366,14 +432,17 @@
           "meltingPoint": 2183,
           "boilingPoint": 3680,
           "discovery": "1801",
-          "description": "O vanádio é um metal duro usado principalmente em ligas de aço. Também é importante em algumas enzimas biológicas."
+          "description": "O vanádio é um metal duro usado principalmente em ligas de aço. Também é importante em algumas enzimas biológicas.",
+          "electronegativity": 1.63,
+          "ionizationEnergy": 6.8281,
+          "atomicRadius": 134
         },
         {
           "atomicNumber": 24,
           "symbol": "Cr",
           "name": "Cromo",
           "atomicMass": 51.9961,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Ar] 3d⁵ 4s¹",
           "group": 6,
@@ -382,14 +451,17 @@
           "meltingPoint": 2180,
           "boilingPoint": 2944,
           "discovery": "1797",
-          "description": "O cromo é um metal brilhante usado em cromagem e aço inoxidável. É essencial para o metabolismo da glicose em humanos."
+          "description": "O cromo é um metal brilhante usado em cromagem e aço inoxidável. É essencial para o metabolismo da glicose em humanos.",
+          "electronegativity": 1.66,
+          "ionizationEnergy": 6.7665,
+          "atomicRadius": 128
         },
         {
           "atomicNumber": 25,
           "symbol": "Mn",
           "name": "Manganês",
           "atomicMass": 54.938044,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Ar] 3d⁵ 4s²",
           "group": 7,
@@ -398,14 +470,17 @@
           "meltingPoint": 1519,
           "boilingPoint": 2334,
           "discovery": "1774",
-          "description": "O manganês é um metal quebradiço usado na produção de aço. É essencial para a fotossíntese em plantas."
+          "description": "O manganês é um metal quebradiço usado na produção de aço. É essencial para a fotossíntese em plantas.",
+          "electronegativity": 1.55,
+          "ionizationEnergy": 7.434,
+          "atomicRadius": 127
         },
         {
           "atomicNumber": 26,
           "symbol": "Fe",
           "name": "Ferro",
           "atomicMass": 55.845,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Ar] 3d⁶ 4s²",
           "group": 8,
@@ -414,14 +489,17 @@
           "meltingPoint": 1811,
           "boilingPoint": 3134,
           "discovery": "Pré-história",
-          "description": "O ferro é o metal mais usado na indústria. É essencial para a vida, sendo componente crucial da hemoglobina no sangue."
+          "description": "O ferro é o metal mais usado na indústria. É essencial para a vida, sendo componente crucial da hemoglobina no sangue.",
+          "electronegativity": 1.83,
+          "ionizationEnergy": 7.9024,
+          "atomicRadius": 126
         },
         {
           "atomicNumber": 27,
           "symbol": "Co",
           "name": "Cobalto",
           "atomicMass": 58.933194,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Ar] 3d⁷ 4s²",
           "group": 9,
@@ -430,14 +508,17 @@
           "meltingPoint": 1768,
           "boilingPoint": 3200,
           "discovery": "1735",
-          "description": "O cobalto é um metal usado em ligas magnéticas e baterias. É essencial para a vitamina B12 e pigmentos azuis."
+          "description": "O cobalto é um metal usado em ligas magnéticas e baterias. É essencial para a vitamina B12 e pigmentos azuis.",
+          "electronegativity": 1.88,
+          "ionizationEnergy": 7.881,
+          "atomicRadius": 125
         },
         {
           "atomicNumber": 28,
           "symbol": "Ni",
           "name": "Níquel",
           "atomicMass": 58.6934,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Ar] 3d⁸ 4s²",
           "group": 10,
@@ -446,14 +527,17 @@
           "meltingPoint": 1728,
           "boilingPoint": 3186,
           "discovery": "1751",
-          "description": "O níquel é um metal prateado usado em moedas e aço inoxidável. É resistente à corrosão e importante em baterias recarregáveis."
+          "description": "O níquel é um metal prateado usado em moedas e aço inoxidável. É resistente à corrosão e importante em baterias recarregáveis.",
+          "electronegativity": 1.91,
+          "ionizationEnergy": 7.6398,
+          "atomicRadius": 124
         },
         {
           "atomicNumber": 29,
           "symbol": "Cu",
           "name": "Cobre",
           "atomicMass": 63.546,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Ar] 3d¹⁰ 4s¹",
           "group": 11,
@@ -462,14 +546,17 @@
           "meltingPoint": 1357.77,
           "boilingPoint": 2835,
           "discovery": "Pré-história",
-          "description": "O cobre é um metal avermelhado, excelente condutor elétrico. É usado em fios elétricos e tubulações."
+          "description": "O cobre é um metal avermelhado, excelente condutor elétrico. É usado em fios elétricos e tubulações.",
+          "electronegativity": 1.90,
+          "ionizationEnergy": 7.7264,
+          "atomicRadius": 128
         },
         {
           "atomicNumber": 30,
           "symbol": "Zn",
           "name": "Zinco",
           "atomicMass": 65.38,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Ar] 3d¹⁰ 4s²",
           "group": 12,
@@ -478,14 +565,17 @@
           "meltingPoint": 692.68,
           "boilingPoint": 1180,
           "discovery": "1746",
-          "description": "O zinco é um metal usado na galvanização do aço. É essencial para várias enzimas e para o sistema imunológico."
+          "description": "O zinco é um metal usado na galvanização do aço. É essencial para várias enzimas e para o sistema imunológico.",
+          "electronegativity": 1.65,
+          "ionizationEnergy": 9.3942,
+          "atomicRadius": 134
         },
         {
           "atomicNumber": 31,
           "symbol": "Ga",
           "name": "Gálio",
           "atomicMass": 69.723,
-          "category": "metal-pos-transicao",
+          "category": "metal-pós-transição",
           "block": "p",
           "electronConfiguration": "[Ar] 3d¹⁰ 4s² 4p¹",
           "group": 13,
@@ -494,7 +584,10 @@
           "meltingPoint": 302.9146,
           "boilingPoint": 2673,
           "discovery": "1875",
-          "description": "O gálio é um metal que derrete na mão. É usado em semicondutores e termômetros de alta temperatura."
+          "description": "O gálio é um metal que derrete na mão. É usado em semicondutores e termômetros de alta temperatura.",
+          "electronegativity": 1.81,
+          "ionizationEnergy": 5.9993,
+          "atomicRadius": 135
         },
         {
           "atomicNumber": 32,
@@ -510,7 +603,10 @@
           "meltingPoint": 1211.4,
           "boilingPoint": 3106,
           "discovery": "1886",
-          "description": "O germânio é um semimetal usado em semicondutores e fibras ópticas. Foi o primeiro elemento usado em transistores."
+          "description": "O germânio é um semimetal usado em semicondutores e fibras ópticas. Foi o primeiro elemento usado em transistores.",
+          "electronegativity": 2.01,
+          "ionizationEnergy": 7.8994,
+          "atomicRadius": 122
         },
         {
           "atomicNumber": 33,
@@ -526,14 +622,17 @@
           "meltingPoint": 1090,
           "boilingPoint": 887,
           "discovery": "Antiguidade",
-          "description": "O arsênio é um não-metal tóxico usado em pesticidas e ligas de chumbo. Foi usado historicamente como veneno."
+          "description": "O arsênio é um não-metal tóxico usado em pesticidas e ligas de chumbo. Foi usado historicamente como veneno.",
+          "electronegativity": 2.18,
+          "ionizationEnergy": 9.7886,
+          "atomicRadius": 119
         },
         {
           "atomicNumber": 34,
           "symbol": "Se",
           "name": "Selênio",
           "atomicMass": 78.971,
-          "category": "nao-metal",
+          "category": "não-metal",
           "block": "p",
           "electronConfiguration": "[Ar] 3d¹⁰ 4s² 4p⁴",
           "group": 16,
@@ -542,14 +641,17 @@
           "meltingPoint": 494,
           "boilingPoint": 958,
           "discovery": "1817",
-          "description": "O selênio é um não-metal essencial para a vida, usado em fotocélulas e medicina. É tóxico em grandes quantidades."
+          "description": "O selênio é um não-metal essencial para a vida, usado em fotocélulas e medicina. É tóxico em grandes quantidades.",
+          "electronegativity": 2.55,
+          "ionizationEnergy": 9.7524,
+          "atomicRadius": 120
         },
         {
           "atomicNumber": 35,
           "symbol": "Br",
           "name": "Bromo",
           "atomicMass": 79.904,
-          "category": "halogenio",
+          "category": "halogênio",
           "block": "p",
           "electronConfiguration": "[Ar] 3d¹⁰ 4s² 4p⁵",
           "group": 17,
@@ -558,14 +660,17 @@
           "meltingPoint": 265.8,
           "boilingPoint": 332,
           "discovery": "1826",
-          "description": "O bromo é um halogênio vermelho escuro usado em retardantes de chama e inseticidas. É tóxico e volátil."
+          "description": "O bromo é um halogênio vermelho escuro usado em retardantes de chama e inseticidas. É tóxico e volátil.",
+          "electronegativity": 2.96,
+          "ionizationEnergy": 11.8138,
+          "atomicRadius": 120
         },
         {
           "atomicNumber": 36,
           "symbol": "Kr",
           "name": "Criptônio",
           "atomicMass": 83.798,
-          "category": "gas-nobre",
+          "category": "gás-nobre",
           "block": "p",
           "electronConfiguration": "[Ar] 3d¹⁰ 4s² 4p⁶",
           "group": 18,
@@ -574,7 +679,10 @@
           "meltingPoint": 115.79,
           "boilingPoint": 119.93,
           "discovery": "1898",
-          "description": "O criptônio é um gás nobre inerte usado em lâmpadas de descarga e lasers. É o sexto gás mais abundante na atmosfera terrestre."
+          "description": "O criptônio é um gás nobre inerte usado em lâmpadas de descarga e lasers. É o sexto gás mais abundante na atmosfera terrestre.",
+          "electronegativity": 3.00,
+          "ionizationEnergy": 13.9996,
+          "atomicRadius": 88
         },
         {
           "atomicNumber": 37,
@@ -590,7 +698,10 @@
           "meltingPoint": 312.46,
           "boilingPoint": 961,
           "discovery": "1861",
-          "description": "O rubídio é um metal alcalino macio usado em relógios atômicos e células fotoelétricas. É altamente reativo e inflamável."
+          "description": "O rubídio é um metal alcalino macio usado em relógios atômicos e células fotoelétricas. É altamente reativo e inflamável.",
+          "electronegativity": 0.82,
+          "ionizationEnergy": 4.1771,
+          "atomicRadius": 248
         },
         {
           "atomicNumber": 38,
@@ -606,14 +717,17 @@
           "meltingPoint": 1050,
           "boilingPoint": 1655,
           "discovery": "1790",
-          "description": "O estrôncio é um metal alcalino-terroso usado em pirotecnia e em lâmpadas de raios X. É tóxico e inflamável."
+          "description": "O estrôncio é um metal alcalino-terroso usado em pirotecnia e em lâmpadas de raios X. É tóxico e inflamável.",
+          "electronegativity": 0.95,
+          "ionizationEnergy": 5.6949,
+          "atomicRadius": 215
         },
         {
           "atomicNumber": 39,
           "symbol": "Y",
           "name": "Ítrio",
           "atomicMass": 88.90584,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Kr] 4d¹ 5s²",
           "group": 3,
@@ -622,14 +736,17 @@
           "meltingPoint": 1799,
           "boilingPoint": 3609,
           "discovery": "1794",
-          "description": "O ítrio é um metal de transição prateado usado em lâmpadas de vapor de mercúrio e supercondutores. É tóxico e inflamável."
+          "description": "O ítrio é um metal de transição prateado usado em lâmpadas de vapor de mercúrio e supercondutores. É tóxico e inflamável.",
+          "electronegativity": 1.22,
+          "ionizationEnergy": 6.2173,
+          "atomicRadius": 180
         },
         {
           "atomicNumber": 40,
           "symbol": "Zr",
           "name": "Zircônio",
           "atomicMass": 91.224,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Kr] 4d² 5s²",
           "group": 4,
@@ -638,14 +755,17 @@
           "meltingPoint": 2128,
           "boilingPoint": 4650,
           "discovery": "1789",
-          "description": "O zircônio é um metal resistente à corrosão usado em reatores nucleares e joias. É tóxico e inflamável."
+          "description": "O zircônio é um metal resistente à corrosão usado em reatores nucleares e joias. É tóxico e inflamável.",
+          "electronegativity": 1.33,
+          "ionizationEnergy": 6.6339,
+          "atomicRadius": 160
         },
         {
           "atomicNumber": 41,
           "symbol": "Nb",
           "name": "Nióbio",
           "atomicMass": 92.90637,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Kr] 4d⁴ 5s¹",
           "group": 5,
@@ -654,14 +774,17 @@
           "meltingPoint": 2750,
           "boilingPoint": 5017,
           "discovery": "1801",
-          "description": "O nióbio é um metal cinza usado em superligas e supercondutores. É tóxico e inflamável."
+          "description": "O nióbio é um metal cinza usado em superligas e supercondutores. É tóxico e inflamável.",
+          "electronegativity": 1.6,
+          "ionizationEnergy": 6.7589,
+          "atomicRadius": 146
         },
         {
           "atomicNumber": 42,
           "symbol": "Mo",
           "name": "Molibdênio",
           "atomicMass": 95.95,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Kr] 4d⁵ 5s¹",
           "group": 6,
@@ -670,14 +793,17 @@
           "meltingPoint": 2896,
           "boilingPoint": 4912,
           "discovery": "1778",
-          "description": "O molibdênio é um metal prateado usado em ligas de aço e catalisadores. É tóxico e inflamável."
+          "description": "O molibdênio é um metal prateado usado em ligas de aço e catalisadores. É tóxico e inflamável.",
+          "electronegativity": 2.16,
+          "ionizationEnergy": 7.0924,
+          "atomicRadius": 139
         },
         {
           "atomicNumber": 43,
           "symbol": "Tc",
           "name": "Tecnécio",
           "atomicMass": 98,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Kr] 4d⁵ 5s²",
           "group": 7,
@@ -686,14 +812,17 @@
           "meltingPoint": 2430,
           "boilingPoint": 4538,
           "discovery": "1937",
-          "description": "O tecnécio é um metal radioativo usado em medicina nuclear. É tóxico e inflamável."
+          "description": "O tecnécio é um metal radioativo usado em medicina nuclear. É tóxico e inflamável.",
+          "electronegativity": 1.9,
+          "ionizationEnergy": 7.28,
+          "atomicRadius": 136
         },
         {
           "atomicNumber": 44,
           "symbol": "Ru",
           "name": "Rutênio",
           "atomicMass": 101.07,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Kr] 4d⁷ 5s¹",
           "group": 8,
@@ -702,14 +831,17 @@
           "meltingPoint": 2607,
           "boilingPoint": 4423,
           "discovery": "1844",
-          "description": "O rutênio é um metal branco prateado usado em ligas de platina e catalisadores. É tóxico e inflamável."
+          "description": "O rutênio é um metal branco prateado usado em ligas de platina e catalisadores. É tóxico e inflamável.",
+          "electronegativity": 2.2,
+          "ionizationEnergy": 7.3605,
+          "atomicRadius": 134
         },
         {
           "atomicNumber": 45,
           "symbol": "Rh",
           "name": "Ródio",
           "atomicMass": 102.9055,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Kr] 4d⁸ 5s¹",
           "group": 9,
@@ -718,14 +850,17 @@
           "meltingPoint": 2237,
           "boilingPoint": 3968,
           "discovery": "1803",
-          "description": "O ródio é um metal branco prateado usado em joias e catalisadores. É tóxico e inflamável."
+          "description": "O ródio é um metal branco prateado usado em joias e catalisadores. É tóxico e inflamável.",
+          "electronegativity": 2.28,
+          "ionizationEnergy": 7.4589,
+          "atomicRadius": 134
         },
         {
           "atomicNumber": 46,
           "symbol": "Pd",
           "name": "Paládio",
           "atomicMass": 106.42,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Kr] 4d¹⁰",
           "group": 10,
@@ -734,14 +869,17 @@
           "meltingPoint": 1828.05,
           "boilingPoint": 3236,
           "discovery": "1803",
-          "description": "O paládio é um metal branco prateado usado em joias e catalisadores. É tóxico e inflamável."
+          "description": "O paládio é um metal branco prateado usado em joias e catalisadores. É tóxico e inflamável.",
+          "electronegativity": 2.20,
+          "ionizationEnergy": 8.3369,
+          "atomicRadius": 137
         },
         {
           "atomicNumber": 47,
           "symbol": "Ag",
           "name": "Prata",
           "atomicMass": 107.8682,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Kr] 4d¹⁰ 5s¹",
           "group": 11,
@@ -750,14 +888,17 @@
           "meltingPoint": 1234.93,
           "boilingPoint": 2435,
           "discovery": "Pré-história",
-          "description": "A prata é um metal branco brilhante usado em joias e moedas. É tóxico e inflamável."
+          "description": "A prata é um metal branco brilhante usado em joias e moedas. É tóxico e inflamável.",
+          "electronegativity": 1.93,
+          "ionizationEnergy": 7.5762,
+          "atomicRadius": 144
         },
         {
           "atomicNumber": 48,
           "symbol": "Cd",
           "name": "Cádmio",
           "atomicMass": 112.414,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Kr] 4d¹⁰ 5s²",
           "group": 12,
@@ -766,14 +907,17 @@
           "meltingPoint": 594.22,
           "boilingPoint": 1040,
           "discovery": "1817",
-          "description": "O cádmio é um metal branco azulado usado em baterias e pigmentos. É tóxico e inflamável."
+          "description": "O cádmio é um metal branco azulado usado em baterias e pigmentos. É tóxico e inflamável.",
+          "electronegativity": 1.69,
+          "ionizationEnergy": 8.9938,
+          "atomicRadius": 151
         },
         {
           "atomicNumber": 49,
           "symbol": "In",
           "name": "Índio",
           "atomicMass": 114.818,
-          "category": "metal-pos-transicao",
+          "category": "metal-pós-transição",
           "block": "p",
           "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p¹",
           "group": 13,
@@ -782,14 +926,17 @@
           "meltingPoint": 429.75,
           "boilingPoint": 2345,
           "discovery": "1863",
-          "description": "O índio é um metal prateado usado em telas de LCD e semicondutores. É tóxico e inflamável."
+          "description": "O índio é um metal prateado usado em telas de LCD e semicondutores. É tóxico e inflamável.",
+          "electronegativity": 1.78,
+          "ionizationEnergy": 5.7864,
+          "atomicRadius": 167
         },
         {
           "atomicNumber": 50,
           "symbol": "Sn",
           "name": "Estanho",
           "atomicMass": 118.71,
-          "category": "metal-pos-transicao",
+          "category": "metal-pós-transição",
           "block": "p",
           "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p²",
           "group": 14,
@@ -798,7 +945,10 @@
           "meltingPoint": 505.08,
           "boilingPoint": 2875,
           "discovery": "Pré-história",
-          "description": "O estanho é um metal prateado usado em latas e soldas. É tóxico e inflamável."
+          "description": "O estanho é um metal prateado usado em latas e soldas. É tóxico e inflamável.",
+          "electronegativity": 1.96,
+          "ionizationEnergy": 7.3439,
+          "atomicRadius": 140
         },
         {
           "atomicNumber": 51,
@@ -814,7 +964,10 @@
           "meltingPoint": 903.78,
           "boilingPoint": 1908,
           "discovery": "Antiguidade",
-          "description": "O antimônio é um metal prateado usado em ligas e retardantes de chama. É tóxico e inflamável."
+          "description": "O antimônio é um metal prateado usado em ligas e retardantes de chama. É tóxico e inflamável.",
+          "electronegativity": 2.05,
+          "ionizationEnergy": 8.6084,
+          "atomicRadius": 140
         },
         {
           "atomicNumber": 52,
@@ -830,14 +983,17 @@
           "meltingPoint": 722.66,
           "boilingPoint": 1261,
           "discovery": "1782",
-          "description": "O telúrio é um semimetal raro usado em ligas e semicondutores. É tóxico e inflamável."
+          "description": "O telúrio é um semimetal raro usado em ligas e semicondutores. É tóxico e inflamável.",
+          "electronegativity": 2.1,
+          "ionizationEnergy": 9.0096,
+          "atomicRadius": 140
         },
         {
           "atomicNumber": 53,
           "symbol": "I",
           "name": "Iodo",
           "atomicMass": 126.90447,
-          "category": "halogenio",
+          "category": "halogênio",
           "block": "p",
           "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p⁵",
           "group": 17,
@@ -846,14 +1002,17 @@
           "meltingPoint": 386.85,
           "boilingPoint": 457.4,
           "discovery": "1811",
-          "description": "O iodo é um halogênio violeta usado em tinturas e medicina. É tóxico e volátil."
+          "description": "O iodo é um halogênio violeta usado em tinturas e medicina. É tóxico e volátil.",
+          "electronegativity": 2.66,
+          "ionizationEnergy": 10.4513,
+          "atomicRadius": 140
         },
         {
           "atomicNumber": 54,
           "symbol": "Xe",
           "name": "Xenônio",
           "atomicMass": 131.293,
-          "category": "gas-nobre",
+          "category": "gás-nobre",
           "block": "p",
           "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p⁶",
           "group": 18,
@@ -862,7 +1021,10 @@
           "meltingPoint": 161.4,
           "boilingPoint": 165.03,
           "discovery": "1898",
-          "description": "O xenônio é um gás nobre inerte usado em lâmpadas de flash e lasers. É o terceiro gás mais abundante na atmosfera terrestre."
+          "description": "O xenônio é um gás nobre inerte usado em lâmpadas de flash e lasers. É o terceiro gás mais abundante na atmosfera terrestre.",
+          "electronegativity": 2.6,
+          "ionizationEnergy": 12.1298,
+          "atomicRadius": 108
         },
         {
           "atomicNumber": 55,
@@ -878,7 +1040,10 @@
           "meltingPoint": 301.59,
           "boilingPoint": 944,
           "discovery": "1860",
-          "description": "O césio é um metal alcalino macio usado em relógios atômicos e células fotoelétricas. É altamente reativo e inflamável."
+          "description": "O césio é um metal alcalino macio usado em relógios atômicos e células fotoelétricas. É altamente reativo e inflamável.",
+          "electronegativity": 0.79,
+          "ionizationEnergy": 3.8939,
+          "atomicRadius": 265
         },
         {
           "atomicNumber": 56,
@@ -894,14 +1059,17 @@
           "meltingPoint": 1000,
           "boilingPoint": 2143,
           "discovery": "1808",
-          "description": "O bário é um metal alcalino-terroso usado em pirotecnia e em lâmpadas de raios X. É tóxico e inflamável."
+          "description": "O bário é um metal alcalino-terroso usado em pirotecnia e em lâmpadas de raios X. É tóxico e inflamável.",
+          "electronegativity": 0.89,
+          "ionizationEnergy": 5.2117,
+          "atomicRadius": 222
         },
         {
           "atomicNumber": 57,
           "symbol": "La",
           "name": "Lantânio",
           "atomicMass": 138.90547,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 5d¹ 6s²",
           "group": 3,
@@ -910,14 +1078,17 @@
           "meltingPoint": 1193,
           "boilingPoint": 3737,
           "discovery": "1839",
-          "description": "O lantânio é um metal prateado usado em lâmpadas de arco e baterias de hidreto metálico. É tóxico e inflamável."
+          "description": "O lantânio é um metal prateado usado em lâmpadas de arco e baterias de hidreto metálico. É tóxico e inflamável.",
+          "electronegativity": 1.10,
+          "ionizationEnergy": 5.5769,
+          "atomicRadius": 187
         },
         {
           "atomicNumber": 58,
           "symbol": "Ce",
           "name": "Cério",
           "atomicMass": 140.116,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f¹ 5d¹ 6s²",
           "group": 3,
@@ -926,14 +1097,17 @@
           "meltingPoint": 1068,
           "boilingPoint": 3716,
           "discovery": "1803",
-          "description": "O cério é um metal prateado usado em catalisadores e lâmpadas de arco. É tóxico e inflamável."
+          "description": "O cério é um metal prateado usado em catalisadores e lâmpadas de arco. É tóxico e inflamável.",
+          "electronegativity": 1.12,
+          "ionizationEnergy": 5.5387,
+          "atomicRadius": 182
         },
         {
           "atomicNumber": 59,
           "symbol": "Pr",
           "name": "Praseodímio",
           "atomicMass": 140.90766,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f³ 6s²",
           "group": 3,
@@ -942,14 +1116,17 @@
           "meltingPoint": 1208,
           "boilingPoint": 3793,
           "discovery": "1885",
-          "description": "O praseodímio é um metal prateado usado em lâmpadas de arco e vidros de solda. É tóxico e inflamável."
+          "description": "O praseodímio é um metal prateado usado em lâmpadas de arco e vidros de solda. É tóxico e inflamável.",
+          "electronegativity": 1.13,
+          "ionizationEnergy": 5.473,
+          "atomicRadius": 182
         },
         {
           "atomicNumber": 60,
           "symbol": "Nd",
           "name": "Neodímio",
           "atomicMass": 144.242,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f⁴ 6s²",
           "group": 3,
@@ -958,14 +1135,17 @@
           "meltingPoint": 1297,
           "boilingPoint": 3347,
           "discovery": "1885",
-          "description": "O neodímio é um metal prateado usado em ímãs de terras raras e vidros de solda. É tóxico e inflamável."
+          "description": "O neodímio é um metal prateado usado em ímãs de terras raras e vidros de solda. É tóxico e inflamável.",
+          "electronegativity": 1.14,
+          "ionizationEnergy": 5.525,
+          "atomicRadius": 181
         },
         {
           "atomicNumber": 61,
           "symbol": "Pm",
           "name": "Promécio",
           "atomicMass": 145,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f⁵ 6s²",
           "group": 3,
@@ -974,14 +1154,17 @@
           "meltingPoint": 1315,
           "boilingPoint": 3273,
           "discovery": "1945",
-          "description": "O promécio é um metal radioativo usado em baterias nucleares e medidores de espessura. É tóxico e inflamável."
+          "description": "O promécio é um metal radioativo usado em baterias nucleares e medidores de espessura. É tóxico e inflamável.",
+          "electronegativity": 1.13,
+          "ionizationEnergy": 5.582,
+          "atomicRadius": 185
         },
         {
           "atomicNumber": 62,
           "symbol": "Sm",
           "name": "Samário",
           "atomicMass": 150.36,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f⁶ 6s²",
           "group": 3,
@@ -990,14 +1173,17 @@
           "meltingPoint": 1345,
           "boilingPoint": 2173,
           "discovery": "1853",
-          "description": "O samário é um metal prateado usado em ímãs de terras raras e vidros de solda. É tóxico e inflamável."
+          "description": "O samário é um metal prateado usado em ímãs de terras raras e vidros de solda. É tóxico e inflamável.",
+          "electronegativity": 1.17,
+          "ionizationEnergy": 5.6437,
+          "atomicRadius": 180
         },
         {
           "atomicNumber": 63,
           "symbol": "Eu",
           "name": "Európio",
           "atomicMass": 151.964,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f⁷ 6s²",
           "group": 3,
@@ -1006,14 +1192,17 @@
           "meltingPoint": 1099,
           "boilingPoint": 1802,
           "discovery": "1901",
-          "description": "O európio é um metal prateado usado em lâmpadas fluorescentes e ímãs de terras raras. É tóxico e inflamável."
+          "description": "O európio é um metal prateado usado em lâmpadas fluorescentes e ímãs de terras raras. É tóxico e inflamável.",
+          "electronegativity": 1.2,
+          "ionizationEnergy": 5.6704,
+          "atomicRadius": 180
         },
         {
           "atomicNumber": 64,
           "symbol": "Gd",
           "name": "Gadolínio",
           "atomicMass": 157.25,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f⁷ 5d¹ 6s²",
           "group": 3,
@@ -1022,14 +1211,17 @@
           "meltingPoint": 1585,
           "boilingPoint": 3546,
           "discovery": "1880",
-          "description": "O gadolínio é um metal prateado usado em ímãs de terras raras e reatores nucleares. É tóxico e inflamável."
+          "description": "O gadolínio é um metal prateado usado em ímãs de terras raras e reatores nucleares. É tóxico e inflamável.",
+          "electronegativity": 1.20,
+          "ionizationEnergy": 6.1501,
+          "atomicRadius": 180
         },
         {
           "atomicNumber": 65,
           "symbol": "Tb",
           "name": "Térbio",
           "atomicMass": 158.92535,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f⁹ 6s²",
           "group": 3,
@@ -1038,14 +1230,17 @@
           "meltingPoint": 1629,
           "boilingPoint": 3503,
           "discovery": "1843",
-          "description": "O térbio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável."
+          "description": "O térbio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
+          "electronegativity": 1.20,
+          "ionizationEnergy": 5.8638,
+          "atomicRadius": 177
         },
         {
           "atomicNumber": 66,
           "symbol": "Dy",
           "name": "Disprósio",
           "atomicMass": 162.5,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f¹⁰ 6s²",
           "group": 3,
@@ -1054,14 +1249,17 @@
           "meltingPoint": 1680,
           "boilingPoint": 2840,
           "discovery": "1886",
-          "description": "O disprósio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável."
+          "description": "O disprósio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
+          "electronegativity": 1.22,
+          "ionizationEnergy": 5.9389,
+          "atomicRadius": 178
         },
         {
           "atomicNumber": 67,
           "symbol": "Ho",
           "name": "Hólmio",
           "atomicMass": 164.93033,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f¹¹ 6s²",
           "group": 3,
@@ -1070,14 +1268,17 @@
           "meltingPoint": 1734,
           "boilingPoint": 2993,
           "discovery": "1878",
-          "description": "O hólmio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável."
+          "description": "O hólmio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
+          "electronegativity": 1.23,
+          "ionizationEnergy": 6.0215,
+          "atomicRadius": 176
         },
         {
           "atomicNumber": 68,
           "symbol": "Er",
           "name": "Érbio",
           "atomicMass": 167.259,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f¹² 6s²",
           "group": 3,
@@ -1086,14 +1287,17 @@
           "meltingPoint": 1802,
           "boilingPoint": 3141,
           "discovery": "1843",
-          "description": "O érbio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável."
+          "description": "O érbio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
+          "electronegativity": 1.24,
+          "ionizationEnergy": 6.1077,
+          "atomicRadius": 176
         },
         {
           "atomicNumber": 69,
           "symbol": "Tm",
           "name": "Túlio",
           "atomicMass": 168.93422,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f¹³ 6s²",
           "group": 3,
@@ -1102,14 +1306,17 @@
           "meltingPoint": 1818,
           "boilingPoint": 2223,
           "discovery": "1879",
-          "description": "O túlio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável."
+          "description": "O túlio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
+          "electronegativity": 1.25,
+          "ionizationEnergy": 6.1843,
+          "atomicRadius": 176
         },
         {
           "atomicNumber": 70,
           "symbol": "Yb",
           "name": "Itérbio",
           "atomicMass": 173.054,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f¹⁴ 6s²",
           "group": 3,
@@ -1118,14 +1325,17 @@
           "meltingPoint": 1097,
           "boilingPoint": 1469,
           "discovery": "1878",
-          "description": "O itérbio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável."
+          "description": "O itérbio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
+          "electronegativity": 1.1,
+          "ionizationEnergy": 6.2542,
+          "atomicRadius": 176
         },
         {
           "atomicNumber": 71,
           "symbol": "Lu",
           "name": "Lutécio",
           "atomicMass": 174.9668,
-          "category": "lantanideo",
+          "category": "lantanídeo",
           "block": "f",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d¹ 6s²",
           "group": 3,
@@ -1134,14 +1344,17 @@
           "meltingPoint": 1925,
           "boilingPoint": 3675,
           "discovery": "1907",
-          "description": "O lutécio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável."
+          "description": "O lutécio é um metal prateado usado em ímãs de terras raras e lasers. É tóxico e inflamável.",
+          "electronegativity": 1.27,
+          "ionizationEnergy": 5.4259,
+          "atomicRadius": 174
         },
         {
           "atomicNumber": 72,
           "symbol": "Hf",
           "name": "Háfnio",
           "atomicMass": 178.49,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d² 6s²",
           "group": 4,
@@ -1150,14 +1363,17 @@
           "meltingPoint": 2506,
           "boilingPoint": 4876,
           "discovery": "1923",
-          "description": "O háfnio é um metal resistente à corrosão usado em reatores nucleares e lâmpadas de arco. É tóxico e inflamável."
+          "description": "O háfnio é um metal resistente à corrosão usado em reatores nucleares e lâmpadas de arco. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 6.8251,
+          "atomicRadius": 159
         },
         {
           "atomicNumber": 73,
           "symbol": "Ta",
           "name": "Tântalo",
           "atomicMass": 180.94788,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d³ 6s²",
           "group": 5,
@@ -1166,14 +1382,17 @@
           "meltingPoint": 3290,
           "boilingPoint": 5731,
           "discovery": "1802",
-          "description": "O tântalo é um metal cinza usado em superligas e supercondutores. É tóxico e inflamável."
+          "description": "O tântalo é um metal cinza usado em superligas e supercondutores. É tóxico e inflamável.",
+          "electronegativity": 1.5,
+          "ionizationEnergy": 7.5496,
+          "atomicRadius": 146
         },
         {
           "atomicNumber": 74,
           "symbol": "W",
           "name": "Tungstênio",
           "atomicMass": 183.84,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d⁴ 6s²",
           "group": 6,
@@ -1182,14 +1401,17 @@
           "meltingPoint": 3695,
           "boilingPoint": 5828,
           "discovery": "1783",
-          "description": "O tungstênio é um metal cinza usado em lâmpadas incandescentes e superligas. É tóxico e inflamável."
+          "description": "O tungstênio é um metal cinza usado em lâmpadas incandescentes e superligas. É tóxico e inflamável.",
+          "electronegativity": 2.36,
+          "ionizationEnergy": 7.864,
+          "atomicRadius": 139
         },
         {
           "atomicNumber": 75,
           "symbol": "Re",
           "name": "Rênio",
           "atomicMass": 186.207,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d⁵ 6s²",
           "group": 7,
@@ -1198,14 +1420,17 @@
           "meltingPoint": 3459,
           "boilingPoint": 5869,
           "discovery": "1925",
-          "description": "O rênio é um metal cinza usado em catalisadores e superligas. É tóxico e inflamável."
+          "description": "O rênio é um metal cinza usado em catalisadores e superligas. É tóxico e inflamável.",
+          "electronegativity": 1.9,
+          "ionizationEnergy": 7.8335,
+          "atomicRadius": 137
         },
         {
           "atomicNumber": 76,
           "symbol": "Os",
           "name": "Ósmio",
           "atomicMass": 190.23,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d⁶ 6s²",
           "group": 8,
@@ -1214,14 +1439,17 @@
           "meltingPoint": 3306,
           "boilingPoint": 5285,
           "discovery": "1803",
-          "description": "O ósmio é um metal azul brilhante usado em ligas de platina e catalisadores. É tóxico e inflamável."
+          "description": "O ósmio é um metal azul brilhante usado em ligas de platina e catalisadores. É tóxico e inflamável.",
+          "electronegativity": 2.2,
+          "ionizationEnergy": 8.4382,
+          "atomicRadius": 135
         },
         {
           "atomicNumber": 77,
           "symbol": "Ir",
           "name": "Irídio",
           "atomicMass": 192.217,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d⁷ 6s²",
           "group": 9,
@@ -1230,14 +1458,17 @@
           "meltingPoint": 2719,
           "boilingPoint": 4701,
           "discovery": "1803",
-          "description": "O irídio é um metal branco prateado usado em ligas de platina e catalisadores. É tóxico e inflamável."
+          "description": "O irídio é um metal branco prateado usado em ligas de platina e catalisadores. É tóxico e inflamável.",
+          "electronegativity": 2.20,
+          "ionizationEnergy": 8.967,
+          "atomicRadius": 135
         },
         {
           "atomicNumber": 78,
           "symbol": "Pt",
           "name": "Platina",
           "atomicMass": 195.084,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d⁹ 6s¹",
           "group": 10,
@@ -1246,14 +1477,17 @@
           "meltingPoint": 2041.4,
           "boilingPoint": 4098,
           "discovery": "Antiguidade",
-          "description": "A platina é um metal branco brilhante usado em joias e catalisadores. É tóxico e inflamável."
+          "description": "A platina é um metal branco brilhante usado em joias e catalisadores. É tóxico e inflamável.",
+          "electronegativity": 2.28,
+          "ionizationEnergy": 8.9587,
+          "atomicRadius": 139
         },
         {
           "atomicNumber": 79,
           "symbol": "Au",
           "name": "Ouro",
           "atomicMass": 196.966569,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s¹",
           "group": 11,
@@ -1262,14 +1496,17 @@
           "meltingPoint": 1337.33,
           "boilingPoint": 3129,
           "discovery": "Pré-história",
-          "description": "O ouro é um metal amarelo brilhante usado em joias e moedas. É tóxico e inflamável."
+          "description": "O ouro é um metal amarelo brilhante usado em joias e moedas. É tóxico e inflamável.",
+          "electronegativity": 2.54,
+          "ionizationEnergy": 9.2255,
+          "atomicRadius": 144
         },
         {
           "atomicNumber": 80,
           "symbol": "Hg",
           "name": "Mercúrio",
           "atomicMass": 200.592,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s²",
           "group": 12,
@@ -1278,14 +1515,17 @@
           "meltingPoint": 234.32,
           "boilingPoint": 629.88,
           "discovery": "Antiguidade",
-          "description": "O mercúrio é um metal prateado usado em termômetros e lâmpadas fluorescentes. É tóxico e inflamável."
+          "description": "O mercúrio é um metal prateado usado em termômetros e lâmpadas fluorescentes. É tóxico e inflamável.",
+          "electronegativity": 2.00,
+          "ionizationEnergy": 10.4375,
+          "atomicRadius": 150
         },
         {
           "atomicNumber": 81,
           "symbol": "Tl",
           "name": "Tálio",
           "atomicMass": 204.38,
-          "category": "metal-pos-transicao",
+          "category": "metal-pós-transição",
           "block": "p",
           "electronConfiguration": "1[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p¹",
           "group": 13,
@@ -1294,14 +1534,17 @@
           "meltingPoint": 577,
           "boilingPoint": 1746,
           "discovery": "1861",
-          "description": "O tálio é um metal prateado usado em lentes e semicondutores. É tóxico e inflamável."
+          "description": "O tálio é um metal prateado usado em lentes e semicondutores. É tóxico e inflamável.",
+          "electronegativity": 1.62,
+          "ionizationEnergy": 6.1082,
+          "atomicRadius": 170
         },
         {
           "atomicNumber": 82,
           "symbol": "Pb",
           "name": "Chumbo",
           "atomicMass": 207.2,
-          "category": "metal-pos-transicao",
+          "category": "metal-pós-transição",
           "block": "p",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
           "group": 14,
@@ -1310,14 +1553,17 @@
           "meltingPoint": 600.61,
           "boilingPoint": 2022,
           "discovery": "Pré-história",
-          "description": "O chumbo é um metal azul acinzentado usado em baterias e pigmentos. É tóxico e inflamável."
+          "description": "O chumbo é um metal azul acinzentado usado em baterias e pigmentos. É tóxico e inflamável.",
+          "electronegativity": 2.33,
+          "ionizationEnergy": 7.4167,
+          "atomicRadius": 154
         },
         {
           "atomicNumber": 83,
           "symbol": "Bi",
           "name": "Bismuto",
           "atomicMass": 208.9804,
-          "category": "metal-pos-transicao",
+          "category": "metal-pós-transição",
           "block": "p",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³",
           "group": 15,
@@ -1326,7 +1572,10 @@
           "meltingPoint": 544.7,
           "boilingPoint": 1837,
           "discovery": "1753",
-          "description": "O bismuto é um metal branco prateado usado em ligas e medicamentos. É tóxico e inflamável."
+          "description": "O bismuto é um metal branco prateado usado em ligas e medicamentos. É tóxico e inflamável.",
+          "electronegativity": 2.02,
+          "ionizationEnergy": 7.2856,
+          "atomicRadius": 156
         },
         {
           "atomicNumber": 84,
@@ -1342,14 +1591,17 @@
           "meltingPoint": 527,
           "boilingPoint": 1235,
           "discovery": "1898",
-          "description": "O polônio é um semimetal radioativo usado em dispositivos nucleares e eliminadores de estática. É tóxico e inflamável."
+          "description": "O polônio é um semimetal radioativo usado em dispositivos nucleares e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 2.0,
+          "ionizationEnergy": 8.414,
+          "atomicRadius": 168
         },
         {
           "atomicNumber": 85,
           "symbol": "At",
-          "name": "Astato",
+          "name": "Ástato",
           "atomicMass": 210,
-          "category": "halogenio",
+          "category": "halogênio",
           "block": "p",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵",
           "group": 17,
@@ -1358,14 +1610,17 @@
           "meltingPoint": 575,
           "boilingPoint": 610,
           "discovery": "1940",
-          "description": "O astato é um halogênio radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e volátil."
+          "description": "O astato é um halogênio radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e volátil.",
+          "electronegativity": 2.2,
+          "ionizationEnergy": 9.3,
+          "atomicRadius": 202
         },
         {
           "atomicNumber": 86,
           "symbol": "Rn",
           "name": "Radônio",
           "atomicMass": 222,
-          "category": "gas-nobre",
+          "category": "gás-nobre",
           "block": "p",
           "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁶",
           "group": 18,
@@ -1374,7 +1629,10 @@
           "meltingPoint": 202,
           "boilingPoint": 211.3,
           "discovery": "1900",
-          "description": "O radônio é um gás nobre radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e volátil."
+          "description": "O radônio é um gás nobre radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e volátil.",
+          "electronegativity": 0,
+          "ionizationEnergy": 1037,
+          "atomicRadius": 120
         },
         {
           "atomicNumber": 87,
@@ -1390,7 +1648,10 @@
           "meltingPoint": 300,
           "boilingPoint": 950,
           "discovery": "1939",
-          "description": "O frâncio é um metal alcalino macio usado em pesquisas médicas e células fotoelétricas. É altamente reativo e inflamável."
+          "description": "O frâncio é um metal alcalino macio usado em pesquisas médicas e células fotoelétricas. É altamente reativo e inflamável.",
+          "electronegativity": 0.7,
+          "ionizationEnergy": 3.9,
+          "atomicRadius": 260
         },
         {
           "atomicNumber": 88,
@@ -1406,14 +1667,17 @@
           "meltingPoint": 973,
           "boilingPoint": 2010,
           "discovery": "1898",
-          "description": "O rádio é um metal alcalino-terroso radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O rádio é um metal alcalino-terroso radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 0.9,
+          "ionizationEnergy": 5.2784,
+          "atomicRadius": 215
         },
         {
           "atomicNumber": 89,
           "symbol": "Ac",
           "name": "Actínio",
           "atomicMass": 227,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 6d¹ 7s²",
           "group": 3,
@@ -1422,14 +1686,17 @@
           "meltingPoint": 1323,
           "boilingPoint": 3471,
           "discovery": "1899",
-          "description": "O actínio é um metal prateado radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O actínio é um metal prateado radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.1,
+          "ionizationEnergy": 5.17,
+          "atomicRadius": 195
         },
         {
           "atomicNumber": 90,
           "symbol": "Th",
           "name": "Tório",
           "atomicMass": 232.0377,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 6d² 7s²",
           "group": 3,
@@ -1438,14 +1705,17 @@
           "meltingPoint": 2023,
           "boilingPoint": 5061,
           "discovery": "1828",
-          "description": "O tório é um metal cinza radioativo usado em lâmpadas de arco e catalisadores. É tóxico e inflamável."
+          "description": "O tório é um metal cinza radioativo usado em lâmpadas de arco e catalisadores. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 6.3067,
+          "atomicRadius": 179
         },
         {
           "atomicNumber": 91,
           "symbol": "Pa",
           "name": "Protactínio",
           "atomicMass": 231.03588,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f² 6d¹ 7s²",
           "group": 3,
@@ -1454,14 +1724,17 @@
           "meltingPoint": 1841,
           "boilingPoint": 4300,
           "discovery": "1913",
-          "description": "O protactínio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O protactínio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.5,
+          "ionizationEnergy": 5.89,
+          "atomicRadius": 163
         },
         {
           "atomicNumber": 92,
           "symbol": "U",
           "name": "Urânio",
           "atomicMass": 238.02891,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f³ 6d¹ 7s²",
           "group": 3,
@@ -1470,14 +1743,17 @@
           "meltingPoint": 1405.3,
           "boilingPoint": 4404,
           "discovery": "1789",
-          "description": "O urânio é um metal cinza radioativo usado em reatores nucleares e armas nucleares. É tóxico e inflamável."
+          "description": "O urânio é um metal cinza radioativo usado em reatores nucleares e armas nucleares. É tóxico e inflamável.",
+          "electronegativity": 1.38,
+          "ionizationEnergy": 6.1941,
+          "atomicRadius": 175
         },
         {
           "atomicNumber": 93,
           "symbol": "Np",
           "name": "Netúnio",
           "atomicMass": 237,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f⁴ 6d¹ 7s²",
           "group": 3,
@@ -1486,14 +1762,17 @@
           "meltingPoint": 917,
           "boilingPoint": 4273,
           "discovery": "1940",
-          "description": "O neptúnio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O neptúnio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.36,
+          "ionizationEnergy": 6.2657,
+          "atomicRadius": 155
         },
         {
           "atomicNumber": 94,
           "symbol": "Pu",
           "name": "Plutônio",
           "atomicMass": 244,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f⁶ 7s²",
           "group": 3,
@@ -1502,14 +1781,17 @@
           "meltingPoint": 912.5,
           "boilingPoint": 3501,
           "discovery": "1940",
-          "description": "O plutônio é um metal cinza radioativo usado em reatores nucleares e armas nucleares. É tóxico e inflamável."
+          "description": "O plutônio é um metal cinza radioativo usado em reatores nucleares e armas nucleares. É tóxico e inflamável.",
+          "electronegativity": 1.28,
+          "ionizationEnergy": 6.0257,
+          "atomicRadius": 159
         },
         {
           "atomicNumber": 95,
           "symbol": "Am",
           "name": "Amerício",
           "atomicMass": 243,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f⁷ 7s²",
           "group": 3,
@@ -1518,14 +1800,17 @@
           "meltingPoint": 1449,
           "boilingPoint": 2284,
           "discovery": "1944",
-          "description": "O amerício é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O amerício é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 5.9738,
+          "atomicRadius": 173
         },
         {
           "atomicNumber": 96,
           "symbol": "Cm",
           "name": "Cúrio",
           "atomicMass": 247,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f⁷ 6d¹ 7s²",
           "group": 3,
@@ -1534,14 +1819,17 @@
           "meltingPoint": 1613,
           "boilingPoint": 3383,
           "discovery": "1944",
-          "description": "O cúrio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O cúrio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 5.9915,
+          "atomicRadius": 174
         },
         {
           "atomicNumber": 97,
           "symbol": "Bk",
           "name": "Berquélio",
           "atomicMass": 247,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f⁹ 7s²",
           "group": 3,
@@ -1550,14 +1838,17 @@
           "meltingPoint": 1259,
           "boilingPoint": 2900,
           "discovery": "1949",
-          "description": "O berquélio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O berquélio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 6.1979,
+          "atomicRadius": 170
         },
         {
           "atomicNumber": 98,
           "symbol": "Cf",
           "name": "Califórnio",
           "atomicMass": 251,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f¹⁰ 7s²",
           "group": 3,
@@ -1566,14 +1857,17 @@
           "meltingPoint": 1173,
           "boilingPoint": 1743,
           "discovery": "1950",
-          "description": "O califórnio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O califórnio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 6.2817,
+          "atomicRadius": 245
         },
         {
           "atomicNumber": 99,
           "symbol": "Es",
           "name": "Einstênio",
           "atomicMass": 252,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f¹¹ 7s²",
           "group": 3,
@@ -1582,14 +1876,17 @@
           "meltingPoint": 1133,
           "boilingPoint": 1269,
           "discovery": "1952",
-          "description": "O einstênio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O einstênio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 6.42,
+          "atomicRadius": 200
         },
         {
           "atomicNumber": 100,
           "symbol": "Fm",
           "name": "Férmio",
           "atomicMass": 257,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f¹² 7s²",
           "group": 3,
@@ -1598,14 +1895,17 @@
           "meltingPoint": "1800,15",
           "boilingPoint": "Desconhecido",
           "discovery": "1952",
-          "description": "O férmio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O férmio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 6.5,
+          "atomicRadius": 0
         },
         {
           "atomicNumber": 101,
           "symbol": "Md",
           "name": "Mendelévio",
           "atomicMass": 258,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f¹³ 7s²",
           "group": 3,
@@ -1614,14 +1914,17 @@
           "meltingPoint": 1100,
           "boilingPoint": "Desconhecido",
           "discovery": "1955",
-          "description": "O mendelévio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O mendelévio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 6.58,
+          "atomicRadius": 0
         },
         {
           "atomicNumber": 102,
           "symbol": "No",
           "name": "Nobélio",
           "atomicMass": 259,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f¹⁴ 7s²",
           "group": 3,
@@ -1630,14 +1933,17 @@
           "meltingPoint": "1100,15",
           "boilingPoint": "Desconhecido",
           "discovery": "1966",
-          "description": "O nobélio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O nobélio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 6.65,
+          "atomicRadius": 0
         },
         {
           "atomicNumber": 103,
           "symbol": "Lr",
           "name": "Laurêncio",
           "atomicMass": 266,
-          "category": "actinideo",
+          "category": "actinídeo",
           "block": "f",
           "electronConfiguration": "[Rn] 5f¹⁴ 7s² 7p¹",
           "group": 3,
@@ -1646,14 +1952,17 @@
           "meltingPoint": 1900,
           "boilingPoint": "Desconhecido",
           "discovery": "1961",
-          "description": "O laurêncio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável."
+          "description": "O laurêncio é um metal cinza radioativo usado em pesquisas médicas e eliminadores de estática. É tóxico e inflamável.",
+          "electronegativity": 1.3,
+          "ionizationEnergy": 4.9,
+          "atomicRadius": 0
         },
         {
           "atomicNumber": 104,
           "symbol": "Rf",
           "name": "Rutherfórdio",
           "atomicMass": 267,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d² 7s²",
           "group": 4,
@@ -1662,14 +1971,17 @@
           "meltingPoint": "2373,15",
           "boilingPoint": "5773,15",
           "discovery": "1964",
-          "description": "O Rutherfórdio é um elemento químico sintético, radioativo e metálico, pertencente ao grupo 4 da tabela periódica. Suas propriedades químicas são semelhantes às do háfnio, mas devido à sua instabilidade, pouco se sabe sobre suas propriedades físicas."
+          "description": "O Rutherfórdio é um elemento químico sintético, radioativo e metálico, pertencente ao grupo 4 da tabela periódica. Suas propriedades químicas são semelhantes às do háfnio, mas devido à sua instabilidade, pouco se sabe sobre suas propriedades físicas.",
+          "electronegativity": 0,
+          "ionizationEnergy": 6.1,
+          "atomicRadius": 0
         },
         {
           "atomicNumber": 105,
           "symbol": "Db",
           "name": "Dúbnio",
           "atomicMass": 262,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d³ 7s²",
           "group": 5,
@@ -1678,14 +1990,17 @@
           "meltingPoint": "Desconhecido",
           "boilingPoint": "Desconhecido",
           "discovery": "1967",
-          "description": "O dúbnio é um elemento químico sintético e radioativo, produzido em laboratório através de reações nucleares. Devido à sua instabilidade e curta meia-vida, suas propriedades físicas e químicas são pouco conhecidas."
+          "description": "O dúbnio é um elemento químico sintético e radioativo, produzido em laboratório através de reações nucleares. Devido à sua instabilidade e curta meia-vida, suas propriedades físicas e químicas são pouco conhecidas.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 200
         },
         {
           "atomicNumber": 106,
           "symbol": "Sg",
           "name": "Seabórgio",
           "atomicMass": 266,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d⁴ 7s²",
           "group": 6,
@@ -1694,14 +2009,17 @@
           "meltingPoint": "Desconhecido",
           "boilingPoint": "Desconhecido",
           "discovery": "1974",
-          "description": "O seabório é um elemento químico artificial, criado em laboratório e não encontrado na natureza. Devido à sua instabilidade e curta meia-vida, suas propriedades físicas e químicas são pouco conhecidas."
+          "description": "O seabório é um elemento químico artificial, criado em laboratório e não encontrado na natureza. Devido à sua instabilidade e curta meia-vida, suas propriedades físicas e químicas são pouco conhecidas.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 132
         },
         {
           "atomicNumber": 107,
           "symbol": "Bh",
           "name": "Bóhrio",
           "atomicMass": 270,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d⁵ 7s²",
           "group": 7,
@@ -1710,14 +2028,17 @@
           "meltingPoint": "Desconhecido",
           "boilingPoint": "Desconhecido",
           "discovery": "1976",
-          "description": "O Bóhrio é um elemento químico sintético, radioativo e com vida curta, nomeado em homenagem ao físico Niels Bohr. Sua produção em laboratório é essencialmente para fins de pesquisa e estudo da estrutura atômica."
+          "description": "O Bóhrio é um elemento químico sintético, radioativo e com vida curta, nomeado em homenagem ao físico Niels Bohr. Sua produção em laboratório é essencialmente para fins de pesquisa e estudo da estrutura atômica.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 128
         },
         {
           "atomicNumber": 108,
           "symbol": "Hs",
           "name": "Hássio",
           "atomicMass": 269,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d⁶ 7s²",
           "group": 8,
@@ -1726,14 +2047,17 @@
           "meltingPoint": "Desconhecido",
           "boilingPoint": "Desconhecido",
           "discovery": "1984",
-          "description": "O Hássio é um elemento químico sintético, radioativo e com vida curta, pertencente ao grupo dos metais de transição. Sua produção em laboratório é essencialmente para fins de pesquisa e estudo da estrutura atômica."
+          "description": "O Hássio é um elemento químico sintético, radioativo e com vida curta, pertencente ao grupo dos metais de transição. Sua produção em laboratório é essencialmente para fins de pesquisa e estudo da estrutura atômica.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 126
         },
         {
           "atomicNumber": 109,
           "symbol": "Mt",
           "name": "Meitnério",
           "atomicMass": 276,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d⁷ 7s²",
           "group": 9,
@@ -1742,14 +2066,17 @@
           "meltingPoint": "Desconhecido",
           "boilingPoint": "Desconhecido",
           "discovery": "1982",
-          "description": "Elemento sintético produzido em aceleradores de partículas, com meia-vida curta e propriedades químicas semelhantes aos metais do grupo do platina."
+          "description": "Elemento sintético produzido em aceleradores de partículas, com meia-vida curta e propriedades químicas semelhantes aos metais do grupo do platina.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 122
         },
         {
           "atomicNumber": 110,
           "symbol": "Ds",
           "name": "Darmstádio",
           "atomicMass": 281,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d⁸ 7s²",
           "group": 10,
@@ -1758,14 +2085,17 @@
           "meltingPoint": "Desconhecido",
           "boilingPoint": "Desconhecido",
           "discovery": "1994",
-          "description": "Elemento sintético produzido em aceleradores de partículas, com meia-vida curta e propriedades químicas semelhantes aos metais nobres."
+          "description": "Elemento sintético produzido em aceleradores de partículas, com meia-vida curta e propriedades químicas semelhantes aos metais nobres.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 132
         },
         {
           "atomicNumber": 111,
           "symbol": "Rg",
           "name": "Roentgênio",
           "atomicMass": 280,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d⁹ 7s²",
           "group": 11,
@@ -1774,14 +2104,17 @@
           "meltingPoint": "Desconhecido",
           "boilingPoint": "Desconhecido",
           "discovery": "1994",
-          "description": "O roentgênio é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 10, como o níquel e o paládio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o roentgênio não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica."
+          "description": "O roentgênio é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 10, como o níquel e o paládio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o roentgênio não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 114
         },
         {
           "atomicNumber": 112,
           "symbol": "Cn",
           "name": "Copernício",
           "atomicMass": 285,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "d",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s²",
           "group": 12,
@@ -1790,14 +2123,17 @@
           "meltingPoint": "Desconhecido",
           "boilingPoint": "Desconhecido",
           "discovery": "1996",
-          "description": "O copernício é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 12, como o zinco e o cádmio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o copernício não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica."
+          "description": "O copernício é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 12, como o zinco e o cádmio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o copernício não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 110
         },
         {
           "atomicNumber": 113,
           "symbol": "Nh",
           "name": "Nihônio",
           "atomicMass": 286,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "p",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p¹",
           "group": 13,
@@ -1806,14 +2142,17 @@
           "meltingPoint": "703,15",
           "boilingPoint": "1373,15",
           "discovery": "2004",
-          "description": "O nihônio é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 13, como o boro e o alumínio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o nihônio não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica."
+          "description": "O nihônio é um elemento extremamente instável, com meia-vida muito curta. Seus átomos decaem rapidamente, transformando-se em outros elementos. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 13, como o boro e o alumínio, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades. Devido à sua instabilidade, o nihônio não possui aplicações práticas e seu estudo é focado na compreensão da estrutura da matéria e dos limites da tabela periódica.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 170
         },
         {
           "atomicNumber": 114,
           "symbol": "Fl",
           "name": "Fleróvio",
           "atomicMass": 289,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "p",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p²",
           "group": 14,
@@ -1822,14 +2161,17 @@
           "meltingPoint": "343,15",
           "boilingPoint": "423,15",
           "discovery": "1998",
-          "description": "O fleróvio é um elemento sintético, o que significa que ele não é encontrado na natureza e é produzido em laboratório através de reações nucleares. Devido à sua instabilidade, as propriedades do fleróvio são difíceis de medir e estudar. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 14, como o carbono e o silício, mas os efeitos relativísticos podem causar algumas diferenças."
+          "description": "O fleróvio é um elemento sintético, o que significa que ele não é encontrado na natureza e é produzido em laboratório através de reações nucleares. Devido à sua instabilidade, as propriedades do fleróvio são difíceis de medir e estudar. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 14, como o carbono e o silício, mas os efeitos relativísticos podem causar algumas diferenças.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 160
         },
         {
           "atomicNumber": 115,
           "symbol": "Mc",
           "name": "Moscóvio",
           "atomicMass": 288,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "p",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p³",
           "group": 15,
@@ -1838,14 +2180,17 @@
           "meltingPoint": "Desconhecido",
           "boilingPoint": "Desconhecido",
           "discovery": "2003",
-          "description": "O moscóvio é um elemento extremamente instável, com meia-vida muito curta. Isso significa que seus átomos decaem rapidamente, transformando-se em outros elementos. Devido à sua instabilidade, as propriedades físicas e químicas do moscóvio são difíceis de medir e estudar. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 15, como o nitrogênio e o fósforo, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades."
+          "description": "O moscóvio é um elemento extremamente instável, com meia-vida muito curta. Isso significa que seus átomos decaem rapidamente, transformando-se em outros elementos. Devido à sua instabilidade, as propriedades físicas e químicas do moscóvio são difíceis de medir e estudar. Espera-se que ele apresente propriedades semelhantes aos outros elementos do grupo 15, como o nitrogênio e o fósforo, mas os efeitos relativísticos podem causar algumas diferenças em suas propriedades.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 200
         },
         {
           "atomicNumber": 116,
           "symbol": "Lv",
           "name": "Livermório",
           "atomicMass": 293,
-          "category": "metal-transicao",
+          "category": "metal-transição",
           "block": "p",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁴",
           "group": 16,
@@ -1854,14 +2199,17 @@
           "meltingPoint": "~709",
           "boilingPoint":  "Desconhecido",
           "discovery": "2000",
-          "description": "O Livermório é um elemento químico sintético e radioativo com número atômico 116, pertencente ao grupo dos calcogênios. Foi sintetizado pela primeira vez em 2000, sendo extremamente instável com meia-vida de milissegundos, o que torna seu estudo experimental muito limitado."
+          "description": "O Livermório é um elemento químico sintético e radioativo com número atômico 116, pertencente ao grupo dos calcogênios. Foi sintetizado pela primeira vez em 2000, sendo extremamente instável com meia-vida de milissegundos, o que torna seu estudo experimental muito limitado.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 0
         },
         {
           "atomicNumber": 117,
           "symbol": "Ts",
           "name": "Tenesso",
           "atomicMass": 294,
-          "category": "halogenio",
+          "category": "halogênio",
           "block": "p",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵",
           "group": 17,
@@ -1870,14 +2218,17 @@
           "meltingPoint": "Desconhecido",
           "boilingPoint": "Desconhecido",
           "discovery": "2010",
-          "description": "O Tenessino é um elemento químico artificial superpeado com número atômico 117, pertencente ao grupo dos halogênios. Foi sintetizado pela primeira vez em 2010 e é altamente radioativo, com meia-vida de apenas alguns milissegundos, tornando seu estudo experimental extremamente desafiador."
+          "description": "O Tenesso é um elemento químico artificial superpeado com número atômico 117, pertencente ao grupo dos halogênios. Foi sintetizado pela primeira vez em 2010 e é altamente radioativo, com meia-vida de apenas alguns milissegundos, tornando seu estudo experimental extremamente desafiador.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 0
         },
         {
           "atomicNumber": 118,
           "symbol": "Og",
           "name": "Oganesônio",
           "atomicMass": 294,
-          "category": "gas-nobre",
+          "category": "gás-nobre",
           "block": "p",
           "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁶",
           "group": 18,
@@ -1886,7 +2237,10 @@
           "meltingPoint": "325",
           "boilingPoint": "450",
           "discovery": "2002",
-          "description": "Oganessônio é um elemento sintético superpesado de número atômico 118, pertencente ao grupo dos gases nobres. Extremamente instável, possui uma meia-vida de milissegundos e propriedades ainda pouco conhecidas. Foi descoberto em 2002 e nomeado em homenagem ao físico Yuri Oganessian."
+          "description": "Oganessônio é um elemento sintético superpesado de número atômico 118, pertencente ao grupo dos gases nobres. Extremamente instável, possui uma meia-vida de milissegundos e propriedades ainda pouco conhecidas. Foi descoberto em 2002 e nomeado em homenagem ao físico Yuri Oganessian.",
+          "electronegativity": 0,
+          "ionizationEnergy": 0,
+          "atomicRadius": 152
         }
       ]
     }

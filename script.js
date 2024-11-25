@@ -6,16 +6,16 @@ let comparisonElement = null
 
 // Cores para categorias
 const categoryColors = {
-  'nao-metal': '#77dd77',
+  'não-metal': '#77dd77',
   'metal-alcalino': '#ff6961',
   'metal-alcalino-terroso': '#fdfd96',
-  'metal-transicao': '#84b6f4',
-  'metal-pos-transicao': '#c2b180',
+  'metal-transição': '#84b6f4',
+  'metal-pós-transição': '#c2b180',
   semimetal: '#fdcae1',
-  halogenio: '#77dd77',
-  'gas-nobre': '#ff9999',
-  lantanideo: '#dcd0ff',
-  actinideo: '#b0c4de'
+  halogênio: '#77dd77',
+  'gás-nobre': '#ff9999',
+  lantanídeo: '#dcd0ff',
+  actinídeo: '#b0c4de'
 }
 
 // Carregar dados dos elementos
@@ -44,9 +44,9 @@ function initializePeriodicTable() {
   elements.forEach(element => {
     const elementBox = createElementBox(element)
 
-    if (element.category === 'lantanideo') {
+    if (element.category === 'lantanídeo') {
       lanthanideSeries.appendChild(elementBox)
-    } else if (element.category === 'actinideo') {
+    } else if (element.category === 'actinídeo') {
       actinideSeries.appendChild(elementBox)
     } else {
       elementBox.style.gridColumn = element.group
@@ -187,27 +187,67 @@ function filterElements() {
 // Visualização de tendências
 function applyTrendVisualization() {
   const trendType = document.getElementById('trendFilter').value
+
   if (trendType === 'none') {
     resetElementColors()
     return
   }
 
-  const values = elements.map(element => parseFloat(element[trendType]) || 0)
+  // Mapeamento de tendências para as propriedades corretas
+  const trendPropertyMap = {
+    electronegativity: 'electronegativity',
+    atomicRadius: 'atomicRadius',
+    ionizationEnergy: 'ionizationEnergy'
+  }
+
+  const property = trendPropertyMap[trendType]
+
+  if (!property) {
+    console.error('Propriedade de tendência inválida')
+    return
+  }
+
+  const values = elements
+    .map(element => parseFloat(element[property]) || 0)
+    .filter(value => value !== 0)
+
   const max = Math.max(...values)
   const min = Math.min(...values)
 
   elements.forEach(element => {
-    const value = parseFloat(element[trendType]) || 0
-    const intensity = ((value - min) / (max - min)) * 100
+    const value = parseFloat(element[property]) || 0
     const elementBox = document.querySelector(
       `[data-atomic-number="${element.atomicNumber}"]`
     )
 
     if (elementBox) {
-      elementBox.style.backgroundColor = `hsl(220, ${intensity}%, 50%)`
+      if (value === 0) {
+        // Se não tiver valor, manter a cor original da categoria
+        elementBox.style.backgroundColor = categoryColors[element.category]
+      } else {
+        // Calcular intensidade baseada no valor normalizado
+        const intensity = ((value - min) / (max - min)) * 100
+
+        // Cores diferentes para cada tendência
+        const colorSchemes = {
+          electronegativity: `hsl(120, ${intensity}%, 50%)`, // Verde a verde escuro
+          atomicRadius: `hsl(240, ${intensity}%, 50%)`, // Azul a azul escuro
+          ionizationEnergy: `hsl(0, ${intensity}%, 50%)` // Vermelho a vermelho escuro
+        }
+
+        elementBox.style.backgroundColor = colorSchemes[trendType]
+      }
     }
   })
 }
+
+// Garantir que a função seja chamada na inicialização
+document.addEventListener('DOMContentLoaded', () => {
+  const trendFilter = document.getElementById('trendFilter')
+  if (trendFilter) {
+    trendFilter.addEventListener('change', applyTrendVisualization)
+  }
+})
 
 function resetElementColors() {
   document.querySelectorAll('.element').forEach(elementBox => {
