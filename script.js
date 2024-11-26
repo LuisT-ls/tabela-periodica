@@ -263,6 +263,325 @@ function applyTrendVisualization() {
   })
 }
 
+// Variável para armazenar o elemento em comparação
+function setupCompareElement() {
+  const compareBtn = document.getElementById('compareBtn')
+  const comparisonModal = document.getElementById('comparisonModal')
+
+  compareBtn.addEventListener('click', () => {
+    // Definir o primeiro elemento para comparação
+    comparisonElement = currentElement
+    openComparisonModal()
+  })
+}
+
+function openComparisonModal() {
+  const comparisonModal = document.getElementById('comparisonModal')
+  const element1Container = document.getElementById('element1')
+
+  // Popular o primeiro elemento
+  element1Container.innerHTML = `
+    <div class="comparison-element">
+      <div class="symbol">${comparisonElement.symbol}</div>
+      <div class="name">${comparisonElement.name}</div>
+      <div class="comparison-details">
+        <div>Número Atômico: ${comparisonElement.atomicNumber}</div>
+        <div>Massa Atômica: ${parseFloat(comparisonElement.atomicMass).toFixed(
+          3
+        )}</div>
+        <div>Categoria: ${formatCategory(comparisonElement.category)}</div>
+        <div>Bloco: ${comparisonElement.block.toUpperCase()}</div>
+      </div>
+    </div>
+  `
+
+  // Preparar para selecionar o segundo elemento
+  const element2Container = document.getElementById('element2')
+  element2Container.innerHTML = `
+    <div class="select-second-element">
+      <p>Selecione o segundo elemento para comparar</p>
+      <div class="periodic-selection">
+        ${generateElementSelectionGrid()}
+      </div>
+    </div>
+  `
+
+  comparisonModal.style.display = 'flex'
+
+  // Adicionar event listeners para seleção do segundo elemento
+  document.querySelectorAll('.select-element-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const atomicNumber = parseInt(btn.dataset.atomicNumber)
+      const secondElement = elements.find(e => e.atomicNumber === atomicNumber)
+      completeComparison(secondElement)
+    })
+  })
+}
+
+function generateElementSelectionGrid() {
+  return elements
+    .filter(e => e.atomicNumber !== comparisonElement.atomicNumber)
+    .map(
+      element => `
+      <button 
+        class="select-element-btn" 
+        data-atomic-number="${element.atomicNumber}"
+        style="background-color: ${categoryColors[element.category]}"
+      >
+        <span class="symbol">${element.symbol}</span>
+        <span class="name">${element.name}</span>
+      </button>
+    `
+    )
+    .join('')
+}
+
+function completeComparison(secondElement) {
+  const element2Container = document.getElementById('element2')
+
+  element2Container.innerHTML = `
+    <div class="comparison-element">
+      <div class="symbol">${secondElement.symbol}</div>
+      <div class="name">${secondElement.name}</div>
+      <div class="comparison-details">
+        <div>Número Atômico: ${secondElement.atomicNumber}</div>
+        <div>Massa Atômica: ${parseFloat(secondElement.atomicMass).toFixed(
+          3
+        )}</div>
+        <div>Categoria: ${formatCategory(secondElement.category)}</div>
+        <div>Bloco: ${secondElement.block.toUpperCase()}</div>
+      </div>
+    </div>
+  `
+
+  // Opcionalmente, adicionar comparação de propriedades
+  compareElementProperties(comparisonElement, secondElement)
+}
+
+function compareElementProperties(element1, element2) {
+  const comparisonContainer = document.querySelector('.comparison-container')
+
+  const propertiesToCompare = [
+    { name: 'Densidade', prop: 'density' },
+    { name: 'Ponto de Fusão', prop: 'meltingPoint' },
+    { name: 'Ponto de Ebulição', prop: 'boilingPoint' },
+    { name: 'Eletronegatividade', prop: 'electronegativity' }
+  ]
+
+  const comparisonTable = document.createElement('div')
+  comparisonTable.className = 'comparison-properties'
+
+  comparisonTable.innerHTML = `
+    <h3>Comparação de Propriedades</h3>
+    ${propertiesToCompare
+      .map(
+        prop => `
+      <div class="property-comparison">
+        <span>${prop.name}</span>
+        <div class="comparison-bars">
+          <div class="bar" style="width: ${calculateBarWidth(
+            element1[prop.prop]
+          )}%">
+            ${element1.symbol}: ${element1[prop.prop] || 'N/A'}
+          </div>
+          <div class="bar" style="width: ${calculateBarWidth(
+            element2[prop.prop]
+          )}%">
+            ${element2.symbol}: ${element2[prop.prop] || 'N/A'}
+          </div>
+        </div>
+      </div>
+    `
+      )
+      .join('')}
+  `
+
+  comparisonContainer.appendChild(comparisonTable)
+}
+
+function calculateBarWidth(value, maxWidth = 100) {
+  return value ? Math.min(parseFloat(value) * 10, maxWidth) : 0
+}
+
+// Adicionar ao evento de carregamento do DOM
+document.addEventListener('DOMContentLoaded', () => {
+  setupCompareElement()
+})
+
+function compareElementProperties(element1, element2) {
+  const comparisonContainer = document.querySelector('.comparison-container')
+
+  const propertiesToCompare = [
+    {
+      name: 'Densidade',
+      prop: 'density',
+      unit: 'g/cm³',
+      color: 'var(--primary-color)'
+    },
+    {
+      name: 'Ponto de Fusão',
+      prop: 'meltingPoint',
+      unit: 'K',
+      color: 'var(--secondary-color)'
+    },
+    {
+      name: 'Ponto de Ebulição',
+      prop: 'boilingPoint',
+      unit: 'K',
+      color: 'var(--secondary-color)'
+    },
+    {
+      name: 'Eletronegatividade',
+      prop: 'electronegativity',
+      color: 'var(--primary-color)'
+    }
+  ]
+
+  const comparisonTable = document.createElement('div')
+  comparisonTable.className = 'comparison-properties-detailed'
+
+  comparisonTable.innerHTML = `
+    <h3>Comparação de Propriedades</h3>
+    ${propertiesToCompare
+      .map(prop => {
+        const val1 = element1[prop.prop] || 'N/A'
+        const val2 = element2[prop.prop] || 'N/A'
+        const normalizedVal1 = val1 !== 'N/A' ? parseFloat(val1) : 0
+        const normalizedVal2 = val2 !== 'N/A' ? parseFloat(val2) : 0
+
+        // Calculate max value for scaling
+        const maxVal = Math.max(normalizedVal1, normalizedVal2)
+        const width1 = val1 !== 'N/A' ? (normalizedVal1 / maxVal) * 100 : 0
+        const width2 = val2 !== 'N/A' ? (normalizedVal2 / maxVal) * 100 : 0
+
+        return `
+        <div class="property-comparison-card">
+          <div class="property-name">${prop.name}</div>
+          <div class="comparison-bars">
+            <div class="element-bar">
+              <div 
+                class="bar" 
+                style="
+                  width: ${width1}%; 
+                  background-color: ${prop.color};
+                  opacity: 0.7;
+                "
+              >
+                <span class="element-symbol">${element1.symbol}</span>
+                <span class="element-value">${val1}${
+          prop.unit ? ' ' + prop.unit : ''
+        }</span>
+              </div>
+            </div>
+            <div class="element-bar">
+              <div 
+                class="bar" 
+                style="
+                  width: ${width2}%; 
+                  background-color: ${prop.color};
+                  opacity: 0.7;
+                "
+              >
+                <span class="element-symbol">${element2.symbol}</span>
+                <span class="element-value">${val2}${
+          prop.unit ? ' ' + prop.unit : ''
+        }</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      `
+      })
+      .join('')}
+  `
+
+  // Remove previous comparison if exists
+  const existingComparison = comparisonContainer.querySelector(
+    '.comparison-properties-detailed'
+  )
+  if (existingComparison) {
+    existingComparison.remove()
+  }
+
+  comparisonContainer.appendChild(comparisonTable)
+}
+
+// Add additional CSS for the comparison view
+function addComparisonCSS() {
+  const styleSheet = document.createElement('style')
+  styleSheet.textContent = `
+    .comparison-properties-detailed {
+      background-color: var(--background-secondary);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0 4px 6px var(--shadow-color);
+    }
+
+    .comparison-properties-detailed h3 {
+      color: var(--text-primary);
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 10px;
+    }
+
+    .property-comparison-card {
+      margin-bottom: 15px;
+      background-color: var(--background-primary);
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 4px var(--shadow-color);
+    }
+
+    .property-name {
+      color: var(--text-secondary);
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .comparison-bars {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .element-bar {
+      background-color: var(--background-secondary);
+      border-radius: 6px;
+      height: 40px;
+      overflow: hidden;
+    }
+
+    .bar {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      color: white;
+      font-weight: bold;
+      transition: width var(--transition-speed) ease-in-out;
+    }
+
+    .bar .element-symbol {
+      font-size: 1.2rem;
+      font-weight: bold;
+      opacity: 0.8;
+    }
+
+    .bar .element-value {
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+  `
+  document.head.appendChild(styleSheet)
+}
+
+// Call this function when the page loads
+document.addEventListener('DOMContentLoaded', addComparisonCSS)
+
 // Garantir que a função seja chamada na inicialização
 document.addEventListener('DOMContentLoaded', () => {
   const trendFilter = document.getElementById('trendFilter')
