@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Comparação de Elementos Químicos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <style>
+      .chart-container {
+        position: relative;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 800px;
+      }
+      .comparison-details {
+        display: flex;
+        justify-content: space-around;
+        background-color: #f4f4f4;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+      .element-info {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chart-container">
+      <canvas id="elementComparisonChart"></canvas>
+    </div>
+    <div class="comparison-details" id="comparisonDetails"></div>
+
+    <script>
+      function createElementComparisonChart(element1, element2) {
+        // Propriedades para comparação
+        const properties = [
+          {
+            key: 'density',
+            label: 'Densidade',
+            unit: 'g/cm³',
+            color: 'rgba(75, 192, 192, 0.6)'
+          },
+          {
+            key: 'meltingPoint',
+            label: 'Ponto de Fusão',
+            unit: 'K',
+            color: 'rgba(255, 99, 132, 0.6)'
+          },
+          {
+            key: 'boilingPoint',
+            label: 'Ponto de Ebulição',
+            unit: 'K',
+            color: 'rgba(54, 162, 235, 0.6)'
+          },
+          {
+            key: 'atomicRadius',
+            label: 'Raio Atômico',
+            unit: 'pm',
+            color: 'rgba(255, 206, 86, 0.6)'
+          },
+          {
+            key: 'electronegativity',
+            label: 'Eletronegatividade',
+            color: 'rgba(153, 102, 255, 0.6)'
+          },
+          {
+            key: 'ionizationEnergy',
+            label: 'Energia de Ionização',
+            unit: 'kJ/mol',
+            color: 'rgba(255, 159, 64, 0.6)'
+          }
+        ]
+
+        // Preparar dados para o gráfico
+        const chartData = {
+          labels: [],
+          datasets: [
+            {
+              label: element1.symbol,
+              data: [],
+              backgroundColor: [],
+              borderColor: [],
+              borderWidth: 1
+            },
+            {
+              label: element2.symbol,
+              data: [],
+              backgroundColor: [],
+              borderColor: [],
+              borderWidth: 1
+            }
+          ]
+        }
+
+        // Filtrar e preparar dados válidos
+        const validProperties = properties.filter(prop => {
+          const val1 = parseFloat(element1[prop.key]) || 0
+          const val2 = parseFloat(element2[prop.key]) || 0
+          return val1 !== 0 || val2 !== 0
+        })
+
+        // Preencher dados do gráfico
+        validProperties.forEach(prop => {
+          const val1 = parseFloat(element1[prop.key]) || 0
+          const val2 = parseFloat(element2[prop.key]) || 0
+
+          chartData.labels.push(prop.label)
+          chartData.datasets[0].data.push(val1)
+          chartData.datasets[1].data.push(val2)
+
+          // Configurar cores
+          chartData.datasets[0].backgroundColor.push(prop.color)
+          chartData.datasets[1].backgroundColor.push(
+            prop.color.replace('0.6', '0.4')
+          )
+        })
+
+        // Criar o gráfico
+        const ctx = document
+          .getElementById('elementComparisonChart')
+          .getContext('2d')
+        new Chart(ctx, {
+          type: 'bar',
+          data: chartData,
+          options: {
+            responsive: true,
+            plugins: {
+              tooltip: {
+                callbacks: {
+                  label: function (context) {
+                    const prop = validProperties[context.dataIndex]
+                    return `${context.dataset.label}: ${
+                      context.formattedValue
+                    } ${prop.unit || ''}`
+                  }
+                }
+              }
+            },
+            scales: {
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: 'Valor'
+                }
+              }
+            }
+          }
+        })
+
+        // Adicionar detalhes de comparação
+        const detailsContainer = document.getElementById('comparisonDetails')
+        detailsContainer.innerHTML = `
+                <div class="element-info">
+                    <h3>${element1.symbol} - ${element1.name}</h3>
+                    <p>Número Atômico: ${element1.atomicNumber}</p>
+                    <p>Massa Atômica: ${parseFloat(element1.atomicMass).toFixed(
+                      3
+                    )}</p>
+                    <p>Categoria: ${formatCategory(element1.category)}</p>
+                </div>
+                <div class="element-info">
+                    <h3>${element2.symbol} - ${element2.name}</h3>
+                    <p>Número Atômico: ${element2.atomicNumber}</p>
+                    <p>Massa Atômica: ${parseFloat(element2.atomicMass).toFixed(
+                      3
+                    )}</p>
+                    <p>Categoria: ${formatCategory(element2.category)}</p>
+                </div>
+            `
+      }
+
+      // Função para formatar categoria (já existente no seu código)
+      function formatCategory(category) {
+        return category
+          .split('-')
+          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(' ')
+      }
+    </script>
+  </body>
+</html>

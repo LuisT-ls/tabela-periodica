@@ -21,7 +21,7 @@ const categoryColors = {
 // Carregar dados dos elementos
 async function loadElements() {
   try {
-    const response = await fetch('elements.json')
+    const response = await fetch('./data/elements.json')
     const data = await response.json()
     elements = data.elements
     initializePeriodicTable()
@@ -337,9 +337,27 @@ function generateElementSelectionGrid() {
 }
 
 function completeComparison(secondElement) {
-  const element2Container = document.getElementById('element2')
+  const comparisonModal = document.getElementById('comparisonModal')
+  const comparisonContainer = document.querySelector('.comparison-container')
 
-  element2Container.innerHTML = `
+  // Popular o primeiro elemento
+  document.getElementById('element1').innerHTML = `
+    <div class="comparison-element">
+      <div class="symbol">${comparisonElement.symbol}</div>
+      <div class="name">${comparisonElement.name}</div>
+      <div class="comparison-details">
+        <div>Número Atômico: ${comparisonElement.atomicNumber}</div>
+        <div>Massa Atômica: ${parseFloat(comparisonElement.atomicMass).toFixed(
+          3
+        )}</div>
+        <div>Categoria: ${formatCategory(comparisonElement.category)}</div>
+        <div>Bloco: ${comparisonElement.block.toUpperCase()}</div>
+      </div>
+    </div>
+  `
+
+  // Popular o segundo elemento
+  document.getElementById('element2').innerHTML = `
     <div class="comparison-element">
       <div class="symbol">${secondElement.symbol}</div>
       <div class="name">${secondElement.name}</div>
@@ -354,8 +372,30 @@ function completeComparison(secondElement) {
     </div>
   `
 
-  // Opcionalmente, adicionar comparação de propriedades
-  compareElementProperties(comparisonElement, secondElement)
+  // Criar container para o gráfico
+  let chartContainer = document.getElementById('comparison-chart')
+  if (!chartContainer) {
+    chartContainer = document.createElement('div')
+    chartContainer.id = 'comparison-chart'
+    comparisonContainer.appendChild(chartContainer)
+  }
+
+  // Criar iframe com o gráfico
+  chartContainer.innerHTML = `
+    <iframe 
+      src="../pages/comparison-chart.html" 
+      width="100%" 
+      height="500" 
+      frameborder="0"
+    ></iframe>
+  `
+
+  // Passar dados para o iframe
+  setTimeout(() => {
+    const iframe = chartContainer.querySelector('iframe')
+    const iframeWindow = iframe.contentWindow
+    iframeWindow.createElementComparisonChart(comparisonElement, secondElement)
+  }, 100)
 }
 
 function compareElementProperties(element1, element2) {

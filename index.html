@@ -8,12 +8,13 @@
       content="Explore os elementos químicos de forma interativa com a Tabela Periódica Interativa"
     />
     <title>Tabela Periódica Interativa</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -52,9 +53,7 @@
               Metais Alcalinos Terrosos
             </option>
             <option value="metal-transição">Metais de Transição</option>
-            <option value="metal-pos-transicao">
-              Metais de Pós-Transição
-            </option>
+            <option value="metal-pos-transicao">Metais de Pós-Transição</option>
             <option value="semimetal">Semimetais</option>
             <option value="halogenio">Halogênios</option>
             <option value="gás-nobre">Gases Nobres</option>
@@ -87,6 +86,11 @@
           </select>
         </div>
       </div>
+
+      <div class="chart-container">
+        <canvas id="elementComparisonChart"></canvas>
+      </div>
+      <div class="comparison-details" id="comparisonDetails"></div>
 
       <!-- Container Principal -->
       <div class="periodic-container">
@@ -231,6 +235,6 @@
         <div class="favorites-list"></div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
