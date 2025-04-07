@@ -1557,6 +1557,349 @@
     ]
   },
   {
+    "atomicNumber": 37,
+    "symbol": "Rb",
+    "name": "Rubídio",
+    "atomicMass": 85.4678,
+    "category": "metal-alcalino",
+    "group": 1,
+    "period": 5,
+    "block": "s",
+    "electronConfiguration": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 5s¹",
+    "electronegativity": 0.82,
+    "atomicRadius": 265,
+    "ionizationEnergy": 4.177,
+    "density": 1.532,
+    "meltingPoint": 312.46,
+    "boilingPoint": 961,
+    "discoveryYear": 1861,
+    "discoveredBy": "Robert Bunsen, Gustav Kirchhoff",
+    "description": "Rubídio é um metal alcalino macio, altamente reativo e prateado, que inflama espontaneamente em ar. É usado em células fotoelétricas, pesquisas científicas e em relógios atômicos.",
+    "applications": [
+      "Relógios atômicos",
+      "Células fotoelétricas",
+      "Produção de vidros especiais",
+      "Pesquisa biomédica"
+    ],
+    "compounds": [
+      {
+        "formula": "RbCl",
+        "name": "Cloreto de Rubídio"
+      },
+      {
+        "formula": "RbNO₃",
+        "name": "Nitrato de Rubídio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 38,
+    "symbol": "Sr",
+    "name": "Estrôncio",
+    "atomicMass": 87.62,
+    "category": "metal-alcalino-terroso",
+    "group": 2,
+    "period": 5,
+    "block": "s",
+    "electronConfiguration": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 5s²",
+    "electronegativity": 0.95,
+    "atomicRadius": 219,
+    "ionizationEnergy": 5.695,
+    "density": 2.64,
+    "meltingPoint": 1050,
+    "boilingPoint": 1655,
+    "discoveryYear": 1790,
+    "discoveredBy": "Adair Crawford",
+    "description": "O estrôncio é um metal alcalino-terroso de cor prateada, altamente reativo com água e ar. Compostos de estrôncio são usados em fogos de artifício para produzir chamas vermelhas intensas.",
+    "applications": [
+      "Fogos de artifício",
+      "Cátodos em televisores antigos",
+      "Produção de ímãs",
+      "Tratamento de osteoporose"
+    ],
+    "compounds": [
+      {
+        "formula": "SrCO₃",
+        "name": "Carbonato de Estrôncio"
+      },
+      {
+        "formula": "Sr(NO₃)₂",
+        "name": "Nitrato de Estrôncio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 39,
+    "symbol": "Y",
+    "name": "Ítrio",
+    "atomicMass": 88.90584,
+    "category": "metal de transição",
+    "group": 3,
+    "period": 5,
+    "block": "d",
+    "electronConfiguration": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹ 5s²",
+    "electronegativity": 1.22,
+    "atomicRadius": 180,
+    "ionizationEnergy": 6.217,
+    "density": 4.469,
+    "meltingPoint": 1526,
+    "boilingPoint": 3338,
+    "discoveryYear": 1794,
+    "discoveredBy": "Johan Gadolin",
+    "description": "O ítrio é um metal de transição prateado usado principalmente em fósforos vermelhos de televisores e em materiais supercondutores. Possui propriedades semelhantes às terras raras.",
+    "applications": [
+      "Supercondutores",
+      "Televisores CRT",
+      "Cerâmicas resistentes",
+      "Laseres de ítrio-alumínio (YAG)"
+    ],
+    "compounds": [
+      {
+        "formula": "Y₂O₃",
+        "name": "Óxido de Ítrio"
+      },
+      {
+        "formula": "YCl₃",
+        "name": "Cloreto de Ítrio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 40,
+    "symbol": "Zr",
+    "name": "Zircônio",
+    "atomicMass": 91.224,
+    "category": "metal de transição",
+    "group": 4,
+    "period": 5,
+    "block": "d",
+    "electronConfiguration": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d² 5s²",
+    "electronegativity": 1.33,
+    "atomicRadius": 160,
+    "ionizationEnergy": 6.634,
+    "density": 6.52,
+    "meltingPoint": 1855,
+    "boilingPoint": 4409,
+    "discoveryYear": 1789,
+    "discoveredBy": "Martin Heinrich Klaproth",
+    "description": "O zircônio é um metal de transição resistente à corrosão, usado em reatores nucleares devido à sua baixa absorção de nêutrons. Também é encontrado em joias e cerâmicas.",
+    "applications": [
+      "Reatores nucleares",
+      "Cerâmicas avançadas",
+      "Joias (zircônia cúbica)",
+      "Ligas metálicas"
+    ],
+    "compounds": [
+      {
+        "formula": "ZrO₂",
+        "name": "Dióxido de Zircônio"
+      },
+      {
+        "formula": "ZrCl₄",
+        "name": "Tetracloreto de Zircônio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 41,
+    "symbol": "Nb",
+    "name": "Nióbio",
+    "atomicMass": 92.90637,
+    "category": "metal de transição",
+    "group": 5,
+    "period": 5,
+    "block": "d",
+    "electronConfiguration": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d⁴ 5s¹",
+    "electronegativity": 1.6,
+    "atomicRadius": 146,
+    "ionizationEnergy": 6.759,
+    "density": 8.57,
+    "meltingPoint": 2750,
+    "boilingPoint": 5017,
+    "discoveryYear": 1801,
+    "discoveredBy": "Charles Hatchett",
+    "description": "O nióbio é um metal resistente à corrosão, usado em ligas de aço para construção civil e na produção de supercondutores. É um importante produto de exportação do Brasil.",
+    "applications": [
+      "Ligas de aço",
+      "Supercondutores",
+      "Componentes aeroespaciais",
+      "Tecnologia médica (implantes)"
+    ],
+    "compounds": [
+      {
+        "formula": "Nb₂O₅",
+        "name": "Pentóxido de Nióbio"
+      },
+      {
+        "formula": "NbCl₅",
+        "name": "Pentacloreto de Nióbio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 42,
+    "symbol": "Mo",
+    "name": "Molibdênio",
+    "atomicMass": 95.95,
+    "category": "metal de transição",
+    "group": 6,
+    "period": 5,
+    "block": "d",
+    "electronConfiguration": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d⁵ 5s¹",
+    "electronegativity": 2.16,
+    "atomicRadius": 139,
+    "ionizationEnergy": 7.092,
+    "density": 10.22,
+    "meltingPoint": 2896,
+    "boilingPoint": 4912,
+    "discoveryYear": 1781,
+    "discoveredBy": "Carl Wilhelm Scheele",
+    "description": "O molibdênio é um metal de transição usado principalmente em ligas metálicas para aumentar resistência e durabilidade. Também tem importância em enzimas biológicas.",
+    "applications": [
+      "Ligas de aço inoxidável",
+      "Catalisadores",
+      "Fios para aquecimento elétrico",
+      "Enzimas biológicas"
+    ],
+    "compounds": [
+      {
+        "formula": "MoS₂",
+        "name": "Dissulfeto de Molibdênio"
+      },
+      {
+        "formula": "MoO₃",
+        "name": "Trióxido de Molibdênio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 43,
+    "symbol": "Tc",
+    "name": "Tecnécio",
+    "atomicMass": 98,
+    "category": "metal de transição",
+    "group": 7,
+    "period": 5,
+    "block": "d",
+    "electronConfiguration": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d⁵ 5s²",
+    "electronegativity": 1.9,
+    "atomicRadius": 136,
+    "ionizationEnergy": 7.28,
+    "density": 11,
+    "meltingPoint": 2430,
+    "boilingPoint": 4538,
+    "discoveryYear": 1937,
+    "discoveredBy": "Carlo Perrier, Emilio Segrè",
+    "description": "O tecnécio é o primeiro elemento sintético descoberto. É radioativo e usado em exames de imagem médica (cintilografia), especialmente com o isótopo Tc-99m.",
+    "applications": [
+      "Diagnóstico por imagem médica (Tc-99m)",
+      "Pesquisa nuclear",
+      "Marcadores radioativos"
+    ],
+    "compounds": [
+      {
+        "formula": "TcO₄⁻",
+        "name": "Pertecnetato"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 44,
+    "symbol": "Ru",
+    "name": "Rutênio",
+    "atomicMass": 101.07,
+    "category": "metal de transição",
+    "group": 8,
+    "period": 5,
+    "block": "d",
+    "electronConfiguration": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d⁷ 5s¹",
+    "electronegativity": 2.2,
+    "atomicRadius": 134,
+    "ionizationEnergy": 7.361,
+    "density": 12.37,
+    "meltingPoint": 2607,
+    "boilingPoint": 4423,
+    "discoveryYear": 1844,
+    "discoveredBy": "Karl Ernst Claus",
+    "description": "Rutênio é um metal raro do grupo da platina, utilizado em contatos elétricos, ligas especiais e em catalisadores. Também tem aplicação na eletrônica e na química orgânica.",
+    "applications": [
+      "Contatos elétricos",
+      "Catalisadores",
+      "Revestimentos anticorrosivos",
+      "Eletrônica"
+    ],
+    "compounds": [
+      {
+        "formula": "RuCl₃",
+        "name": "Tricloreto de Rutênio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 45,
+    "symbol": "Rh",
+    "name": "Ródio",
+    "atomicMass": 102.91,
+    "category": "metal de transição",
+    "group": 9,
+    "period": 5,
+    "block": "d",
+    "electronConfiguration": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d⁸ 5s¹",
+    "electronegativity": 2.28,
+    "atomicRadius": 134,
+    "ionizationEnergy": 7.458,
+    "density": 12.41,
+    "meltingPoint": 2237,
+    "boilingPoint": 3968,
+    "discoveryYear": 1803,
+    "discoveredBy": "William Hyde Wollaston",
+    "description": "O ródio é um metal nobre altamente refletivo, usado em catalisadores automotivos, joalheria e espelhos especiais. É resistente à corrosão e muito valioso.",
+    "applications": [
+      "Catalisadores automotivos",
+      "Joias (banho de ródio)",
+      "Espelhos especiais",
+      "Eletrônica de precisão"
+    ],
+    "compounds": [
+      {
+        "formula": "RhCl₃",
+        "name": "Tricloreto de Ródio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 46,
+    "symbol": "Pd",
+    "name": "Paládio",
+    "atomicMass": 106.42,
+    "category": "metal de transição",
+    "group": 10,
+    "period": 5,
+    "block": "d",
+    "electronConfiguration": "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰",
+    "electronegativity": 2.2,
+    "atomicRadius": 137,
+    "ionizationEnergy": 8.336,
+    "density": 12.02,
+    "meltingPoint": 1554.9,
+    "boilingPoint": 2963,
+    "discoveryYear": 1803,
+    "discoveredBy": "William Hyde Wollaston",
+    "description": "O paládio é um metal nobre utilizado em catalisadores, eletrônica e joalheria. É conhecido por sua capacidade de absorver hidrogênio, sendo estudado em tecnologias de energia limpa.",
+    "applications": [
+      "Catalisadores automotivos",
+      "Eletrônica",
+      "Joias",
+      "Purificação de hidrogênio"
+    ],
+    "compounds": [
+      {
+        "formula": "PdCl₂",
+        "name": "Dicloreto de Paládio"
+      }
+    ]
+  },
+  {
     "atomicNumber": 47,
     "symbol": "Ag",
     "name": "Prata",
@@ -1598,6 +1941,1148 @@
       {
         "formula": "Ag₂S",
         "name": "Sulfeto de Prata"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 48,
+    "symbol": "Cd",
+    "name": "Cádmio",
+    "atomicMass": 112.414,
+    "category": "metal de transição",
+    "group": 12,
+    "period": 5,
+    "block": "d",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s²",
+    "electronegativity": 1.69,
+    "atomicRadius": 151,
+    "ionizationEnergy": 8.993,
+    "density": 8.65,
+    "meltingPoint": 594.22,
+    "boilingPoint": 1040,
+    "discoveryYear": 1817,
+    "discoveredBy": "Friedrich Stromeyer",
+    "description": "O cádmio é um metal macio, maleável e de cor branco-azulada. É tóxico e é utilizado principalmente em baterias recarregáveis, pigmentos e revestimentos metálicos resistentes à corrosão.",
+    "applications": [
+      "Baterias de níquel-cádmio",
+      "Revestimentos anticorrosivos",
+      "Pigmentos para plásticos e tintas",
+      "Estabilizadores para plásticos",
+      "Controle de barras em reatores nucleares"
+    ],
+    "compounds": [
+      {
+        "formula": "CdS",
+        "name": "Sulfeto de Cádmio"
+      },
+      {
+        "formula": "CdTe",
+        "name": "Telureto de Cádmio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 49,
+    "symbol": "In",
+    "name": "Índio",
+    "atomicMass": 114.818,
+    "category": "metal pós-transição",
+    "group": 13,
+    "period": 5,
+    "block": "p",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p¹",
+    "electronegativity": 1.78,
+    "atomicRadius": 156,
+    "ionizationEnergy": 5.786,
+    "density": 7.31,
+    "meltingPoint": 429.75,
+    "boilingPoint": 2345,
+    "discoveryYear": 1863,
+    "discoveredBy": "Ferdinand Reich, Hieronymous Theodor Richter",
+    "description": "O índio é um metal macio, maleável e de cor prateada. É utilizado em ligas de baixo ponto de fusão, telas de LCD e como revestimento em rolamentos devido à sua resistência ao desgaste.",
+    "applications": [
+      "Telas de LCD",
+      "Ligas de baixo ponto de fusão",
+      "Revestimentos em rolamentos",
+      "Semicondutores",
+      "Fotocondutores"
+    ],
+    "compounds": [
+      {
+        "formula": "InP",
+        "name": "Fosfeto de Índio"
+      },
+      {
+        "formula": "InSb",
+        "name": "Antimoneto de Índio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 50,
+    "symbol": "Sn",
+    "name": "Estanho",
+    "atomicMass": 118.710,
+    "category": "metal pós-transição",
+    "group": 14,
+    "period": 5,
+    "block": "p",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p²",
+    "electronegativity": 1.96,
+    "atomicRadius": 145,
+    "ionizationEnergy": 7.344,
+    "density": 7.29,
+    "meltingPoint": 505.08,
+    "boilingPoint": 2875,
+    "discoveryYear": "Antiguidade",
+    "discoveredBy": "Desconhecido",
+    "description": "O estanho é um metal macio, maleável e de cor prateada. É resistente à corrosão e é amplamente utilizado em ligas, como o bronze, e para revestir outros metais, prevenindo a oxidação.",
+    "applications": [
+      "Ligas como bronze e soldas",
+      "Revestimento de metais (estanhagem)",
+      "Embalagens de alimentos (latas)",
+      "Vidros para janelas (processo de flotação)",
+      "Cerâmicas e pigmentos"
+    ],
+    "compounds": [
+      {
+        "formula": "SnO₂",
+        "name": "Dióxido de Estanho"
+      },
+      {
+        "formula": "SnCl₂",
+        "name": "Cloreto de Estanho(II)"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 51,
+    "symbol": "Sb",
+    "name": "Antimônio",
+    "atomicMass": 121.760,
+    "category": "metalóide",
+    "group": 15,
+    "period": 5,
+    "block": "p",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p³",
+    "electronegativity": 2.05,
+    "atomicRadius": 133,
+    "ionizationEnergy": 8.64,
+    "density": 6.68,
+    "meltingPoint": 903.78,
+    "boilingPoint": 1860,
+    "discoveryYear": "Antiguidade",
+    "discoveredBy": "Desconhecido",
+    "description": "O antimônio é um metalóide de cor prateada e quebradiço. É utilizado em ligas para aumentar a dureza e resistência, em retardadores de chama e em dispositivos semicondutores.",
+    "applications": [
+      "Ligas metálicas (como o estanho-antimônio)",
+      "Retardadores de chama",
+      "Baterias de chumbo-ácido",
+      "Semicondutores",
+      "Pigmentos e cerâmicas"
+    ],
+    "compounds": [
+      {
+        "formula": "Sb₂S₃",
+        "name": "Sulfeto de Antimônio(III)"
+      },
+      {
+        "formula": "SbCl₃",
+        "name": "Cloreto de Antimônio(III)"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 52,
+    "symbol": "Te",
+    "name": "Telúrio",
+    "atomicMass": 127.60,
+    "category": "metalóide",
+    "group": 16,
+    "period": 5,
+    "block": "p",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p⁴",
+    "electronegativity": 2.1,
+    "atomicRadius": 140,
+    "ionizationEnergy": 9.009,
+    "density": 6.24,
+    "meltingPoint": 722.66,
+    "boilingPoint": 1261,
+    "discoveryYear": 1782,
+    "discoveredBy": "Franz-Joseph Müller von Reichenstein",
+    "description": "O telúrio é um metalóide raro, de coloração prateada e quebradiço. Possui propriedades semelhantes às do selênio e é utilizado em ligas metálicas para melhorar a usinabilidade e resistência à corrosão, além de aplicações em semicondutores e dispositivos termoelétricos.",
+    "applications": [
+      "Ligas metálicas para resistência à corrosão",
+      "Semicondutores",
+      "Dispositivos termoelétricos",
+      "Aditivos em vidros e cerâmicas",
+      "Pigmentos para plásticos"
+    ],
+    "compounds": [
+      {
+        "formula": "TeO₂",
+        "name": "Dióxido de Telúrio"
+      },
+      {
+        "formula": "H₂Te",
+        "name": "Telureto de Hidrogênio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 53,
+    "symbol": "I",
+    "name": "Iodo",
+    "atomicMass": 126.90,
+    "category": "halogênio",
+    "group": 17,
+    "period": 5,
+    "block": "p",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p⁵",
+    "electronegativity": 2.66,
+    "atomicRadius": 139,
+    "ionizationEnergy": 10.451,
+    "density": 4.93,
+    "meltingPoint": 386.85,
+    "boilingPoint": 457.4,
+    "discoveryYear": 1811,
+    "discoveredBy": "Bernard Courtois",
+    "description": "O iodo é um halogênio de coloração violeta-escura e brilhante. É essencial para a síntese dos hormônios da tireoide em organismos vivos e é utilizado em antissépticos, contrastes radiológicos e na produção de corantes e produtos farmacêuticos.",
+    "applications": [
+      "Antissépticos (como tintura de iodo)",
+      "Produção de hormônios tireoidianos",
+      "Contrastes em exames de imagem",
+      "Corantes e pigmentos",
+      "Catalisadores na indústria química"
+    ],
+    "compounds": [
+      {
+        "formula": "KI",
+        "name": "Iodeto de Potássio"
+      },
+      {
+        "formula": "I₂O₅",
+        "name": "Pentóxido de Diiodo"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 54,
+    "symbol": "Xe",
+    "name": "Xenônio",
+    "atomicMass": 131.29,
+    "category": "gás nobre",
+    "group": 18,
+    "period": 5,
+    "block": "p",
+    "electronConfiguration": "[Kr] 4d¹⁰ 5s² 5p⁶",
+    "electronegativity": 2.6,
+    "atomicRadius": 140,
+    "ionizationEnergy": 12.130,
+    "density": 0.005894,
+    "meltingPoint": 161.4,
+    "boilingPoint": 165.03,
+    "discoveryYear": 1898,
+    "discoveredBy": "William Ramsay, Morris Travers",
+    "description": "O xenônio é um gás nobre incolor, inodoro e pesado. Embora geralmente inerte, pode formar compostos com elementos altamente eletronegativos, como o flúor. É utilizado em lâmpadas de flash, lâmpadas de descarga de alta intensidade e como anestésico geral em medicina.",
+    "applications": [
+      "Lâmpadas de flash fotográfico",
+      "Lâmpadas de descarga de alta intensidade",
+      "Anestesia geral",
+      "Propulsão de satélites (motores iônicos)",
+      "Detectores de radiação"
+    ],
+    "compounds": [
+      {
+        "formula": "XeF₂",
+        "name": "Difluoreto de Xenônio"
+      },
+      {
+        "formula": "XeO₄",
+        "name": "Tetraóxido de Xenônio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 55,
+    "symbol": "Cs",
+    "name": "Césio",
+    "atomicMass": 132.91,
+    "category": "metal alcalino",
+    "group": 1,
+    "period": 6,
+    "block": "s",
+    "electronConfiguration": "[Xe] 6s¹",
+    "electronegativity": 0.79,
+    "atomicRadius": 265,
+    "ionizationEnergy": 3.894,
+    "density": 1.93,
+    "meltingPoint": 301.59,
+    "boilingPoint": 944,
+    "discoveryYear": 1860,
+    "discoveredBy": "Robert Bunsen, Gustav Kirchhoff",
+    "description": "O césio é um metal alcalino macio, de coloração dourada e altamente reativo. É utilizado em relógios atômicos, células fotoelétricas e como fluido de perfuração em extração de petróleo devido à sua alta densidade.",
+    "applications": [
+      "Relógios atômicos",
+      "Células fotoelétricas",
+      "Fluido de perfuração em extração de petróleo",
+      "Propulsão iônica em satélites",
+      "Detectores de radiação"
+    ],
+    "compounds": [
+      {
+        "formula": "CsCl",
+        "name": "Cloreto de Césio"
+      },
+      {
+        "formula": "CsNO₃",
+        "name": "Nitrato de Césio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 56,
+    "symbol": "Ba",
+    "name": "Bário",
+    "atomicMass": 137.33,
+    "category": "metal alcalino-terroso",
+    "group": 2,
+    "period": 6,
+    "block": "s",
+    "electronConfiguration": "[Xe] 6s²",
+    "electronegativity": 0.89,
+    "atomicRadius": 222,
+    "ionizationEnergy": 5.212,
+    "density": 3.62,
+    "meltingPoint": 998,
+    "boilingPoint": 1910,
+    "discoveryYear": 1808,
+    "discoveredBy": "Humphry Davy",
+    "description": "O bário é um metal alcalino-terroso prateado e macio. Devido à sua reatividade, nunca é encontrado livre na natureza. Seus compostos são usados em fogos de artifício e exames médicos.",
+    "applications": [
+      "Fogos de artifício",
+      "Tintas fluorescentes",
+      "Radiografias médicas com sulfato de bário",
+      "Cerâmicas",
+      "Vidros especiais"
+    ],
+    "compounds": [
+      {
+        "formula": "BaSO₄",
+        "name": "Sulfato de Bário"
+      },
+      {
+        "formula": "BaCl₂",
+        "name": "Cloreto de Bário"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 57,
+    "symbol": "La",
+    "name": "Lantânio",
+    "atomicMass": 138.91,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 5d¹ 6s²",
+    "electronegativity": 1.10,
+    "atomicRadius": 187,
+    "ionizationEnergy": 5.577,
+    "density": 6.15,
+    "meltingPoint": 1193,
+    "boilingPoint": 3737,
+    "discoveryYear": 1839,
+    "discoveredBy": "Carl Gustaf Mosander",
+    "description": "O lantânio é um metal branco-prateado, macio, altamente maleável, utilizado principalmente em ligas e materiais ópticos.",
+    "applications": [
+      "Vidros óticos",
+      "Catalisadores automotivos",
+      "Lentes de câmeras",
+      "Ligas metálicas",
+      "Baterias de níquel-hidreto metálico"
+    ],
+    "compounds": [
+      {
+        "formula": "La₂O₃",
+        "name": "Óxido de Lantânio"
+      },
+      {
+        "formula": "LaCl₃",
+        "name": "Cloreto de Lantânio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 58,
+    "symbol": "Ce",
+    "name": "Cério",
+    "atomicMass": 140.12,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f¹ 5d¹ 6s²",
+    "electronegativity": 1.12,
+    "atomicRadius": 182,
+    "ionizationEnergy": 5.538,
+    "density": 6.77,
+    "meltingPoint": 1068,
+    "boilingPoint": 3716,
+    "discoveryYear": 1803,
+    "discoveredBy": "Jöns Jakob Berzelius, Wilhelm Hisinger, Martin Heinrich Klaproth",
+    "description": "O cério é um metal reativo usado em ligas metálicas e em catalisadores automotivos devido à sua capacidade de alternar estados de oxidação.",
+    "applications": [
+      "Catalisadores automotivos",
+      "Polimento de vidro",
+      "Ligas para isqueiros",
+      "Células de combustível",
+      "Aditivos para combustíveis"
+    ],
+    "compounds": [
+      {
+        "formula": "CeO₂",
+        "name": "Dióxido de Cério"
+      },
+      {
+        "formula": "CeCl₃",
+        "name": "Cloreto de Cério"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 59,
+    "symbol": "Pr",
+    "name": "Praseodímio",
+    "atomicMass": 140.91,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f³ 6s²",
+    "electronegativity": 1.13,
+    "atomicRadius": 182,
+    "ionizationEnergy": 5.473,
+    "density": 6.77,
+    "meltingPoint": 1208,
+    "boilingPoint": 3793,
+    "discoveryYear": 1885,
+    "discoveredBy": "Carl Auer von Welsbach",
+    "description": "O praseodímio é um metal de coloração verde-amarelada, usado em ímãs de terras raras, vidros de segurança e ligas metálicas resistentes ao calor.",
+    "applications": [
+      "Ímãs de terras raras",
+      "Óculos de soldagem",
+      "Ligas para motores de avião",
+      "Lentes especiais",
+      "Geradores eólicas"
+    ],
+    "compounds": [
+      {
+        "formula": "Pr₂O₃",
+        "name": "Óxido de Praseodímio"
+      },
+      {
+        "formula": "PrCl₃",
+        "name": "Cloreto de Praseodímio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 60,
+    "symbol": "Nd",
+    "name": "Neodímio",
+    "atomicMass": 144.24,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f⁴ 6s²",
+    "electronegativity": 1.14,
+    "atomicRadius": 181,
+    "ionizationEnergy": 5.525,
+    "density": 7.01,
+    "meltingPoint": 1297,
+    "boilingPoint": 3347,
+    "discoveryYear": 1885,
+    "discoveredBy": "Carl Auer von Welsbach",
+    "description": "O neodímio é um metal prateado usado principalmente na fabricação de ímãs superpotentes, vitais em eletrônicos, motores e turbinas eólicas.",
+    "applications": [
+      "Ímãs de neodímio",
+      "Motores elétricos",
+      "Turbinas eólicas",
+      "Fones de ouvido",
+      "Lasers"
+    ],
+    "compounds": [
+      {
+        "formula": "Nd₂O₃",
+        "name": "Óxido de Neodímio"
+      },
+      {
+        "formula": "NdCl₃",
+        "name": "Cloreto de Neodímio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 61,
+    "symbol": "Pm",
+    "name": "Promécio",
+    "atomicMass": 145,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f⁵ 6s²",
+    "electronegativity": 1.13,
+    "atomicRadius": 183,
+    "ionizationEnergy": 5.55,
+    "density": 7.26,
+    "meltingPoint": 1315,
+    "boilingPoint": 3273,
+    "discoveryYear": 1945,
+    "discoveredBy": "Jacob A. Marinsky, Lawrence E. Glendenin, Charles D. Coryell",
+    "description": "O promécio é um elemento radioativo raro que não ocorre naturalmente na crosta terrestre. É usado em dispositivos nucleares e geradores termoelétricos em satélites.",
+    "applications": [
+      "Geradores termoelétricos em satélites",
+      "Baterias nucleares",
+      "Marcadores luminosos",
+      "Pesquisa científica"
+    ],
+    "compounds": [
+      {
+        "formula": "Pm₂O₃",
+        "name": "Óxido de Promécio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 62,
+    "symbol": "Sm",
+    "name": "Samário",
+    "atomicMass": 150.36,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f⁶ 6s²",
+    "electronegativity": 1.17,
+    "atomicRadius": 180,
+    "ionizationEnergy": 5.644,
+    "density": 7.52,
+    "meltingPoint": 1345,
+    "boilingPoint": 2067,
+    "discoveryYear": 1879,
+    "discoveredBy": "Paul Émile Lecoq de Boisbaudran",
+    "description": "O samário é um lantanídeo prateado usado em ímãs permanentes, controle de reatores nucleares e lasers infravermelhos.",
+    "applications": [
+      "Ímãs permanentes",
+      "Lasers infravermelhos",
+      "Reatores nucleares",
+      "Vidros especiais",
+      "Dispositivos eletrônicos"
+    ],
+    "compounds": [
+      {
+        "formula": "Sm₂O₃",
+        "name": "Óxido de Samário"
+      },
+      {
+        "formula": "SmCl₃",
+        "name": "Cloreto de Samário"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 63,
+    "symbol": "Eu",
+    "name": "Európio",
+    "atomicMass": 151.96,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f⁷ 6s²",
+    "electronegativity": 1.2,
+    "atomicRadius": 198,
+    "ionizationEnergy": 5.670,
+    "density": 5.24,
+    "meltingPoint": 1099,
+    "boilingPoint": 1802,
+    "discoveryYear": 1901,
+    "discoveredBy": "Eugène-Anatole Demarçay",
+    "description": "O európio é um metal raro altamente reativo usado principalmente em fósforos de telas fluorescentes e LED devido à sua emissão de luz vermelha.",
+    "applications": [
+      "Telas de TV e monitores",
+      "Lâmpadas fluorescentes",
+      "LEDs",
+      "Marcadores de segurança",
+      "Absorventes de nêutrons"
+    ],
+    "compounds": [
+      {
+        "formula": "Eu₂O₃",
+        "name": "Óxido de Európio"
+      },
+      {
+        "formula": "EuCl₃",
+        "name": "Cloreto de Európio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 64,
+    "symbol": "Gd",
+    "name": "Gadolínio",
+    "atomicMass": 157.25,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f⁷ 5d¹ 6s²",
+    "electronegativity": 1.20,
+    "atomicRadius": 180,
+    "ionizationEnergy": 6.150,
+    "density": 7.90,
+    "meltingPoint": 1585,
+    "boilingPoint": 3546,
+    "discoveryYear": 1880,
+    "discoveredBy": "Jean Charles Galissard de Marignac",
+    "description": "O gadolínio é um lantanídeo usado em equipamentos de ressonância magnética e materiais para absorção de nêutrons.",
+    "applications": [
+      "Ressonância magnética (RM)",
+      "Absorvedores de nêutrons",
+      "Dispositivos de memória",
+      "Ligas metálicas",
+      "Fósforos"
+    ],
+    "compounds": [
+      {
+        "formula": "Gd₂O₃",
+        "name": "Óxido de Gadolínio"
+      },
+      {
+        "formula": "GdCl₃",
+        "name": "Cloreto de Gadolínio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 65,
+    "symbol": "Tb",
+    "name": "Térbio",
+    "atomicMass": 158.93,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f⁹ 6s²",
+    "electronegativity": 1.2,
+    "atomicRadius": 177,
+    "ionizationEnergy": 5.864,
+    "density": 8.23,
+    "meltingPoint": 1629,
+    "boilingPoint": 3503,
+    "discoveryYear": 1843,
+    "discoveredBy": "Carl Gustaf Mosander",
+    "description": "O térbio é um lantanídeo prateado usado em dispositivos eletrônicos, fósforos e ligas magnéticas.",
+    "applications": [
+      "Fósforos para telas",
+      "Dispositivos eletrônicos",
+      "Ligas magnéticas",
+      "LEDs verdes",
+      "Materiais piezoelétricos"
+    ],
+    "compounds": [
+      {
+        "formula": "Tb₄O₇",
+        "name": "Óxido de Térbio"
+      },
+      {
+        "formula": "TbCl₃",
+        "name": "Cloreto de Térbio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 66,
+    "symbol": "Dy",
+    "name": "Disprósio",
+    "atomicMass": 162.50,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f¹⁰ 6s²",
+    "electronegativity": 1.22,
+    "atomicRadius": 178,
+    "ionizationEnergy": 5.939,
+    "density": 8.55,
+    "meltingPoint": 1680,
+    "boilingPoint": 2840,
+    "discoveryYear": 1886,
+    "discoveredBy": "Paul Émile Lecoq de Boisbaudran",
+    "description": "O disprósio é um elemento de terras raras usado em ímãs de alto desempenho, lasers e controle de reatores nucleares.",
+    "applications": [
+      "Ímãs de alto desempenho",
+      "Lasers",
+      "Controle de reatores nucleares",
+      "Dispositivos de armazenamento de dados",
+      "Ligas resistentes ao calor"
+    ],
+    "compounds": [
+      {
+        "formula": "Dy₂O₃",
+        "name": "Óxido de Disprósio"
+      },
+      {
+        "formula": "DyCl₃",
+        "name": "Cloreto de Disprósio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 67,
+    "symbol": "Ho",
+    "name": "Hólmio",
+    "atomicMass": 164.93,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f¹¹ 6s²",
+    "electronegativity": 1.23,
+    "atomicRadius": 176,
+    "ionizationEnergy": 6.022,
+    "density": 8.80,
+    "meltingPoint": 1734,
+    "boilingPoint": 2993,
+    "discoveryYear": 1878,
+    "discoveredBy": "Per Teodor Cleve",
+    "description": "O hólmio é um elemento de terras raras com forte magnetismo, utilizado em ímãs, lasers e materiais de absorção de nêutrons.",
+    "applications": [
+      "Ímãs permanentes",
+      "Lasers médicos",
+      "Fibras ópticas",
+      "Absorção de nêutrons",
+      "Dispositivos magnéticos"
+    ],
+    "compounds": [
+      {
+        "formula": "Ho₂O₃",
+        "name": "Óxido de Hólmio"
+      },
+      {
+        "formula": "HoCl₃",
+        "name": "Cloreto de Hólmio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 68,
+    "symbol": "Er",
+    "name": "Érbio",
+    "atomicMass": 167.26,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f¹² 6s²",
+    "electronegativity": 1.24,
+    "atomicRadius": 175,
+    "ionizationEnergy": 6.108,
+    "density": 9.07,
+    "meltingPoint": 1802,
+    "boilingPoint": 3141,
+    "discoveryYear": 1843,
+    "discoveredBy": "Carl Gustaf Mosander",
+    "description": "O érbio é um metal de terras raras usado em amplificadores ópticos, lasers e aplicações médicas.",
+    "applications": [
+      "Amplificadores ópticos",
+      "Lasers médicos",
+      "Fibras ópticas",
+      "Corantes para vidro e cerâmica",
+      "Refrigeradores magnéticos"
+    ],
+    "compounds": [
+      {
+        "formula": "Er₂O₃",
+        "name": "Óxido de Érbio"
+      },
+      {
+        "formula": "ErCl₃",
+        "name": "Cloreto de Érbio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 69,
+    "symbol": "Tm",
+    "name": "Túlio",
+    "atomicMass": 168.93,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f¹³ 6s²",
+    "electronegativity": 1.25,
+    "atomicRadius": 174,
+    "ionizationEnergy": 6.184,
+    "density": 9.32,
+    "meltingPoint": 1818,
+    "boilingPoint": 2223,
+    "discoveryYear": 1879,
+    "discoveredBy": "Per Teodor Cleve",
+    "description": "O túlio é o segundo elemento menos abundante das terras raras. É usado em lasers médicos, geradores portáteis de raios X e em dispositivos eletrônicos.",
+    "applications": [
+      "Lasers médicos",
+      "Geradores de raios X",
+      "Fibras ópticas",
+      "Dispositivos eletrônicos",
+      "Luminóforos"
+    ],
+    "compounds": [
+      {
+        "formula": "Tm₂O₃",
+        "name": "Óxido de Túlio"
+      },
+      {
+        "formula": "TmCl₃",
+        "name": "Cloreto de Túlio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 70,
+    "symbol": "Yb",
+    "name": "Itérbio",
+    "atomicMass": 173.05,
+    "category": "lantanídeo",
+    "group": null,
+    "period": 6,
+    "block": "f",
+    "electronConfiguration": "[Xe] 4f¹⁴ 6s²",
+    "electronegativity": 1.1,
+    "atomicRadius": 173,
+    "ionizationEnergy": 6.254,
+    "density": 6.90,
+    "meltingPoint": 1097,
+    "boilingPoint": 1469,
+    "discoveryYear": 1878,
+    "discoveredBy": "Jean Charles Galissard de Marignac",
+    "description": "O itérbio é usado em lasers, materiais térmicos e pesquisas sobre física de estado sólido e pressão extrema.",
+    "applications": [
+      "Lasers",
+      "Geradores termoelétricos",
+      "Sensores de pressão",
+      "Fibras ópticas",
+      "Pesquisa em estado sólido"
+    ],
+    "compounds": [
+      {
+        "formula": "Yb₂O₃",
+        "name": "Óxido de Itérbio"
+      },
+      {
+        "formula": "YbCl₃",
+        "name": "Cloreto de Itérbio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 71,
+    "symbol": "Lu",
+    "name": "Lutécio",
+    "atomicMass": 174.97,
+    "category": "lantanídeo",
+    "group": 3,
+    "period": 6,
+    "block": "d",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹ 6s²",
+    "electronegativity": 1.27,
+    "atomicRadius": 172,
+    "ionizationEnergy": 5.425,
+    "density": 9.84,
+    "meltingPoint": 1936,
+    "boilingPoint": 3675,
+    "discoveryYear": 1907,
+    "discoveredBy": "Georges Urbain",
+    "description": "O lutécio é o último dos lantanídeos, utilizado em catalisadores, cristais sintéticos e pesquisas nucleares.",
+    "applications": [
+      "Catalisadores de craqueamento",
+      "Cristais de cintilação",
+      "Pesquisas nucleares",
+      "Ligas metálicas",
+      "Detectores de radiação"
+    ],
+    "compounds": [
+      {
+        "formula": "Lu₂O₃",
+        "name": "Óxido de Lutécio"
+      },
+      {
+        "formula": "LuCl₃",
+        "name": "Cloreto de Lutécio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 72,
+    "symbol": "Hf",
+    "name": "Háfnio",
+    "atomicMass": 178.49,
+    "category": "metal de transição",
+    "group": 4,
+    "period": 6,
+    "block": "d",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d² 6s²",
+    "electronegativity": 1.3,
+    "atomicRadius": 159,
+    "ionizationEnergy": 6.825,
+    "density": 13.31,
+    "meltingPoint": 2506,
+    "boilingPoint": 4876,
+    "discoveryYear": 1923,
+    "discoveredBy": "Dirk Coster, George de Hevesy",
+    "description": "O háfnio é um metal resistente à corrosão e ao calor, usado em reatores nucleares e na fabricação de microchips.",
+    "applications": [
+      "Revestimentos de reatores nucleares",
+      "Componentes de microchips",
+      "Ligas de alta temperatura",
+      "Lâmpadas de filamento",
+      "Cerâmicas eletrônicas"
+    ],
+    "compounds": [
+      {
+        "formula": "HfO₂",
+        "name": "Óxido de Háfnio"
+      },
+      {
+        "formula": "HfCl₄",
+        "name": "Tetracloreto de Háfnio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 73,
+    "symbol": "Ta",
+    "name": "Tântalo",
+    "atomicMass": 180.95,
+    "category": "metal de transição",
+    "group": 5,
+    "period": 6,
+    "block": "d",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d³ 6s²",
+    "electronegativity": 1.5,
+    "atomicRadius": 146,
+    "ionizationEnergy": 7.89,
+    "density": 16.69,
+    "meltingPoint": 3290,
+    "boilingPoint": 5731,
+    "discoveryYear": 1802,
+    "discoveredBy": "Anders Ekeberg",
+    "description": "O tântalo é altamente resistente à corrosão, sendo utilizado principalmente em capacitores eletrônicos e implantes médicos.",
+    "applications": [
+      "Capacitores eletrônicos",
+      "Implantes médicos",
+      "Ligas resistentes",
+      "Instrumentos cirúrgicos",
+      "Componentes aeroespaciais"
+    ],
+    "compounds": [
+      {
+        "formula": "Ta₂O₅",
+        "name": "Pentóxido de Tântalo"
+      },
+      {
+        "formula": "TaCl₅",
+        "name": "Pentacloreto de Tântalo"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 74,
+    "symbol": "W",
+    "name": "Tungstênio",
+    "atomicMass": 183.84,
+    "category": "metal de transição",
+    "group": 6,
+    "period": 6,
+    "block": "d",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d⁴ 6s²",
+    "electronegativity": 2.36,
+    "atomicRadius": 139,
+    "ionizationEnergy": 7.98,
+    "density": 19.25,
+    "meltingPoint": 3695,
+    "boilingPoint": 5828,
+    "discoveryYear": 1783,
+    "discoveredBy": "Fausto e Juan José de Elhuyar",
+    "description": "O tungstênio tem o ponto de fusão mais alto de todos os metais e é usado em filamentos de lâmpadas e ferramentas de corte.",
+    "applications": [
+      "Filamentos de lâmpadas",
+      "Eletrodos",
+      "Ferramentas de corte",
+      "Blindagens",
+      "Ligas resistentes ao calor"
+    ],
+    "compounds": [
+      {
+        "formula": "WO₃",
+        "name": "Trióxido de tungstênio"
+      },
+      {
+        "formula": "WCl₆",
+        "name": "Hexacloreto de tungstênio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 75,
+    "symbol": "Re",
+    "name": "Rênio",
+    "atomicMass": 186.21,
+    "category": "metal de transição",
+    "group": 7,
+    "period": 6,
+    "block": "d",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d⁵ 6s²",
+    "electronegativity": 1.9,
+    "atomicRadius": 137,
+    "ionizationEnergy": 7.88,
+    "density": 21.02,
+    "meltingPoint": 3459,
+    "boilingPoint": 5869,
+    "discoveryYear": 1925,
+    "discoveredBy": "Walter Noddack, Ida Tacke, Otto Berg",
+    "description": "O rênio é um dos metais mais densos e é usado em superligas para motores a jato devido à sua alta resistência ao calor.",
+    "applications": [
+      "Motores a jato",
+      "Contatos elétricos",
+      "Termopares",
+      "Ligas super resistentes",
+      "Catalisadores"
+    ],
+    "compounds": [
+      {
+        "formula": "Re₂O₇",
+        "name": "Heptóxido de rênio"
+      },
+      {
+        "formula": "ReCl₅",
+        "name": "Pentacloreto de rênio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 76,
+    "symbol": "Os",
+    "name": "Ósmio",
+    "atomicMass": 190.23,
+    "category": "metal de transição",
+    "group": 8,
+    "period": 6,
+    "block": "d",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d⁶ 6s²",
+    "electronegativity": 2.2,
+    "atomicRadius": 135,
+    "ionizationEnergy": 8.7,
+    "density": 22.59,
+    "meltingPoint": 3306,
+    "boilingPoint": 5285,
+    "discoveryYear": 1803,
+    "discoveredBy": "Smithson Tennant",
+    "description": "O ósmio é o metal mais denso conhecido e é usado em contatos elétricos e pontas de canetas-tinteiro.",
+    "applications": [
+      "Pontas de canetas-tinteiro",
+      "Contatos elétricos",
+      "Ligas de platina",
+      "Instrumentos cirúrgicos",
+      "Catalisadores"
+    ],
+    "compounds": [
+      {
+        "formula": "OsO₄",
+        "name": "Tetraóxido de ósmio"
+      },
+      {
+        "formula": "OsCl₄",
+        "name": "Tetracloreto de ósmio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 77,
+    "symbol": "Ir",
+    "name": "Irídio",
+    "atomicMass": 192.22,
+    "category": "metal de transição",
+    "group": 9,
+    "period": 6,
+    "block": "d",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d⁷ 6s²",
+    "electronegativity": 2.2,
+    "atomicRadius": 136,
+    "ionizationEnergy": 9.1,
+    "density": 22.56,
+    "meltingPoint": 2719,
+    "boilingPoint": 4403,
+    "discoveryYear": 1803,
+    "discoveredBy": "Smithson Tennant",
+    "description": "O irídio é altamente resistente à corrosão e é utilizado em ligas com platina, contatos elétricos e velas de ignição.",
+    "applications": [
+      "Velas de ignição",
+      "Contatos elétricos",
+      "Ligas de platina",
+      "Instrumentos cirúrgicos",
+      "Equipamentos de laboratório"
+    ],
+    "compounds": [
+      {
+        "formula": "IrCl₃",
+        "name": "Tricloreto de irídio"
+      },
+      {
+        "formula": "IrO₂",
+        "name": "Dióxido de irídio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 78,
+    "symbol": "Pt",
+    "name": "Platina",
+    "atomicMass": 195.08,
+    "category": "metal de transição",
+    "group": 10,
+    "period": 6,
+    "block": "d",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d⁹ 6s¹",
+    "electronegativity": 2.28,
+    "atomicRadius": 139,
+    "ionizationEnergy": 9,
+    "density": 21.45,
+    "meltingPoint": 2041.4,
+    "boilingPoint": 4098,
+    "discoveryYear": 1735,
+    "discoveredBy": "Antonio de Ulloa",
+    "description": "A platina é um metal nobre altamente resistente à corrosão, amplamente utilizada em joias, catalisadores e equipamentos médicos.",
+    "applications": [
+      "Joalheria",
+      "Catalisadores automotivos",
+      "Equipamentos médicos",
+      "Termopares",
+      "Contatos elétricos"
+    ],
+    "compounds": [
+      {
+        "formula": "PtCl₂",
+        "name": "Dicloreto de platina"
+      },
+      {
+        "formula": "PtO₂",
+        "name": "Dióxido de platina"
       }
     ]
   },
@@ -1647,6 +3132,80 @@
     ]
   },
   {
+    "atomicNumber": 80,
+    "symbol": "Hg",
+    "name": "Mercúrio",
+    "atomicMass": 200.59,
+    "category": "metal de transição",
+    "group": 12,
+    "period": 6,
+    "block": "d",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s²",
+    "electronegativity": 2.00,
+    "atomicRadius": 132,
+    "ionizationEnergy": 10.44,
+    "density": 13.534,
+    "meltingPoint": -38.83,
+    "boilingPoint": 356.73,
+    "discoveryYear": "Antiguidade",
+    "discoveredBy": "Desconhecido",
+    "description": "O mercúrio é o único metal líquido à temperatura ambiente e é usado em termômetros, lâmpadas fluorescentes e instrumentos científicos.",
+    "applications": [
+      "Termômetros",
+      "Barômetros",
+      "Interruptores elétricos",
+      "Lâmpadas fluorescentes",
+      "Amálgamas dentárias"
+    ],
+    "compounds": [
+      {
+        "formula": "HgCl₂",
+        "name": "Cloreto de mercúrio(II)"
+      },
+      {
+        "formula": "HgS",
+        "name": "Sulfeto de mercúrio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 81,
+    "symbol": "Tl",
+    "name": "Tálio",
+    "atomicMass": 204.38,
+    "category": "metal pós-transição",
+    "group": 13,
+    "period": 6,
+    "block": "p",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p¹",
+    "electronegativity": 1.62,
+    "atomicRadius": 145,
+    "ionizationEnergy": 6.11,
+    "density": 11.85,
+    "meltingPoint": 304,
+    "boilingPoint": 1473,
+    "discoveryYear": 1861,
+    "discoveredBy": "William Crookes",
+    "description": "O tálio é um metal macio e tóxico, usado em semicondutores, detectores infravermelhos e em certos pesticidas.",
+    "applications": [
+      "Detectores infravermelhos",
+      "Cristais ópticos",
+      "Semicondutores",
+      "Pesticidas (uso restrito)",
+      "Ligas especiais"
+    ],
+    "compounds": [
+      {
+        "formula": "Tl₂SO₄",
+        "name": "Sulfato de tálio(I)"
+      },
+      {
+        "formula": "TlCl₃",
+        "name": "Tricloreto de tálio"
+      }
+    ]
+  },
+  {
     "atomicNumber": 82,
     "symbol": "Pb",
     "name": "Chumbo",
@@ -1688,6 +3247,276 @@
       {
         "formula": "PbSO₄",
         "name": "Sulfato de Chumbo"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 83,
+    "symbol": "Bi",
+    "name": "Bismuto",
+    "atomicMass": 208.98,
+    "category": "metal pós-transição",
+    "group": 15,
+    "period": 6,
+    "block": "p",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³",
+    "electronegativity": 2.02,
+    "atomicRadius": 143,
+    "ionizationEnergy": 7.29,
+    "density": 9.78,
+    "meltingPoint": 271.4,
+    "boilingPoint": 1564,
+    "discoveryYear": "Antiguidade",
+    "discoveredBy": "Desconhecido",
+    "description": "O bismuto é um metal pesado, não tóxico, frequentemente usado como substituto do chumbo em ligas e aplicações médicas.",
+    "applications": [
+      "Medicamentos",
+      "Cosméticos",
+      "Ligas de baixa fusão",
+      "Detectores de incêndio",
+      "Substituto do chumbo"
+    ],
+    "compounds": [
+      {
+        "formula": "Bi₂O₃",
+        "name": "Óxido de bismuto(III)"
+      },
+      {
+        "formula": "BiCl₃",
+        "name": "Cloreto de bismuto(III)"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 84,
+    "symbol": "Po",
+    "name": "Polônio",
+    "atomicMass": 209,
+    "category": "metal pós-transição",
+    "group": 16,
+    "period": 6,
+    "block": "p",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁴",
+    "electronegativity": 2.0,
+    "atomicRadius": 135,
+    "ionizationEnergy": 8.42,
+    "density": 9.196,
+    "meltingPoint": 254,
+    "boilingPoint": 962,
+    "discoveryYear": 1898,
+    "discoveredBy": "Marie e Pierre Curie",
+    "description": "O polônio é um elemento altamente radioativo, usado como fonte de calor em satélites e armas nucleares.",
+    "applications": [
+      "Fontes de calor para sondas espaciais",
+      "Geradores termoelétricos",
+      "Pesquisa nuclear"
+    ],
+    "compounds": [
+      {
+        "formula": "PoO₂",
+        "name": "Dióxido de polônio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 85,
+    "symbol": "At",
+    "name": "Astato",
+    "atomicMass": 210,
+    "category": "halogênio",
+    "group": 17,
+    "period": 6,
+    "block": "p",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵",
+    "electronegativity": 2.2,
+    "atomicRadius": 127,
+    "ionizationEnergy": 9.3,
+    "density": 7,
+    "meltingPoint": 302,
+    "boilingPoint": 337,
+    "discoveryYear": 1940,
+    "discoveredBy": "Dale R. Corson, Kenneth Ross MacKenzie, Emilio Segrè",
+    "description": "O astato é um elemento extremamente raro e radioativo, com aplicações experimentais na medicina nuclear.",
+    "applications": [
+      "Pesquisa em radioterapia",
+      "Medicina nuclear (experimental)"
+    ],
+    "compounds": [
+      {
+        "formula": "AtI",
+        "name": "Iodeto de astato"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 86,
+    "symbol": "Rn",
+    "name": "Radônio",
+    "atomicMass": 222,
+    "category": "gás nobre",
+    "group": 18,
+    "period": 6,
+    "block": "p",
+    "electronConfiguration": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁶",
+    "electronegativity": 2.2,
+    "atomicRadius": 120,
+    "ionizationEnergy": 10.75,
+    "density": 9.73,
+    "meltingPoint": -71,
+    "boilingPoint": -61.7,
+    "discoveryYear": 1900,
+    "discoveredBy": "Friedrich Ernst Dorn",
+    "description": "O radônio é um gás nobre radioativo, encontrado em ambientes subterrâneos, podendo ser perigoso à saúde em altas concentrações.",
+    "applications": [
+      "Radioterapia (histórico)",
+      "Pesquisa científica",
+      "Monitoramento ambiental"
+    ],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 87,
+    "symbol": "Fr",
+    "name": "Frâncio",
+    "atomicMass": 223,
+    "category": "metal alcalino",
+    "group": 1,
+    "period": 7,
+    "block": "s",
+    "electronConfiguration": "[Rn] 7s¹",
+    "electronegativity": 0.7,
+    "atomicRadius": 260,
+    "ionizationEnergy": 4.07,
+    "density": 1.87,
+    "meltingPoint": 27,
+    "boilingPoint": 677,
+    "discoveryYear": 1939,
+    "discoveredBy": "Marguerite Perey",
+    "description": "O frâncio é o elemento mais raro dos metais alcalinos, altamente radioativo e de curta meia-vida.",
+    "applications": [
+      "Pesquisa em física nuclear"
+    ],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 88,
+    "symbol": "Ra",
+    "name": "Rádio",
+    "atomicMass": 226,
+    "category": "metal alcalino-terroso",
+    "group": 2,
+    "period": 7,
+    "block": "s",
+    "electronConfiguration": "[Rn] 7s²",
+    "electronegativity": 0.9,
+    "atomicRadius": 215,
+    "ionizationEnergy": 5.28,
+    "density": 5.5,
+    "meltingPoint": 700,
+    "boilingPoint": 1737,
+    "discoveryYear": 1898,
+    "discoveredBy": "Marie e Pierre Curie",
+    "description": "O rádio é um metal alcalino-terroso radioativo que foi amplamente usado no passado em tratamentos médicos e mostradores luminosos.",
+    "applications": [
+      "Radioterapia (histórico)",
+      "Instrumentos luminosos (histórico)",
+      "Pesquisa científica"
+    ],
+    "compounds": [
+      {
+        "formula": "RaCl₂",
+        "name": "Cloreto de rádio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 89,
+    "symbol": "Ac",
+    "name": "Actínio",
+    "atomicMass": 227,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 6d¹ 7s²",
+    "electronegativity": 1.1,
+    "atomicRadius": 215,
+    "ionizationEnergy": 5.17,
+    "density": 10.07,
+    "meltingPoint": 1050,
+    "boilingPoint": 3200,
+    "discoveryYear": 1899,
+    "discoveredBy": "André-Louis Debierne",
+    "description": "O actínio é o primeiro elemento da série dos actinídeos, sendo radioativo e usado em pesquisas e aplicações de energia nuclear.",
+    "applications": [
+      "Fontes de nêutrons",
+      "Pesquisa nuclear"
+    ],
+    "compounds": [
+      {
+        "formula": "Ac₂O₃",
+        "name": "Óxido de actínio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 90,
+    "symbol": "Th",
+    "name": "Tório",
+    "atomicMass": 232.04,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 6d² 7s²",
+    "electronegativity": 1.3,
+    "atomicRadius": 179,
+    "ionizationEnergy": 6.08,
+    "density": 11.72,
+    "meltingPoint": 1750,
+    "boilingPoint": 4788,
+    "discoveryYear": 1829,
+    "discoveredBy": "Jöns Jacob Berzelius",
+    "description": "O tório é um elemento radioativo encontrado em minerais e estudado como uma alternativa ao urânio em reatores nucleares.",
+    "applications": [
+      "Combustível nuclear alternativo",
+      "Ligas metálicas",
+      "Lanternas de gás (histórico)"
+    ],
+    "compounds": [
+      {
+        "formula": "ThO₂",
+        "name": "Dióxido de tório"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 91,
+    "symbol": "Pa",
+    "name": "Protactínio",
+    "atomicMass": 231.04,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f² 6d¹ 7s²",
+    "electronegativity": 1.5,
+    "atomicRadius": 163,
+    "ionizationEnergy": 5.89,
+    "density": 15.37,
+    "meltingPoint": 1568,
+    "boilingPoint": 4027,
+    "discoveryYear": 1913,
+    "discoveredBy": "Kasimir Fajans e Oswald Helmuth Göhring",
+    "description": "O protactínio é um elemento altamente radioativo e raro, com aplicações limitadas à pesquisa científica.",
+    "applications": [
+      "Pesquisa científica",
+      "Estudos nucleares"
+    ],
+    "compounds": [
+      {
+        "formula": "Pa₂O₅",
+        "name": "Pentóxido de protactínio"
       }
     ]
   },
@@ -1735,5 +3564,689 @@
         "name": "Nitrato de Uranilo"
       }
     ]
-  }
+  },
+  {
+    "atomicNumber": 93,
+    "symbol": "Np",
+    "name": "Neptúnio",
+    "atomicMass": 237,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f⁴ 6d¹ 7s²",
+    "electronegativity": 1.36,
+    "atomicRadius": 155,
+    "ionizationEnergy": 6.2657,
+    "density": 20.45,
+    "meltingPoint": 644,
+    "boilingPoint": 3902,
+    "discoveryYear": 1940,
+    "discoveredBy": "Edwin McMillan e Philip H. Abelson",
+    "description": "O neptúnio é um metal radioativo, o primeiro elemento transurânico, usado principalmente em pesquisas e como precursor para a produção de plutônio-238.",
+    "applications": [
+      "Pesquisa nuclear",
+      "Produção de plutônio-238 para geradores termoelétricos de radioisótopos"
+    ],
+    "compounds": [
+      {
+        "formula": "NpO₂",
+        "name": "Dióxido de neptúnio"
+      },
+      {
+        "formula": "NpF₄",
+        "name": "Tetrafluoreto de neptúnio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 94,
+    "symbol": "Pu",
+    "name": "Plutônio",
+    "atomicMass": 244,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f⁶ 7s²",
+    "electronegativity": 1.28,
+    "atomicRadius": 159,
+    "ionizationEnergy": 6.0262,
+    "density": 19.86,
+    "meltingPoint": 640,
+    "boilingPoint": 3228,
+    "discoveryYear": 1940,
+    "discoveredBy": "Glenn T. Seaborg, Edwin McMillan, Joseph W. Kennedy e Arthur C. Wahl",
+    "description": "O plutônio é um metal radioativo usado como combustível em reatores nucleares e em armas nucleares.",
+    "applications": [
+      "Combustível para reatores nucleares",
+      "Componentes de armas nucleares",
+      "Fontes de energia para sondas espaciais"
+    ],
+    "compounds": [
+      {
+        "formula": "PuO₂",
+        "name": "Dióxido de plutônio"
+      },
+      {
+        "formula": "PuF₆",
+        "name": "Hexafluoreto de plutônio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 95,
+    "symbol": "Am",
+    "name": "Amerício",
+    "atomicMass": 243,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f⁷ 7s²",
+    "electronegativity": 1.3,
+    "atomicRadius": 173,
+    "ionizationEnergy": 5.9934,
+    "density": 12,
+    "meltingPoint": 1176,
+    "boilingPoint": 2607,
+    "discoveryYear": 1944,
+    "discoveredBy": "Glenn T. Seaborg, Ralph A. James, Leon O. Morgan e Albert Ghiorso",
+    "description": "O amerício é um metal radioativo usado em detectores de fumaça e como fonte de radiação gama em medidores industriais.",
+    "applications": [
+      "Detectores de fumaça",
+      "Fontes de radiação gama para medidores de espessura e densidade"
+    ],
+    "compounds": [
+      {
+        "formula": "AmO₂",
+        "name": "Dióxido de amerício"
+      },
+      {
+        "formula": "AmCl₃",
+        "name": "Tricloreto de amerício"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 96,
+    "symbol": "Cm",
+    "name": "Cúrio",
+    "atomicMass": 247,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f⁷ 6d¹ 7s²",
+    "electronegativity": 1.3,
+    "atomicRadius": 174,
+    "ionizationEnergy": 5.9915,
+    "density": 13.51,
+    "meltingPoint": 1340,
+    "boilingPoint": 3110,
+    "discoveryYear": 1944,
+    "discoveredBy": "Glenn T. Seaborg, Ralph A. James e Albert Ghiorso",
+    "description": "O cúrio é um metal radioativo usado como fonte de partículas alfa em pesquisas científicas e em geradores termoelétricos de radioisótopos.",
+    "applications": [
+      "Fontes de partículas alfa",
+      "Geradores termoelétricos de radioisótopos"
+    ],
+    "compounds": [
+      {
+        "formula": "CmO₂",
+        "name": "Dióxido de cúrio"
+      },
+      {
+        "formula": "CmCl₃",
+        "name": "Tricloreto de cúrio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 97,
+    "symbol": "Bk",
+    "name": "Berquélio",
+    "atomicMass": 247,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f⁹ 7s²",
+    "electronegativity": 1.3,
+    "atomicRadius": 170,
+    "ionizationEnergy": 6.1979,
+    "density": 14.78,
+    "meltingPoint": 986,
+    "boilingPoint": null,
+    "discoveryYear": 1949,
+    "discoveredBy": "Albert Ghiorso, Glenn T. Seaborg e Stanley G. Thompson",
+    "description": "O berquélio é um metal radioativo usado principalmente em pesquisas científicas para a produção de elementos mais pesados.",
+    "applications": [
+      "Pesquisa científica",
+      "Produção de elementos transurânicos"
+    ],
+    "compounds": [
+      {
+        "formula": "BkO₂",
+        "name": "Dióxido de berquélio"
+      },
+      {
+        "formula": "BkCl₃",
+        "name": "Tricloreto de berquélio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 98,
+    "symbol": "Cf",
+    "name": "Califórnio",
+    "atomicMass": 251,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f¹⁰ 7s²",
+    "electronegativity": 1.3,
+    "atomicRadius": 169,
+    "ionizationEnergy": 6.2817,
+    "density": 15.1,
+    "meltingPoint": 900,
+    "boilingPoint": null,
+    "discoveryYear": 1950,
+    "discoveredBy": "Albert Ghiorso, Glenn T. Seaborg, Kenneth Street Jr. e Stanley G. Thompson",
+    "description": "O califórnio é um metal radioativo usado como fonte de nêutrons em reatores nucleares e em dispositivos de detecção de metais.",
+    "applications": [
+      "Fontes de nêutrons",
+      "Detectores de metais",
+      "Tratamentos de câncer"
+    ],
+    "compounds": [
+      {
+        "formula": "Cf₂O₃",
+        "name": "Óxido de califórnio(III)"
+      },
+      {
+        "formula": "CfCl₃",
+        "name": "Tricloreto de califórnio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 99,
+    "symbol": "Es",
+    "name": "Einstênio",
+    "atomicMass": 252,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f¹¹ 7s²",
+    "electronegativity": 1.3,
+    "atomicRadius": 168,
+    "ionizationEnergy": 6.42,
+    "density": null,
+    "meltingPoint": 860,
+    "boilingPoint": null,
+    "discoveryYear": 1952,
+    "discoveredBy": "Albert Ghiorso e equipe",
+    "description": "O einstênio é um metal radioativo produzido em explosões termonucleares e usado principalmente em pesquisas científicas.",
+    "applications": [
+      "Pesquisa científica"
+    ],
+    "compounds": [
+      {
+        "formula": "Es₂O₃",
+        "name": "Óxido de einstênio(III)"
+      },
+      {
+        "formula": "EsCl₃",
+        "name": "Tricloreto de einstênio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 100,
+    "symbol": "Fm",
+    "name": "Férmio",
+    "atomicMass": 257,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f¹² 7s²",
+    "electronegativity": 1.3,
+    "atomicRadius": 167,
+    "ionizationEnergy": 6.5,
+    "density": null,
+    "meltingPoint": 1527,
+    "boilingPoint": null,
+    "discoveryYear": 1952,
+    "discoveredBy": "Albert Ghiorso e equipe",
+    "description": "O férmio é um metal radioativo produzido em explosões termonucleares e usado principalmente em pesquisas científicas.",
+    "applications": [
+      "Pesquisa científica"
+    ],
+    "compounds": [
+      {
+        "formula": "Fm₂O₃",
+        "name": "Óxido de férmio(III)"
+      },
+      {
+        "formula": "FmCl₃",
+        "name": "Tricloreto de férmio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 101,
+    "symbol": "Md",
+    "name": "Mendelévio",
+    "atomicMass": 258,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f¹³ 7s²",
+    "electronegativity": 1.3,
+    "atomicRadius": null,
+    "ionizationEnergy": 6.58,
+    "density": null,
+    "meltingPoint": 827,
+    "boilingPoint": null,
+    "discoveryYear": 1955,
+    "discoveredBy": "Albert Ghiorso, Glenn T. Seaborg, Gregory R. Choppin, Bernard G. Harvey e Stanley G. Thompson",
+    "description": "O mendelévio é um metal radioativo produzido artificialmente e usado principalmente em pesquisas científicas.",
+    "applications": [
+      "Pesquisa científica"
+    ],
+    "compounds": [
+      {
+        "formula": "Md₂O₃",
+        "name": "Óxido de mendelévio(III)"
+      },
+      {
+        "formula": "MdCl₃",
+        "name": "Tricloreto de mendelévio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 102,
+    "symbol": "No",
+    "name": "Nobélio",
+    "atomicMass": 259,
+    "category": "actinídeo",
+    "group": null,
+    "period": 7,
+    "block": "f",
+    "electronConfiguration": "[Rn] 5f¹⁴ 7s²",
+    "electronegativity": 1.3,
+    "atomicRadius": null,
+    "ionizationEnergy": 6.65,
+    "density": 9.9,
+    "meltingPoint": 827,
+    "boilingPoint": null,
+    "discoveryYear": 1958,
+    "discoveredBy": "Joint Institute for Nuclear Research",
+    "description": "O nobélio é um elemento radioativo sintético usado principalmente para pesquisas científicas.",
+    "applications": ["Pesquisa científica"],
+    "compounds": [
+      {
+        "formula": "NoCl₃",
+        "name": "Tricloreto de nobélio"
+      }
+    ]
+  },
+  {
+    "atomicNumber": 103,
+    "symbol": "Lr",
+    "name": "Laurêncio",
+    "atomicMass": 262,
+    "category": "actinídeo",
+    "group": 3,
+    "period": 7,
+    "block": "d",
+    "electronConfiguration": "[Rn] 5f¹⁴ 7s² 7p¹",
+    "electronegativity": 1.3,
+    "atomicRadius": null,
+    "ionizationEnergy": 4.96,
+    "density": null,
+    "meltingPoint": 1900,
+    "boilingPoint": null,
+    "discoveryYear": 1961,
+    "discoveredBy": "Lawrence Berkeley National Laboratory",
+    "description": "O laurêncio é um elemento sintético altamente radioativo utilizado apenas em pesquisa científica.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 104,
+    "symbol": "Rf",
+    "name": "Rutherfórdio",
+    "atomicMass": 267,
+    "category": "metal de transição",
+    "group": 4,
+    "period": 7,
+    "block": "d",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d² 7s²",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 1969,
+    "discoveredBy": "Joint Institute for Nuclear Research e Lawrence Berkeley National Laboratory",
+    "description": "O rutherfórdio é um elemento sintético e radioativo, utilizado apenas em pesquisa científica.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 105,
+    "symbol": "Db",
+    "name": "Dúbnio",
+    "atomicMass": 270,
+    "category": "metal de transição",
+    "group": 5,
+    "period": 7,
+    "block": "d",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d³ 7s²",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 1967,
+    "discoveredBy": "Joint Institute for Nuclear Research",
+    "description": "O dúbnio é um elemento sintético altamente instável usado em estudos científicos.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 106,
+    "symbol": "Sg",
+    "name": "Seabórgio",
+    "atomicMass": 271,
+    "category": "metal de transição",
+    "group": 6,
+    "period": 7,
+    "block": "d",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁴ 7s²",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 1974,
+    "discoveredBy": "Lawrence Berkeley National Laboratory",
+    "description": "Elemento sintético, o seabórgio é extremamente radioativo e só é utilizado em pesquisas.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 107,
+    "symbol": "Bh",
+    "name": "Bóhrio",
+    "atomicMass": 270,
+    "category": "metal de transição",
+    "group": 7,
+    "period": 7,
+    "block": "d",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁵ 7s²",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 1981,
+    "discoveredBy": "Gesellschaft für Schwerionenforschung",
+    "description": "O bóhrio é um elemento sintético extremamente raro e instável, usado em pesquisas.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 108,
+    "symbol": "Hs",
+    "name": "Hássio",
+    "atomicMass": 277,
+    "category": "metal de transição",
+    "group": 8,
+    "period": 7,
+    "block": "d",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁶ 7s²",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 1984,
+    "discoveredBy": "Gesellschaft für Schwerionenforschung",
+    "description": "Elemento sintético altamente radioativo, o hássio é utilizado apenas em estudos laboratoriais.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 109,
+    "symbol": "Mt",
+    "name": "Meitnério",
+    "atomicMass": 278,
+    "category": "metal de transição",
+    "group": 9,
+    "period": 7,
+    "block": "d",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁷ 7s²",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 1982,
+    "discoveredBy": "Gesellschaft für Schwerionenforschung",
+    "description": "Elemento altamente instável, o meitnério é utilizado somente para pesquisa científica.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 110,
+    "symbol": "Ds",
+    "name": "Darmstádio",
+    "atomicMass": 281,
+    "category": "metal de transição",
+    "group": 10,
+    "period": 7,
+    "block": "d",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁸ 7s²",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 1994,
+    "discoveredBy": "Gesellschaft für Schwerionenforschung",
+    "description": "Elemento sintético extremamente instável, sem aplicações práticas além da pesquisa.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 111,
+    "symbol": "Rg",
+    "name": "Roentgênio",
+    "atomicMass": 282,
+    "category": "metal de transição",
+    "group": 11,
+    "period": 7,
+    "block": "d",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d⁹ 7s²",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 1994,
+    "discoveredBy": "Gesellschaft für Schwerionenforschung",
+    "description": "O roentgênio é um elemento químico altamente radioativo e só é produzido em laboratório.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 112,
+    "symbol": "Cn",
+    "name": "Copernício",
+    "atomicMass": 285,
+    "category": "metal de transição",
+    "group": 12,
+    "period": 7,
+    "block": "d",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s²",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 1996,
+    "discoveredBy": "Gesellschaft für Schwerionenforschung",
+    "description": "Elemento extremamente instável e radioativo, estudado somente em pesquisas.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 113,
+    "symbol": "Nh",
+    "name": "Nihônio",
+    "atomicMass": 286,
+    "category": "metal do bloco p",
+    "group": 13,
+    "period": 7,
+    "block": "p",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p¹",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 2003,
+    "discoveredBy": "RIKEN",
+    "description": "Elemento sintético de vida curta, identificado pela primeira vez por cientistas japoneses.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 114,
+    "symbol": "Fl",
+    "name": "Fleróvio",
+    "atomicMass": 289,
+    "category": "metal do bloco p",
+    "group": 14,
+    "period": 7,
+    "block": "p",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p²",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 1998,
+    "discoveredBy": "Joint Institute for Nuclear Research",
+    "description": "Elemento radioativo, extremamente instável e usado exclusivamente para fins científicos.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 115,
+    "symbol": "Mc",
+    "name": "Moscóvio",
+    "atomicMass": 290,
+    "category": "metal do bloco p",
+    "group": 15,
+    "period": 7,
+    "block": "p",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p³",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 2003,
+    "discoveredBy": "Joint Institute for Nuclear Research e Lawrence Livermore National Laboratory",
+    "description": "Elemento sintético altamente radioativo, usado exclusivamente em pesquisa científica.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 116,
+    "symbol": "Lv",
+    "name": "Livermório",
+    "atomicMass": 293,
+    "category": "metal do bloco p",
+    "group": 16,
+    "period": 7,
+    "block": "p",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁴",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 2000,
+    "discoveredBy": "Joint Institute for Nuclear Research",
+    "description": "Elemento extremamente instável e radioativo, sem aplicações práticas além da pesquisa.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 117,
+    "symbol": "Ts",
+    "name": "Tenessino",
+    "atomicMass": 294,
+    "category": "halogênio",
+    "group": 17,
+    "period": 7,
+    "block": "p",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 2010,
+    "discoveredBy": "Joint Institute for Nuclear Research e Oak Ridge National Laboratory",
+    "description": "O tenessino é um halogênio sintético e extremamente instável, utilizado em pesquisa.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  },
+  {
+    "atomicNumber": 118,
+    "symbol": "Og",
+    "name": "Oganessônio",
+    "atomicMass": 294,
+    "category": "gás nobre",
+    "group": 18,
+    "period": 7,
+    "block": "p",
+    "electronConfiguration": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁶",
+    "electronegativity": null,
+    "atomicRadius": null,
+    "ionizationEnergy": null,
+    "density": null,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "discoveryYear": 2002,
+    "discoveredBy": "Joint Institute for Nuclear Research",
+    "description": "O oganessônio é um gás nobre sintético extremamente radioativo e instável.",
+    "applications": ["Pesquisa científica"],
+    "compounds": []
+  }  
 ]
