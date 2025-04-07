@@ -1,0 +1,228 @@
+/* Cabeçalho */
+
+.main-header {
+  padding: var(--spacing-4) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: var(--spacing-4);
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+}
+
+.logo img {
+  height: 48px;
+  width: auto;
+}
+
+.logo h1 {
+  font-size: var(--font-size-2xl);
+  margin-bottom: 0;
+  color: var(--color-primary);
+}
+
+.subtitle {
+  font-size: var(--font-size-md);
+  color: var(--color-text-light);
+  margin-top: var(--spacing-1);
+}
+
+.header-controls {
+  display: flex;
+  gap: var(--spacing-2);
+}
+
+/* Menu móvel */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: var(--color-background-card);
+  box-shadow: var(--shadow-lg);
+  z-index: var(--z-fixed);
+  transform: translateX(100%);
+  transition: transform var(--transition-normal);
+  overflow-y: auto;
+}
+
+.mobile-menu.active {
+  transform: translateX(0);
+}
+
+.menu-list {
+  padding: var(--spacing-6) var(--spacing-4);
+}
+
+.menu-list li {
+  margin-bottom: var(--spacing-4);
+}
+
+.menu-list a {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.menu-list a:hover {
+  color: var(--color-primary);
+}
+
+.menu-list i {
+  width: 24px;
+  text-align: center;
+}
+
+/* Barra de pesquisa no cabeçalho */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-background-card);
+  border-radius: var(--border-radius-full);
+  padding: 0 var(--spacing-3);
+  margin: var(--spacing-4) 0;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-fast);
+  position: relative;
+}
+
+.search-bar:focus-within {
+  box-shadow: var(--shadow-md);
+}
+
+.search-bar i {
+  color: var(--color-text-light);
+  margin-right: var(--spacing-2);
+}
+
+.search-bar input {
+  width: 100%;
+  padding: var(--spacing-3);
+  border: none;
+  background: none;
+  color: var(--color-text);
+}
+
+.search-bar input::placeholder {
+  color: var(--color-text-light);
+}
+
+.clear-search {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-light);
+  display: none;
+}
+
+.clear-search:hover {
+  color: var(--color-accent);
+}
+
+.search-bar input:not(:placeholder-shown) + .clear-search {
+  display: block;
+}
+
+/* Filtros */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-3);
+  margin-bottom: var(--spacing-4);
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 200px;
+}
+
+.filter-group label {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-1);
+  white-space: nowrap;
+  color: var(--color-text-light);
+}
+
+.filter-group select {
+  flex-grow: 1;
+  padding: var(--spacing-2);
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-background-card);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+}
+
+.filter-group select:hover,
+.filter-group select:focus {
+  border-color: var(--color-primary);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-controls {
+    position: absolute;
+    top: var(--spacing-4);
+    right: 0;
+  }
+
+  .logo {
+    margin-bottom: var(--spacing-2);
+  }
+
+  .filters {
+    flex-direction: column;
+    gap: var(--spacing-2);
+  }
+
+  .filter-group {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo img {
+    height: 36px;
+  }
+
+  .logo h1 {
+    font-size: var(--font-size-xl);
+  }
+
+  .subtitle {
+    font-size: var(--font-size-sm);
+  }
+}

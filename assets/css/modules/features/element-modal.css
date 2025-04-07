@@ -1,0 +1,271 @@
+/* Estilos do Modal de Elemento */
+
+/* Configuração do grid para informações básicas */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacing-4);
+  margin-bottom: var(--spacing-4);
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+}
+
+.info-item i {
+  color: var(--color-primary);
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-1);
+}
+
+.info-item span {
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+}
+
+.info-item strong {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Descrição do elemento */
+.element-description {
+  margin-bottom: var(--spacing-4);
+}
+
+.element-description h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-2);
+  color: var(--color-text);
+}
+
+.element-description p {
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+/* Properties grid */
+.properties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--spacing-4);
+}
+
+.property-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background-alt);
+  padding: var(--spacing-3);
+  border-radius: var(--border-radius-md);
+}
+
+.property-item span {
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-1);
+}
+
+.property-item strong {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--spacing-1);
+}
+
+.property-item small {
+  color: var(--color-text-light);
+  font-size: var(--font-size-xs);
+}
+
+/* Configuração Eletrônica */
+.electron-config {
+  margin-bottom: var(--spacing-5);
+}
+
+.electron-config h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-2);
+}
+
+.electron-config p {
+  font-family: var(--font-family-mono);
+  background-color: var(--color-background-alt);
+  padding: var(--spacing-3);
+  border-radius: var(--border-radius-md);
+  margin-bottom: var(--spacing-4);
+}
+
+/* Animação dos elétrons */
+.electron-animation {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: var(--spacing-4);
+}
+
+.nucleus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-inverse);
+  font-weight: var(--font-weight-bold);
+  box-shadow: 0 0 10px rgba(231, 76, 60, 0.5);
+}
+
+.electron-orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px dashed var(--color-text-light);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.electron {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+
+/* Informações do bloco */
+.block-info {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  margin-bottom: var(--spacing-4);
+  padding: var(--spacing-3);
+  background-color: var(--color-background-alt);
+  border-radius: var(--border-radius-md);
+}
+
+.block-info span {
+  font-weight: var(--font-weight-medium);
+}
+
+.block-info strong {
+  padding: var(--spacing-1) var(--spacing-2);
+  border-radius: var(--border-radius-sm);
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+  text-transform: uppercase;
+  font-size: var(--font-size-sm);
+}
+
+/* Aplicações do elemento */
+.applications-list {
+  margin-bottom: var(--spacing-4);
+}
+
+.applications-list ul {
+  padding-left: var(--spacing-4);
+  margin-bottom: var(--spacing-4);
+}
+
+.applications-list li {
+  margin-bottom: var(--spacing-2);
+  position: relative;
+}
+
+.applications-list li::before {
+  content: '•';
+  color: var(--color-primary);
+  font-weight: bold;
+  position: absolute;
+  left: calc(-1 * var(--spacing-4));
+}
+
+/* Compostos relacionados */
+.related-compounds h4 {
+  font-size: var(--font-size-md);
+  margin-bottom: var(--spacing-3);
+}
+
+.compounds-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--spacing-3);
+}
+
+.compound-item {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-3);
+  background-color: var(--color-background-alt);
+  border-radius: var(--border-radius-md);
+  transition: transform var(--transition-fast);
+}
+
+.compound-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.compound-formula {
+  font-family: var(--font-family-mono);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-md);
+  margin-bottom: var(--spacing-1);
+}
+
+.compound-name {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+}
+
+/* Ferramentas de comparação */
+.comparison-tools {
+  margin-top: var(--spacing-4);
+  padding-top: var(--spacing-4);
+  border-top: 1px solid var(--color-border);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .info-grid,
+  .properties-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--spacing-3);
+  }
+
+  .electron-animation {
+    height: 250px;
+  }
+
+  .compounds-list {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .info-grid,
+  .properties-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .property-item strong {
+    font-size: var(--font-size-md);
+  }
+
+  .electron-animation {
+    height: 200px;
+  }
+
+  .compounds-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}

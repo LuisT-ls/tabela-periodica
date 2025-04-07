@@ -1,0 +1,39 @@
+/* Tabela Periódica Interativa - Estilo Principal */
+
+/* Base */
+@import url('./modules/base/reset.css');
+@import url('./modules/base/variables.css');
+@import url('./modules/base/var-darkmode.css');
+@import url('./modules/base/typography.css');
+@import url('./modules/base/animations.css');
+@import url('./modules/base/scrollbar.css');
+
+/* Layout */
+@import url('./modules/layout/container.css');
+@import url('./modules/layout/header.css');
+@import url('./modules/layout/footer.css');
+@import url('./modules/layout/section.css');
+
+/* Componentes */
+@import url('./modules/components/buttons.css');
+@import url('./modules/components/inputs.css');
+@import url('./modules/components/modal.css');
+@import url('./modules/components/icon.css');
+@import url('./modules/components/flags.css');
+@import url('./modules/components/notification.css');
+@import url('./modules/components/theme-toggle.css');
+
+/* Utils */
+@import url('./modules/utils/accessibility.css');
+@import url('./modules/utils/darkmode.css');
+@import url('./modules/utils/responsive.css');
+@import url('./modules/utils/spacing.css');
+@import url('./modules/utils/tooltip.css');
+
+/* Estilos específicos da tabela periódica */
+@import url('./modules/features/periodic-table.css');
+@import url('./modules/features/element-modal.css');
+@import url('./modules/features/comparison.css');
+@import url('./modules/features/favorites.css');
+@import url('./modules/features/trends.css');
+@import url('./modules/features/charts.css');

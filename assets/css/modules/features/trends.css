@@ -1,0 +1,241 @@
+/* Estilos para tendências periódicas */
+
+/* Cores para gradientes de tendências */
+:root {
+  --trend-high: #1a5276;
+  --trend-medium-high: #2980b9;
+  --trend-medium: #3498db;
+  --trend-medium-low: #5dade2;
+  --trend-low: #85c1e9;
+}
+
+/* Estilos dos elementos quando tendências estão ativadas */
+.trend-mode .element {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.trend-mode .element::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.85;
+  transition: opacity var(--transition-fast);
+}
+
+.trend-mode .element:hover::before {
+  opacity: 1;
+}
+
+.trend-mode .element-symbol,
+.trend-mode .element-number,
+.trend-mode .element-name,
+.trend-mode .element-mass {
+  z-index: 2;
+  position: relative;
+}
+
+/* Níveis de tendências */
+.trend-level-5::before {
+  background-color: var(--trend-high);
+}
+
+.trend-level-4::before {
+  background-color: var(--trend-medium-high);
+}
+
+.trend-level-3::before {
+  background-color: var(--trend-medium);
+}
+
+.trend-level-2::before {
+  background-color: var(--trend-medium-low);
+}
+
+.trend-level-1::before {
+  background-color: var(--trend-low);
+}
+
+.trend-level-0::before {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.trend-unknown::before {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1) 10px,
+    rgba(0, 0, 0, 0.05) 10px,
+    rgba(0, 0, 0, 0.05) 20px
+  );
+}
+
+/* Tendências reversas (quando maior valor corresponde a menor intensidade) */
+.trend-reverse .trend-level-5::before {
+  background-color: var(--trend-low);
+}
+
+.trend-reverse .trend-level-4::before {
+  background-color: var(--trend-medium-low);
+}
+
+.trend-reverse .trend-level-3::before {
+  background-color: var(--trend-medium);
+}
+
+.trend-reverse .trend-level-2::before {
+  background-color: var(--trend-medium-high);
+}
+
+.trend-reverse .trend-level-1::before {
+  background-color: var(--trend-high);
+}
+
+/* Valores para modo escuro */
+[data-theme='dark'] .trend-level-5::before {
+  background-color: #2980b9;
+}
+
+[data-theme='dark'] .trend-level-4::before {
+  background-color: #3498db;
+}
+
+[data-theme='dark'] .trend-level-3::before {
+  background-color: #5dade2;
+}
+
+[data-theme='dark'] .trend-level-2::before {
+  background-color: #85c1e9;
+}
+
+[data-theme='dark'] .trend-level-1::before {
+  background-color: #aed6f1;
+}
+
+[data-theme='dark'] .trend-level-0::before {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='dark'] .trend-unknown::before {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05) 10px,
+    rgba(255, 255, 255, 0.1) 10px,
+    rgba(255, 255, 255, 0.1) 20px
+  );
+}
+
+/* Legenda de tendência */
+.trend-legend {
+  display: flex;
+  align-items: center;
+  margin-top: var(--spacing-4);
+  background-color: var(--color-background-card);
+  padding: var(--spacing-3);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.trend-legend-label {
+  margin-right: var(--spacing-3);
+  font-weight: var(--font-weight-medium);
+}
+
+.trend-legend-scale {
+  display: flex;
+  flex-grow: 1;
+}
+
+.trend-legend-item {
+  flex: 1;
+  height: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trend-legend-item:first-child {
+  border-top-left-radius: var(--border-radius-sm);
+  border-bottom-left-radius: var(--border-radius-sm);
+}
+
+.trend-legend-item:last-child {
+  border-top-right-radius: var(--border-radius-sm);
+  border-bottom-right-radius: var(--border-radius-sm);
+}
+
+.trend-legend-item span {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-inverse);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Informações sobre a tendência */
+.trend-info {
+  display: none;
+  margin-top: var(--spacing-4);
+  padding: var(--spacing-4);
+  background-color: var(--color-background-card);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.trend-info.active {
+  display: block;
+  animation: fadeIn var(--transition-normal);
+}
+
+.trend-info h3 {
+  margin-bottom: var(--spacing-3);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.trend-info p {
+  margin-bottom: var(--spacing-3);
+  line-height: 1.6;
+}
+
+.trend-direction {
+  display: flex;
+  gap: var(--spacing-4);
+  margin-top: var(--spacing-3);
+  padding-top: var(--spacing-3);
+  border-top: 1px solid var(--color-border);
+}
+
+.trend-direction-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.trend-direction-item i {
+  color: var(--color-primary);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .trend-legend {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .trend-legend-label {
+    margin-right: 0;
+    margin-bottom: var(--spacing-2);
+  }
+
+  .trend-legend-item span {
+    display: none;
+  }
+}

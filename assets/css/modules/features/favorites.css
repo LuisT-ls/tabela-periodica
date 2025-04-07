@@ -1,0 +1,225 @@
+/* Estilos para a lista de favoritos */
+
+.favorites-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 320px;
+  background-color: var(--color-background-card);
+  box-shadow: var(--shadow-lg);
+  z-index: var(--z-fixed);
+  transform: translateX(100%);
+  transition: transform var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.favorites-panel.active {
+  transform: translateX(0);
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.panel-header h3 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.panel-header h3 i {
+  color: var(--color-warning);
+}
+
+.favorites-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: var(--spacing-3);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: var(--spacing-3);
+  align-content: flex-start;
+}
+
+.favorite-element {
+  position: relative;
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-3);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-1);
+}
+
+.favorite-element:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.favorite-remove {
+  position: absolute;
+  top: var(--spacing-1);
+  right: var(--spacing-1);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background-alt);
+  border-radius: 50%;
+  color: var(--color-text-light);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+}
+
+.favorite-element:hover .favorite-remove {
+  opacity: 1;
+}
+
+.favorite-remove:hover {
+  color: var(--color-accent);
+}
+
+.favorite-symbol {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+}
+
+.favorite-name {
+  font-size: var(--font-size-sm);
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.favorite-info {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-light);
+}
+
+/* Mensagem quando não há favoritos */
+.empty-favorites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: var(--spacing-4);
+  text-align: center;
+  color: var(--color-text-light);
+}
+
+.empty-favorites i {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-4);
+  opacity: 0.3;
+}
+
+.empty-favorites p {
+  margin-bottom: var(--spacing-2);
+}
+
+/* Contador de favoritos */
+.favorites-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: var(--color-warning);
+  color: var(--color-text-inverse);
+  font-size: var(--font-size-xs);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Botão flutuante de favoritos */
+.favorites-fab {
+  position: fixed;
+  bottom: var(--spacing-5);
+  right: var(--spacing-5);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--color-warning);
+  color: var(--color-text-inverse);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  z-index: var(--z-fixed);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.favorites-fab:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+.favorites-fab i {
+  font-size: var(--font-size-xl);
+}
+
+/* Ações para favoritos */
+.favorites-actions {
+  padding: var(--spacing-3);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+}
+
+.favorites-actions button {
+  background: none;
+  border: none;
+  color: var(--color-text);
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+  padding: var(--spacing-2);
+  border-radius: var(--border-radius-md);
+  transition: all var(--transition-fast);
+}
+
+.favorites-actions button:hover {
+  background-color: var(--color-background-alt);
+  color: var(--color-primary);
+}
+
+.favorites-actions button i {
+  margin-right: var(--spacing-1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .favorites-panel {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .favorites-panel {
+    width: 100%;
+  }
+
+  .favorites-list {
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: var(--spacing-2);
+  }
+}

@@ -1,0 +1,257 @@
+/* Estilos para gráficos e visualizações */
+
+/* Container de gráficos */
+.chart-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-color: var(--color-background-card);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-3);
+  margin-bottom: var(--spacing-4);
+}
+
+/* Ajustes para modo escuro */
+[data-theme='dark'] .chart-container canvas {
+  filter: brightness(0.9) contrast(1.1);
+}
+
+/* Tooltip personalizado do Chart.js */
+.chartjs-tooltip {
+  opacity: 0;
+  position: absolute;
+  background: var(--color-background-card);
+  color: var(--color-text);
+  border-radius: var(--border-radius-md);
+  transition: all var(--transition-fast);
+  pointer-events: none;
+  box-shadow: var(--shadow-md);
+  padding: var(--spacing-2) var(--spacing-3);
+  max-width: 250px;
+  z-index: var(--z-tooltip);
+  font-size: var(--font-size-sm);
+}
+
+.chartjs-tooltip-key {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: var(--spacing-1);
+  border-radius: 50%;
+}
+
+.chartjs-tooltip-title {
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--spacing-1);
+  padding-bottom: var(--spacing-1);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.chartjs-tooltip-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+}
+
+.chartjs-tooltip-body-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-2);
+}
+
+/* Legend personalizada */
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-2);
+  margin-top: var(--spacing-3);
+  justify-content: center;
+}
+
+.chart-legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-1);
+  font-size: var(--font-size-sm);
+  padding: var(--spacing-1) var(--spacing-2);
+  border-radius: var(--border-radius-md);
+  background-color: var(--color-background-alt);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.chart-legend-item:hover {
+  background-color: var(--color-background);
+  box-shadow: var(--shadow-sm);
+}
+
+.chart-legend-item.inactive {
+  opacity: 0.5;
+}
+
+.chart-legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+/* Controles de gráfico */
+.chart-controls {
+  display: flex;
+  gap: var(--spacing-2);
+  margin-bottom: var(--spacing-3);
+  flex-wrap: wrap;
+}
+
+.chart-control-group {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.chart-type-selector {
+  display: flex;
+  background-color: var(--color-background-alt);
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+}
+
+.chart-type-btn {
+  background: none;
+  border: none;
+  padding: var(--spacing-2) var(--spacing-3);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+.chart-type-btn.active {
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.chart-type-btn:hover:not(.active) {
+  background-color: var(--color-background);
+}
+
+/* Tipos específicos de gráficos */
+.chart-bar-horizontal .chartjs-render-monitor {
+  max-width: 100% !important;
+}
+
+.chart-radar .chartjs-render-monitor {
+  max-height: 400px !important;
+}
+
+.chart-scatter .chartjs-render-monitor {
+  max-height: 400px !important;
+}
+
+/* Gráfico de mapa de calor */
+.heatmap {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  gap: 1px;
+  width: 100%;
+  margin-top: var(--spacing-4);
+}
+
+.heatmap-cell {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-inverse);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  position: relative;
+  transition: transform var(--transition-fast);
+  cursor: pointer;
+  border-radius: var(--border-radius-sm);
+}
+
+.heatmap-cell:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.heatmap-row-label,
+.heatmap-col-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.heatmap-row-label {
+  grid-column: 1;
+}
+
+.heatmap-col-label {
+  grid-row: 1;
+}
+
+/* Informações detalhadas */
+.chart-details {
+  margin-top: var(--spacing-4);
+  padding: var(--spacing-4);
+  background-color: var(--color-background-alt);
+  border-radius: var(--border-radius-md);
+  display: none;
+}
+
+.chart-details.active {
+  display: block;
+  animation: fadeIn var(--transition-normal);
+}
+
+.chart-details h3 {
+  margin-bottom: var(--spacing-3);
+  font-size: var(--font-size-lg);
+}
+
+.chart-details p {
+  margin-bottom: var(--spacing-3);
+  line-height: 1.6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .chart-container {
+    height: 300px;
+  }
+
+  .chart-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .chart-type-selector {
+    width: 100%;
+  }
+
+  .chart-type-btn {
+    flex: 1;
+    text-align: center;
+  }
+
+  .heatmap {
+    grid-template-columns: repeat(10, 1fr);
+    overflow-x: auto;
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .chart-container {
+    height: 250px;
+  }
+
+  .chart-legend-item {
+    font-size: var(--font-size-xs);
+  }
+}

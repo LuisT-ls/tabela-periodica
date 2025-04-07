@@ -1,0 +1,117 @@
+/* Variáveis CSS - Tema Claro */
+
+:root {
+  /* Cores principais */
+  --color-primary: #3498db;
+  --color-primary-light: #5dade2;
+  --color-primary-dark: #2874a6;
+  --color-secondary: #2ecc71;
+  --color-secondary-light: #58d68d;
+  --color-secondary-dark: #239954;
+  --color-accent: #e74c3c;
+  --color-accent-light: #ec7063;
+  --color-accent-dark: #b03a2e;
+
+  /* Cores de fundo e texto */
+  --color-background: #f5f7fa;
+  --color-background-alt: #ebeef2;
+  --color-background-card: #ffffff;
+  --color-text: #2c3e50;
+  --color-text-light: #7f8c8d;
+  --color-text-inverse: #ecf0f1;
+  --color-border: #dfe4ea;
+  --color-divider: #e0e0e0;
+
+  /* Cores de status */
+  --color-success: #27ae60;
+  --color-warning: #f39c12;
+  --color-error: #c0392b;
+  --color-info: #3498db;
+
+  /* Sombras */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1);
+
+  /* Arredondamento de bordas */
+  --border-radius-sm: 2px;
+  --border-radius-md: 4px;
+  --border-radius-lg: 8px;
+  --border-radius-xl: 12px;
+  --border-radius-full: 9999px;
+
+  /* Tipografia */
+  --font-family: 'Roboto', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-family-mono: 'Roboto Mono', 'Consolas', monospace;
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-md: 1.125rem; /* 18px */
+  --font-size-lg: 1.25rem; /* 20px */
+  --font-size-xl: 1.5rem; /* 24px */
+  --font-size-2xl: 1.875rem; /* 30px */
+  --font-size-3xl: 2.25rem; /* 36px */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Espaçamento */
+  --spacing-1: 0.25rem; /* 4px */
+  --spacing-2: 0.5rem; /* 8px */
+  --spacing-3: 0.75rem; /* 12px */
+  --spacing-4: 1rem; /* 16px */
+  --spacing-5: 1.5rem; /* 24px */
+  --spacing-6: 2rem; /* 32px */
+  --spacing-8: 3rem; /* 48px */
+  --spacing-10: 4rem; /* 64px */
+  --spacing-12: 5rem; /* 80px */
+
+  /* Zindex */
+  --z-behind: -1;
+  --z-normal: 1;
+  --z-elevated: 10;
+  --z-sticky: 100;
+  --z-dropdown: 200;
+  --z-fixed: 500;
+  --z-modal: 1000;
+  --z-tooltip: 1500;
+  --z-toast: 2000;
+
+  /* Transições */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Larguras de contêiner */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+
+  /* Cores da Tabela Periódica */
+  --element-não-metal: #76d7c4;
+  --element-metal-alcalino: #f5b041;
+  --element-metal-alcalino-terroso: #f4d03f;
+  --element-metal-transição: #5dade2;
+  --element-metal-pos-transicao: #7fb3d5;
+  --element-semimetal: #a9cce3;
+  --element-halogenio: #85c1e9;
+  --element-gás-nobre: #d2b4de;
+  --element-lantanídeo: #aed6f1;
+  --element-actinídeo: #a3e4d7;
+
+  /* Hover para elementos */
+  --element-não-metal-hover: #1abc9c;
+  --element-metal-alcalino-hover: #e67e22;
+  --element-metal-alcalino-terroso-hover: #f1c40f;
+  --element-metal-transição-hover: #3498db;
+  --element-metal-pos-transicao-hover: #5499c7;
+  --element-semimetal-hover: #7fb3d5;
+  --element-halogenio-hover: #3498db;
+  --element-gás-nobre-hover: #9b59b6;
+  --element-lantanídeo-hover: #5dade2;
+  --element-actinídeo-hover: #48c9b0;
+}

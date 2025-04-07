@@ -1,0 +1,70 @@
+/* Estilização da barra de rolagem */
+
+/* Barra de rolagem para Webkit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background-alt);
+  border-radius: var(--border-radius-md);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-light);
+  border-radius: var(--border-radius-md);
+  transition: background var(--transition-fast);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* Suporte para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary-light) var(--color-background-alt);
+}
+
+/* Remover setas da barra de rolagem no IE/Edge */
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Remover sombra interna em inputs no iOS */
+input,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Rolagem suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Para animações de rolagem via JS */
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+/* Remover barra de rolagem mas manter funcionalidade */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Áreas específicas com estilização de rolagem */
+.modal-content,
+.element-details {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary-light) var(--color-background-alt);
+  max-height: 80vh;
+  overflow-y: auto;
+}

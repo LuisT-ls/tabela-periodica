@@ -1,0 +1,145 @@
+/* Alternar Tema Escuro/Claro */
+
+.dark-mode-toggle {
+  position: relative;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  color: var(--color-text);
+}
+
+.dark-mode-toggle:hover {
+  background-color: var(--color-background-alt);
+  color: var(--color-primary);
+}
+
+.dark-mode-toggle i {
+  font-size: var(--font-size-lg);
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+/* Botão com animação */
+.dark-mode-toggle .fa-sun,
+[data-theme='dark'] .dark-mode-toggle .fa-moon {
+  opacity: 0;
+  position: absolute;
+  transform: rotate(-45deg) scale(0.5);
+}
+
+.dark-mode-toggle .fa-moon,
+[data-theme='dark'] .dark-mode-toggle .fa-sun {
+  opacity: 1;
+  transform: rotate(0) scale(1);
+}
+
+/* Modo escuro ativado */
+[data-theme='dark'] .dark-mode-toggle {
+  color: var(--color-text);
+}
+
+[data-theme='dark'] .dark-mode-toggle:hover {
+  background-color: var(--color-background-alt);
+  color: var(--color-primary);
+}
+
+/* Versão switch */
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-background-alt);
+  transition: var(--transition-normal);
+  border-radius: 24px;
+}
+
+.switch-slider:before {
+  position: absolute;
+  content: '';
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: var(--color-text);
+  transition: var(--transition-normal);
+  border-radius: 50%;
+}
+
+input:checked + .switch-slider {
+  background-color: var(--color-primary);
+}
+
+input:checked + .switch-slider:before {
+  transform: translateX(26px);
+  background-color: var(--color-text-inverse);
+}
+
+.switch-slider .fa-sun,
+.switch-slider .fa-moon {
+  position: absolute;
+  top: 5px;
+  font-size: 12px;
+  transition: var(--transition-normal);
+}
+
+.switch-slider .fa-sun {
+  right: 5px;
+  color: var(--color-text-light);
+}
+
+.switch-slider .fa-moon {
+  left: 5px;
+  color: var(--color-text-light);
+}
+
+input:checked + .switch-slider .fa-sun {
+  color: var(--color-text-inverse);
+}
+
+input:checked + .switch-slider .fa-moon {
+  color: var(--color-text-inverse);
+}
+
+/* Mensagem de indicação de modo */
+.theme-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin-top: var(--spacing-2);
+}
+
+.theme-indicator i {
+  font-size: var(--font-size-base);
+}
+
+[data-theme='dark'] .light-only {
+  display: none;
+}
+
+[data-theme='light'] .dark-only {
+  display: none;
+}
