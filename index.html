@@ -86,6 +86,14 @@
           >
             <i class="fas fa-bars"></i>
           </button>
+
+          <button
+            id="favoritesToggle"
+            class="btn-icon favorites-toggle"
+            aria-label="Favoritos"
+          >
+            <i class="fas fa-star"></i>
+          </button>
         </div>
       </header>
 
@@ -425,7 +433,9 @@
 
       <footer class="main-footer">
         <div class="footer-content">
-          <p>&copy; 2025 Tabela Periódica Interativa</p>
+          <p>
+            &copy; <time datetime="2025">2025</time> Tabela Periódica Interativa
+          </p>
           <div class="footer-links">
             <a href="pages/terms-of-service.html">Termos de Uso</a>
             <a href="pages/privacy.html">Privacidade</a>
@@ -437,6 +447,8 @@
 
     <!-- Scripts -->
     <script type="module" src="js/app.js"></script>
+
+    <!-- Service Worker -->
     <script>
       // Verificação de suporte a Service Worker
       if ('serviceWorker' in navigator) {
