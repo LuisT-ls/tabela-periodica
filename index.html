@@ -53,7 +53,8 @@
   </head>
   <body>
     <div class="container">
-      <header class="main-header">
+      <!-- Cabeçalho Principal -->
+      <header class="main-header" role="banner">
         <div class="header-content">
           <div class="logo">
             <img src="assets/img/logo.svg" alt="Logo Tabela Periódica" />
@@ -63,270 +64,444 @@
             Explore os elementos químicos de forma interativa
           </p>
         </div>
-        <!-- Botões de modo noturno e menu -->
-        <div class="header-controls">
+
+        <!-- Controles do Cabeçalho -->
+        <nav
+          class="header-controls"
+          role="navigation"
+          aria-label="Controles principais"
+        >
           <button
             id="darkModeToggle"
             class="btn-icon dark-mode-toggle"
             aria-label="Alternar modo escuro"
+            type="button"
           >
-            <i class="fas fa-moon"></i>
+            <i class="fas fa-moon" aria-hidden="true"></i>
           </button>
           <button
             id="infoToggle"
             class="btn-icon info-toggle"
             aria-label="Informações"
+            type="button"
           >
-            <i class="fas fa-info-circle"></i>
+            <i class="fas fa-info-circle" aria-hidden="true"></i>
           </button>
           <button
             id="menuToggle"
             class="btn-icon menu-toggle"
             aria-label="Menu"
+            type="button"
           >
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars" aria-hidden="true"></i>
           </button>
 
           <button
             id="favoritesToggle"
             class="btn-icon favorites-toggle"
             aria-label="Favoritos"
+            type="button"
           >
-            <i class="fas fa-star"></i>
+            <i class="fas fa-star" aria-hidden="true"></i>
           </button>
           <button
             id="quizToggle"
             class="btn-icon quiz-toggle"
             aria-label="Quiz"
             title="Testar conhecimentos"
+            type="button"
           >
-            <i class="fas fa-question-circle"></i>
+            <i class="fas fa-question-circle" aria-hidden="true"></i>
           </button>
           <button
             id="exportToggle"
             class="btn-icon export-toggle"
             aria-label="Exportar"
             title="Exportar dados"
+            type="button"
           >
-            <i class="fas fa-download"></i>
+            <i class="fas fa-download" aria-hidden="true"></i>
           </button>
-        </div>
+        </nav>
       </header>
 
-      <!-- Menu mobile -->
-      <nav id="mobileMenu" class="mobile-menu">
+      <!-- Menu de Navegação Mobile -->
+      <nav
+        id="mobileMenu"
+        class="mobile-menu"
+        role="navigation"
+        aria-label="Menu de navegação"
+      >
         <ul class="menu-list">
           <li>
-            <a href="#" id="aboutLink"
-              ><i class="fas fa-info-circle"></i> Sobre</a
-            >
+            <a href="#" id="aboutLink">
+              <i class="fas fa-info-circle" aria-hidden="true"></i> Sobre
+            </a>
           </li>
           <li>
-            <a href="#" id="favoritesLink"
-              ><i class="fas fa-star"></i> Favoritos</a
-            >
+            <a href="#" id="favoritesLink">
+              <i class="fas fa-star" aria-hidden="true"></i> Favoritos
+            </a>
           </li>
           <li>
-            <a href="#" id="trendsLink"
-              ><i class="fas fa-chart-line"></i> Tendências</a
-            >
+            <a href="#" id="trendsLink">
+              <i class="fas fa-chart-line" aria-hidden="true"></i> Tendências
+            </a>
           </li>
           <li>
-            <a href="#" id="searchLink"><i class="fas fa-search"></i> Buscar</a>
+            <a href="#" id="searchLink">
+              <i class="fas fa-search" aria-hidden="true"></i> Buscar
+            </a>
           </li>
           <li>
-            <a href="#" id="quizLink"
-              ><i class="fas fa-question-circle"></i> Quiz</a
-            >
+            <a href="#" id="quizLink">
+              <i class="fas fa-question-circle" aria-hidden="true"></i> Quiz
+            </a>
           </li>
           <li>
-            <a href="#" id="exportLink"
-              ><i class="fas fa-download"></i> Exportar</a
-            >
+            <a href="#" id="exportLink">
+              <i class="fas fa-download" aria-hidden="true"></i> Exportar
+            </a>
           </li>
           <li>
-            <a href="#" id="accessibilityLink"
-              ><i class="fas fa-universal-access"></i> Acessibilidade</a
-            >
+            <a href="#" id="accessibilityLink">
+              <i class="fas fa-universal-access" aria-hidden="true"></i>
+              Acessibilidade
+            </a>
           </li>
           <li>
-            <a href="pages/terms-of-service.html"
-              ><i class="fas fa-file-contract"></i> Termos de Uso</a
-            >
+            <a href="pages/terms-of-service.html">
+              <i class="fas fa-file-contract" aria-hidden="true"></i> Termos de
+              Uso
+            </a>
           </li>
           <li>
-            <a href="pages/privacy.html"
-              ><i class="fas fa-shield-alt"></i> Privacidade</a
-            >
+            <a href="pages/privacy.html">
+              <i class="fas fa-shield-alt" aria-hidden="true"></i> Privacidade
+            </a>
           </li>
         </ul>
       </nav>
 
-      <!-- Notificação -->
-      <div id="notification" class="notification">
+      <!-- Sistema de Notificações -->
+      <div
+        id="notification"
+        class="notification"
+        role="alert"
+        aria-live="polite"
+        aria-hidden="true"
+      >
         <span id="notificationMessage"></span>
-        <button id="notificationClose" class="notification-close">
-          <i class="fas fa-times"></i>
+        <button
+          id="notificationClose"
+          class="notification-close"
+          aria-label="Fechar notificação"
+        >
+          <i class="fas fa-times" aria-hidden="true"></i>
         </button>
       </div>
 
-      <!-- Barra de Pesquisa -->
-      <div class="search-bar">
-        <i class="fas fa-search"></i>
-        <input
-          type="text"
-          id="searchElement"
-          placeholder="Busque por elemento, símbolo ou número atômico..."
-        />
-        <button id="clearSearch" class="clear-search">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
+      <!-- Conteúdo Principal -->
+      <main role="main">
+        <!-- Seção de Busca e Filtros -->
+        <section class="search-section" aria-labelledby="search-heading">
+          <h2 id="search-heading" class="visually-hidden">Busca e Filtros</h2>
 
-      <!-- Filtros -->
-      <div class="filters">
-        <div class="filter-group">
-          <label for="categoryFilter">
-            <i class="fas fa-filter"></i> Categoria:
-          </label>
-          <select id="categoryFilter">
-            <option value="todos">Todas Categorias</option>
-            <option value="não-metal">Não Metais</option>
-            <option value="metal-alcalino">Metais Alcalinos</option>
-            <option value="metal-alcalino-terroso">
-              Metais Alcalinos Terrosos
-            </option>
-            <option value="metal-transição">Metais de Transição</option>
-            <option value="metal-pos-transicao">Metais de Pós-Transição</option>
-            <option value="semimetal">Semimetais</option>
-            <option value="halogenio">Halogênios</option>
-            <option value="gás-nobre">Gases Nobres</option>
-            <option value="lantanídeo">Lantanídeos</option>
-            <option value="actinídeo">Actinídeos</option>
-          </select>
-        </div>
-
-        <div class="filter-group">
-          <label for="blockFilter"> <i class="fas fa-cube"></i> Bloco: </label>
-          <select id="blockFilter">
-            <option value="todos">Todos Blocos</option>
-            <option value="s">Bloco s</option>
-            <option value="p">Bloco p</option>
-            <option value="d">Bloco d</option>
-            <option value="f">Bloco f</option>
-          </select>
-        </div>
-
-        <!-- Tendências periódicas -->
-        <div class="filter-group">
-          <label for="trendFilter">
-            <i class="fas fa-chart-line"></i> Tendências:
-          </label>
-          <select id="trendFilter">
-            <option value="none">Selecione uma tendência</option>
-            <option value="electronegativity">Eletronegatividade</option>
-            <option value="atomicRadius">Raio Atômico</option>
-            <option value="ionizationEnergy">Energia de Ionização</option>
-            <option value="meltingPoint">Ponto de Fusão</option>
-            <option value="density">Densidade</option>
-          </select>
-        </div>
-      </div>
-
-      <!-- Área do gráfico -->
-      <div id="chartArea" class="chart-area">
-        <div class="chart-container">
-          <canvas id="elementComparisonChart"></canvas>
-        </div>
-        <div class="comparison-details" id="comparisonDetails"></div>
-        <button id="closeChart" class="btn-close-chart">
-          <i class="fas fa-times"></i> Fechar
-        </button>
-      </div>
-
-      <!-- Container Principal -->
-      <div class="periodic-container">
-        <!-- Tabela Periódica Principal -->
-        <div class="periodic-table" id="periodicTable"></div>
-
-        <!-- Séries Separadas -->
-        <div class="series-container">
-          <div class="lanthanides">
-            <div class="series-label">Lantanídeos</div>
-            <div class="series-elements" id="lanthanide-series"></div>
+          <!-- Barra de Pesquisa -->
+          <div class="search-bar">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <input
+              type="text"
+              id="searchElement"
+              placeholder="Busque por elemento, símbolo ou número atômico..."
+              aria-label="Buscar elementos"
+            />
+            <button
+              id="clearSearch"
+              class="clear-search"
+              aria-label="Limpar busca"
+            >
+              <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
           </div>
-          <div class="actinides">
-            <div class="series-label">Actinídeos</div>
-            <div class="series-elements" id="actinide-series"></div>
+
+          <!-- Filtros -->
+          <div class="filters" role="group" aria-labelledby="filters-heading">
+            <h3 id="filters-heading" class="visually-hidden">
+              Filtros de elementos
+            </h3>
+
+            <div class="filter-group">
+              <label for="categoryFilter">
+                <i class="fas fa-filter" aria-hidden="true"></i> Categoria:
+              </label>
+              <select
+                id="categoryFilter"
+                aria-describedby="category-description"
+              >
+                <option value="todos">Todas Categorias</option>
+                <option value="não-metal">Não Metais</option>
+                <option value="metal-alcalino">Metais Alcalinos</option>
+                <option value="metal-alcalino-terroso">
+                  Metais Alcalinos Terrosos
+                </option>
+                <option value="metal-transição">Metais de Transição</option>
+                <option value="metal-pos-transicao">
+                  Metais de Pós-Transição
+                </option>
+                <option value="semimetal">Semimetais</option>
+                <option value="halogenio">Halogênios</option>
+                <option value="gás-nobre">Gases Nobres</option>
+                <option value="lantanídeo">Lantanídeos</option>
+                <option value="actinídeo">Actinídeos</option>
+              </select>
+              <div id="category-description" class="visually-hidden">
+                Selecione uma categoria para filtrar os elementos
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <label for="blockFilter">
+                <i class="fas fa-cube" aria-hidden="true"></i> Bloco:
+              </label>
+              <select id="blockFilter" aria-describedby="block-description">
+                <option value="todos">Todos Blocos</option>
+                <option value="s">Bloco s</option>
+                <option value="p">Bloco p</option>
+                <option value="d">Bloco d</option>
+                <option value="f">Bloco f</option>
+              </select>
+              <div id="block-description" class="visually-hidden">
+                Selecione um bloco para filtrar os elementos
+              </div>
+            </div>
+
+            <!-- Tendências periódicas -->
+            <div class="filter-group">
+              <label for="trendFilter">
+                <i class="fas fa-chart-line" aria-hidden="true"></i> Tendências:
+              </label>
+              <select id="trendFilter" aria-describedby="trend-description">
+                <option value="none">Selecione uma tendência</option>
+                <option value="electronegativity">Eletronegatividade</option>
+                <option value="atomicRadius">Raio Atômico</option>
+                <option value="ionizationEnergy">Energia de Ionização</option>
+                <option value="meltingPoint">Ponto de Fusão</option>
+                <option value="density">Densidade</option>
+              </select>
+              <div id="trend-description" class="visually-hidden">
+                Selecione uma tendência periódica para visualizar
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
 
-        <!-- Legenda -->
-        <div class="legend">
-          <h3><i class="fas fa-info-circle"></i> Legenda</h3>
-          <div class="legend-items" id="legendItems"></div>
-        </div>
-      </div>
-
-      <!-- Lista de Favoritos -->
-      <div id="favorites" class="favorites-panel">
-        <div class="panel-header">
-          <h3><i class="fas fa-star"></i> Elementos Favoritos</h3>
-          <button id="closeFavorites" class="btn-close">
-            <i class="fas fa-times"></i>
+        <!-- Área do gráfico -->
+        <section
+          id="chartArea"
+          class="chart-area"
+          aria-labelledby="chart-heading"
+          aria-hidden="true"
+        >
+          <h2 id="chart-heading" class="visually-hidden">
+            Gráfico de comparação
+          </h2>
+          <div class="chart-container">
+            <canvas
+              id="elementComparisonChart"
+              role="img"
+              aria-label="Gráfico de comparação de elementos"
+            ></canvas>
+          </div>
+          <div class="comparison-details" id="comparisonDetails"></div>
+          <button id="closeChart" class="btn-close-chart">
+            <i class="fas fa-times" aria-hidden="true"></i> Fechar
           </button>
-        </div>
-        <div class="favorites-list" id="favoritesList"></div>
+        </section>
+
+        <!-- Seção da Tabela Periódica -->
+        <section class="periodic-section" aria-labelledby="periodic-heading">
+          <h2 id="periodic-heading" class="visually-hidden">
+            Tabela Periódica dos Elementos
+          </h2>
+
+          <!-- Container Principal -->
+          <div class="periodic-container">
+            <!-- Tabela Periódica Principal -->
+            <div
+              class="periodic-table"
+              id="periodicTable"
+              role="grid"
+              aria-label="Tabela periódica dos elementos"
+            ></div>
+
+            <!-- Séries Separadas -->
+            <div class="series-container">
+              <div class="lanthanides">
+                <h3 class="series-label">Lantanídeos</h3>
+                <div
+                  class="series-elements"
+                  id="lanthanide-series"
+                  role="grid"
+                  aria-label="Série dos lantanídeos"
+                ></div>
+              </div>
+              <div class="actinides">
+                <h3 class="series-label">Actinídeos</h3>
+                <div
+                  class="series-elements"
+                  id="actinide-series"
+                  role="grid"
+                  aria-label="Série dos actinídeos"
+                ></div>
+              </div>
+            </div>
+
+            <!-- Legenda -->
+            <aside
+              class="legend"
+              role="complementary"
+              aria-labelledby="legend-heading"
+            >
+              <h3 id="legend-heading">
+                <i class="fas fa-info-circle" aria-hidden="true"></i> Legenda
+              </h3>
+              <div class="legend-items" id="legendItems"></div>
+            </aside>
+          </div>
+        </section>
+      </main>
+
+      <!-- Painel de Favoritos -->
+      <aside
+        id="favorites"
+        class="favorites-panel"
+        role="complementary"
+        aria-labelledby="favorites-heading"
+        aria-hidden="true"
+      >
+        <header class="panel-header">
+          <h3 id="favorites-heading">
+            <i class="fas fa-star" aria-hidden="true"></i> Elementos Favoritos
+          </h3>
+          <button
+            id="closeFavorites"
+            class="btn-close"
+            aria-label="Fechar favoritos"
+          >
+            <i class="fas fa-times" aria-hidden="true"></i>
+          </button>
+        </header>
+        <div class="favorites-list" id="favoritesList" role="list"></div>
         <div class="empty-favorites" id="emptyFavorites">
-          <i class="far fa-star"></i>
+          <i class="far fa-star" aria-hidden="true"></i>
           <p>Você ainda não adicionou elementos aos favoritos</p>
           <p>Clique na estrela em um elemento para adicioná-lo</p>
         </div>
-      </div>
+      </aside>
 
       <!-- Modal do Elemento -->
-      <div id="elementModal" class="modal">
+      <dialog
+        id="elementModal"
+        class="modal"
+        role="dialog"
+        aria-labelledby="element-modal-title"
+        aria-describedby="element-modal-description"
+      >
         <div class="modal-content">
-          <div class="modal-header">
-            <span class="close"><i class="fas fa-times"></i></span>
-            <div class="element-symbol"></div>
-            <h2 id="elementName"></h2>
-            <div class="element-number" id="elementNumber"></div>
-            <button id="favoriteBtn" class="favorite-btn">
-              <i class="far fa-star"></i>
+          <header class="modal-header">
+            <button class="close" aria-label="Fechar modal">
+              <i class="fas fa-times" aria-hidden="true"></i>
             </button>
-          </div>
-          <div class="modal-tabs">
-            <button class="tab-btn active" data-tab="basics">Básico</button>
-            <button class="tab-btn" data-tab="properties">Propriedades</button>
-            <button class="tab-btn" data-tab="electron">Eletrônico</button>
-            <button class="tab-btn" data-tab="applications">Aplicações</button>
-          </div>
+            <div class="element-symbol" aria-hidden="true"></div>
+            <h2 id="element-modal-title" id="elementName"></h2>
+            <div
+              class="element-number"
+              id="elementNumber"
+              aria-label="Número atômico"
+            ></div>
+            <button
+              id="favoriteBtn"
+              class="favorite-btn"
+              aria-label="Adicionar aos favoritos"
+            >
+              <i class="far fa-star" aria-hidden="true"></i>
+            </button>
+          </header>
+
+          <nav
+            class="modal-tabs"
+            role="tablist"
+            aria-label="Abas de informações do elemento"
+          >
+            <button
+              class="tab-btn active"
+              data-tab="basics"
+              role="tab"
+              aria-selected="true"
+              aria-controls="basics-panel"
+            >
+              Básico
+            </button>
+            <button
+              class="tab-btn"
+              data-tab="properties"
+              role="tab"
+              aria-selected="false"
+              aria-controls="properties-panel"
+            >
+              Propriedades
+            </button>
+            <button
+              class="tab-btn"
+              data-tab="electron"
+              role="tab"
+              aria-selected="false"
+              aria-controls="electron-panel"
+            >
+              Eletrônico
+            </button>
+            <button
+              class="tab-btn"
+              data-tab="applications"
+              role="tab"
+              aria-selected="false"
+              aria-controls="applications-panel"
+            >
+              Aplicações
+            </button>
+          </nav>
+
           <div class="element-details">
-            <div class="tab-content active" id="basics">
+            <article
+              class="tab-content active"
+              id="basics-panel"
+              role="tabpanel"
+              aria-labelledby="basics-tab"
+            >
               <div class="info-grid">
                 <div class="info-item">
-                  <i class="fas fa-hashtag"></i>
+                  <i class="fas fa-hashtag" aria-hidden="true"></i>
                   <span>Número Atômico</span>
                   <strong id="atomicNumber"></strong>
                 </div>
                 <div class="info-item">
-                  <i class="fas fa-atom"></i>
+                  <i class="fas fa-atom" aria-hidden="true"></i>
                   <span>Massa Atômica</span>
                   <strong id="atomicMass"></strong>
                 </div>
                 <div class="info-item">
-                  <i class="fas fa-layer-group"></i>
+                  <i class="fas fa-layer-group" aria-hidden="true"></i>
                   <span>Categoria</span>
                   <strong id="category"></strong>
                 </div>
                 <div class="info-item">
-                  <i class="fas fa-calendar"></i>
+                  <i class="fas fa-calendar" aria-hidden="true"></i>
                   <span>Descoberto em</span>
                   <strong id="discovery"></strong>
                 </div>
                 <div class="info-item">
-                  <i class="fas fa-user"></i>
+                  <i class="fas fa-user" aria-hidden="true"></i>
                   <span>Descoberto por</span>
                   <strong id="discoveredBy"></strong>
                 </div>
@@ -337,11 +512,18 @@
               </div>
               <div class="comparison-tools">
                 <button id="compareBtn" class="compare-btn">
-                  <i class="fas fa-balance-scale"></i> Comparar Elemento
+                  <i class="fas fa-balance-scale" aria-hidden="true"></i>
+                  Comparar Elemento
                 </button>
               </div>
-            </div>
-            <div class="tab-content" id="properties">
+            </article>
+
+            <article
+              class="tab-content"
+              id="properties-panel"
+              role="tabpanel"
+              aria-labelledby="properties-tab"
+            >
               <div class="properties-grid">
                 <div class="property-item">
                   <span>Densidade</span>
@@ -382,45 +564,76 @@
                   <strong id="period"></strong>
                 </div>
               </div>
-            </div>
-            <div class="tab-content" id="electron">
+            </article>
+
+            <article
+              class="tab-content"
+              id="electron-panel"
+              role="tabpanel"
+              aria-labelledby="electron-tab"
+            >
               <div class="electron-config">
                 <h3>Configuração Eletrônica</h3>
                 <p id="electronConfig"></p>
-                <div id="electronAnimation" class="electron-animation"></div>
+                <div
+                  id="electronAnimation"
+                  class="electron-animation"
+                  aria-label="Animação da configuração eletrônica"
+                ></div>
               </div>
               <div class="block-info">
                 <span>Bloco:</span>
                 <strong id="block"></strong>
               </div>
-            </div>
-            <div class="tab-content" id="applications">
+            </article>
+
+            <article
+              class="tab-content"
+              id="applications-panel"
+              role="tabpanel"
+              aria-labelledby="applications-tab"
+            >
               <h3>Aplicações Práticas</h3>
               <div id="elementApplications" class="applications-list"></div>
               <div class="related-compounds">
                 <h4>Compostos Importantes</h4>
                 <div id="relatedCompounds" class="compounds-list"></div>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </dialog>
 
       <!-- Modal de Comparação -->
-      <div id="comparisonModal" class="modal">
+      <dialog
+        id="comparisonModal"
+        class="modal"
+        role="dialog"
+        aria-labelledby="comparison-modal-title"
+      >
         <div class="modal-content">
-          <span class="close"><i class="fas fa-times"></i></span>
-          <h2>Comparação de Elementos</h2>
+          <button class="close" aria-label="Fechar modal de comparação">
+            <i class="fas fa-times" aria-hidden="true"></i>
+          </button>
+          <h2 id="comparison-modal-title">Comparação de Elementos</h2>
           <div class="comparison-container">
             <div class="element-comparison" id="element1">
-              <select id="element1Select" class="element-select"></select>
+              <select
+                id="element1Select"
+                class="element-select"
+                aria-label="Selecionar primeiro elemento"
+              ></select>
               <div class="element-comparison-details"></div>
             </div>
-            <div class="comparison-arrows">
+            <div class="comparison-arrows" aria-hidden="true">
               <i class="fas fa-exchange-alt"></i>
             </div>
             <div class="element-comparison" id="element2">
-              <select id="element2Select" class="element-select"></select>
+              <select
+                id="element2Select"
+                class="element-select"
+                aria-label="Selecionar segundo elemento"
+              ></select>
               <div class="element-comparison-details"></div>
             </div>
           </div>
@@ -429,49 +642,63 @@
             <div class="comparison-grid" id="comparisonGrid"></div>
           </div>
         </div>
-      </div>
+      </dialog>
 
       <!-- Modal Sobre -->
-      <div id="aboutModal" class="modal">
+      <dialog
+        id="aboutModal"
+        class="modal"
+        role="dialog"
+        aria-labelledby="about-modal-title"
+      >
         <div class="modal-content">
-          <span class="close"><i class="fas fa-times"></i></span>
-          <h2>Sobre a Tabela Periódica Interativa</h2>
+          <button class="close" aria-label="Fechar modal sobre">
+            <i class="fas fa-times" aria-hidden="true"></i>
+          </button>
+          <h2 id="about-modal-title">Sobre a Tabela Periódica Interativa</h2>
           <div class="about-content">
             <p>
               Esta Tabela Periódica Interativa foi desenvolvida para
               proporcionar uma experiência educativa e intuitiva para
               estudantes, professores e entusiastas da química.
             </p>
-            <h3>Recursos</h3>
-            <ul>
-              <li>Visualização detalhada de todos os elementos químicos</li>
-              <li>Filtros por categoria e bloco</li>
-              <li>Busca por nome, símbolo ou número atômico</li>
-              <li>Animação de configuração eletrônica</li>
-              <li>Comparação entre elementos</li>
-              <li>Tendências periódicas com visualização gráfica</li>
-              <li>Modo escuro para conforto visual</li>
-              <li>Lista de elementos favoritos</li>
-            </ul>
-            <h3>Créditos</h3>
-            <p>Desenvolvido como ferramenta educativa de código aberto.</p>
-            <p>Dados baseados em pesquisas científicas atualizadas.</p>
-            <h3>Versão</h3>
-            <p>2.5.0</p>
+            <section>
+              <h3>Recursos</h3>
+              <ul>
+                <li>Visualização detalhada de todos os elementos químicos</li>
+                <li>Filtros por categoria e bloco</li>
+                <li>Busca por nome, símbolo ou número atômico</li>
+                <li>Animação de configuração eletrônica</li>
+                <li>Comparação entre elementos</li>
+                <li>Tendências periódicas com visualização gráfica</li>
+                <li>Modo escuro para conforto visual</li>
+                <li>Lista de elementos favoritos</li>
+              </ul>
+            </section>
+            <section>
+              <h3>Créditos</h3>
+              <p>Desenvolvido como ferramenta educativa de código aberto.</p>
+              <p>Dados baseados em pesquisas científicas atualizadas.</p>
+            </section>
+            <section>
+              <h3>Versão</h3>
+              <p>2.5.0</p>
+            </section>
           </div>
         </div>
-      </div>
+      </dialog>
 
-      <footer class="main-footer">
+      <!-- Rodapé -->
+      <footer class="main-footer" role="contentinfo">
         <div class="footer-content">
           <p>
             &copy; <time datetime="2025">2025</time> Tabela Periódica Interativa
           </p>
-          <div class="footer-links">
+          <nav class="footer-links" aria-label="Links do rodapé">
             <a href="pages/terms-of-service.html">Termos de Uso</a>
             <a href="pages/privacy.html">Privacidade</a>
             <a href="#" id="aboutFooterLink">Sobre</a>
-          </div>
+          </nav>
         </div>
       </footer>
     </div>

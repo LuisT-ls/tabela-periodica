@@ -13,11 +13,24 @@
   justify-content: center;
   align-items: flex-start;
   padding: var(--spacing-5) var(--spacing-3);
+  border: none;
+  outline: none;
+}
+
+/* Suporte para elementos dialog nativos */
+.modal[open] {
+  display: flex;
+  animation: fadeIn var(--transition-normal);
 }
 
 .modal.active {
   display: flex;
   animation: fadeIn var(--transition-normal);
+}
+
+/* Backdrop para dialog */
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .modal-content {

@@ -88,9 +88,13 @@ export function openElementModal(atomicNumber) {
   // Preencher o modal com as informações do elemento
   fillElementModal(element)
 
-  // Mostrar o modal
+  // Mostrar o modal usando dialog nativo se suportado
   const modal = document.getElementById('elementModal')
-  modal.classList.add('active')
+  if (modal.tagName === 'DIALOG') {
+    modal.showModal()
+  } else {
+    modal.classList.add('active')
+  }
 
   // Ativar a primeira tab
   document.querySelector('.tab-btn[data-tab="basics"]').click()
@@ -104,7 +108,11 @@ export function openElementModal(atomicNumber) {
  */
 export function closeElementModal() {
   const modal = document.getElementById('elementModal')
-  modal.classList.remove('active')
+  if (modal.tagName === 'DIALOG') {
+    modal.close()
+  } else {
+    modal.classList.remove('active')
+  }
 }
 
 /**

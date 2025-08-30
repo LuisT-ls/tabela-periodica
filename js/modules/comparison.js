@@ -110,16 +110,14 @@ export function setupComparison(elements) {
   const closeButton = comparisonModal.querySelector('.close')
   if (closeButton) {
     closeButton.addEventListener('click', () => {
-      comparisonModal.classList.remove('active')
-      firstElementId = null
+      closeComparisonModal()
     })
   }
 
   // Fechar modal quando clicar fora do conteúdo
   comparisonModal.addEventListener('click', event => {
     if (event.target === comparisonModal) {
-      comparisonModal.classList.remove('active')
-      firstElementId = null
+      closeComparisonModal()
     }
   })
 }
@@ -204,7 +202,7 @@ export function startComparison(atomicNumber) {
     showNotification('Selecione o segundo elemento para comparação', 'info')
 
     // Abrir o modal de comparação
-    comparisonModal.classList.add('active')
+    openComparisonModal()
 
     // Definir os valores dos selects
     element1Select.value = atomicNumber
@@ -479,4 +477,27 @@ function formatState(state) {
   }
 
   return stateMap[state] || state
+}
+
+/**
+ * Abre o modal de comparação
+ */
+function openComparisonModal() {
+  if (comparisonModal.tagName === 'DIALOG') {
+    comparisonModal.showModal()
+  } else {
+    comparisonModal.classList.add('active')
+  }
+}
+
+/**
+ * Fecha o modal de comparação
+ */
+function closeComparisonModal() {
+  if (comparisonModal.tagName === 'DIALOG') {
+    comparisonModal.close()
+  } else {
+    comparisonModal.classList.remove('active')
+  }
+  firstElementId = null
 }

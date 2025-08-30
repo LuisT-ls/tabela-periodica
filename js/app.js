@@ -202,7 +202,11 @@ function setupInfoButtons() {
   // Função para abrir o modal sobre
   const openAboutModal = () => {
     if (aboutModal) {
-      aboutModal.classList.add('active')
+      if (aboutModal.tagName === 'DIALOG') {
+        aboutModal.showModal()
+      } else {
+        aboutModal.classList.add('active')
+      }
     }
   }
 
@@ -216,7 +220,11 @@ function setupInfoButtons() {
     button.addEventListener('click', () => {
       const modal = button.closest('.modal')
       if (modal) {
-        modal.classList.remove('active')
+        if (modal.tagName === 'DIALOG') {
+          modal.close()
+        } else {
+          modal.classList.remove('active')
+        }
       }
     })
   })
@@ -227,7 +235,11 @@ function setupInfoButtons() {
       event.target.classList.contains('modal') &&
       event.target.classList.contains('active')
     ) {
-      event.target.classList.remove('active')
+      if (event.target.tagName === 'DIALOG') {
+        event.target.close()
+      } else {
+        event.target.classList.remove('active')
+      }
     }
   })
 }

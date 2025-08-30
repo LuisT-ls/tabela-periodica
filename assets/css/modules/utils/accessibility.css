@@ -1,0 +1,786 @@
+/* Acessibilidade */
+
+/* Elementos visualmente ocultos mas acessíveis para leitores de tela */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Foco visível para navegação por teclado */
+*:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Melhorar contraste para elementos de foco */
+.btn-icon:focus,
+.tab-btn:focus,
+.close:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(var(--color-primary-rgb), 0.2);
+}
+
+/* Estados de foco para elementos interativos */
+button:focus,
+input:focus,
+select:focus,
+a:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Melhorar acessibilidade de modais */
+.modal[open] {
+  display: flex;
+}
+
+/* Suporte para navegação por teclado em abas */
+.tab-btn[aria-selected='true'] {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+/* Indicadores de estado para leitores de tela */
+[aria-hidden='true'] {
+  display: none !important;
+}
+
+[aria-hidden='false'] {
+  display: block;
+}
+
+/* Melhorar acessibilidade de listas */
+[role='list'] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+[role='listitem'] {
+  display: block;
+}
+
+/* Acessibilidade para grids */
+[role='grid'] {
+  display: grid;
+}
+
+[role='gridcell'] {
+  display: block;
+}
+
+/* Melhorar acessibilidade de formulários */
+label {
+  cursor: pointer;
+}
+
+/* Descrições de acessibilidade */
+[aria-describedby] {
+  position: relative;
+}
+
+/* Suporte para navegação por teclado em elementos customizados */
+.element {
+  cursor: pointer;
+  user-select: none;
+}
+
+.element:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Melhorar acessibilidade de notificações */
+[role='alert'] {
+  position: relative;
+  z-index: var(--z-notification);
+}
+
+/* Acessibilidade para elementos de comparação */
+.comparison-container {
+  display: grid;
+  gap: var(--spacing-4);
+}
+
+/* Melhorar acessibilidade de botões de fechar */
+.close {
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: var(--spacing-2);
+  border-radius: var(--border-radius-sm);
+  transition: background-color var(--transition-fast);
+}
+
+.close:hover,
+.close:focus {
+  background-color: var(--color-background-hover);
+}
+
+/* Acessibilidade para elementos de série */
+.series-label {
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-2);
+}
+
+/* Melhorar acessibilidade de filtros */
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+}
+
+.filter-group label {
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+}
+
+/* Acessibilidade para elementos de legenda */
+.legend-items {
+  display: grid;
+  gap: var(--spacing-2);
+}
+
+/* Melhorar acessibilidade de painéis */
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* Acessibilidade para elementos de aplicação */
+.applications-list,
+.compounds-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+/* Melhorar acessibilidade de gráficos */
+.chart-container {
+  position: relative;
+  min-height: 300px;
+}
+
+/* Acessibilidade para elementos de propriedades */
+.properties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-3);
+}
+
+.property-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+  padding: var(--spacing-3);
+  background-color: var(--color-background-card);
+  border-radius: var(--border-radius-md);
+}
+
+/* Melhorar acessibilidade de informações */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-3);
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-2);
+  background-color: var(--color-background-card);
+  border-radius: var(--border-radius-sm);
+}
+
+/* Acessibilidade para elementos de navegação */
+.menu-list a {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-2) var(--spacing-3);
+  border-radius: var(--border-radius-sm);
+  transition: background-color var(--transition-fast);
+}
+
+.menu-list a:hover,
+.menu-list a:focus {
+  background-color: var(--color-background-hover);
+}
+
+/* Melhorar acessibilidade de cabeçalhos */
+.header-controls {
+  display: flex;
+  gap: var(--spacing-2);
+  align-items: center;
+}
+
+/* Acessibilidade para elementos de busca */
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: var(--spacing-3) var(--spacing-8);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-full);
+  background-color: var(--color-background-card);
+}
+
+.search-bar i {
+  position: absolute;
+  left: var(--spacing-3);
+  color: var(--color-text-light);
+}
+
+.clear-search {
+  position: absolute;
+  right: var(--spacing-3);
+  background: none;
+  border: none;
+  color: var(--color-text-light);
+  cursor: pointer;
+  padding: var(--spacing-1);
+  border-radius: var(--border-radius-sm);
+}
+
+.clear-search:hover,
+.clear-search:focus {
+  color: var(--color-text);
+  background-color: var(--color-background-hover);
+}
+
+/* Acessibilidade para elementos de rodapé */
+.footer-links {
+  display: flex;
+  gap: var(--spacing-4);
+}
+
+.footer-links a {
+  color: var(--color-text-light);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: var(--color-primary);
+}
+
+/* Melhorar acessibilidade de elementos de tempo */
+time {
+  font-weight: var(--font-weight-medium);
+}
+
+/* Acessibilidade para elementos de ícones */
+[aria-hidden='true'] {
+  pointer-events: none;
+}
+
+/* Melhorar acessibilidade de elementos de descrição */
+.element-description {
+  margin-top: var(--spacing-4);
+  padding: var(--spacing-3);
+  background-color: var(--color-background-card);
+  border-radius: var(--border-radius-md);
+}
+
+/* Acessibilidade para elementos de comparação */
+.comparison-tools {
+  margin-top: var(--spacing-4);
+  display: flex;
+  justify-content: center;
+}
+
+.compare-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-3) var(--spacing-4);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.compare-btn:hover,
+.compare-btn:focus {
+  background-color: var(--color-primary-dark);
+}
+
+/* Melhorar acessibilidade de elementos de animação */
+.electron-animation {
+  margin-top: var(--spacing-3);
+  min-height: 200px;
+  background-color: var(--color-background-card);
+  border-radius: var(--border-radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Acessibilidade para elementos de bloco */
+.block-info {
+  margin-top: var(--spacing-3);
+  padding: var(--spacing-2);
+  background-color: var(--color-background-card);
+  border-radius: var(--border-radius-sm);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+/* Melhorar acessibilidade de elementos de configuração */
+.electron-config {
+  margin-bottom: var(--spacing-4);
+}
+
+.electron-config h3 {
+  margin-bottom: var(--spacing-2);
+}
+
+/* Acessibilidade para elementos de aplicação */
+.applications-list h4,
+.compounds-list h4 {
+  margin-bottom: var(--spacing-2);
+  color: var(--color-primary);
+}
+
+/* Melhorar acessibilidade de elementos de série */
+.series-container {
+  display: grid;
+  gap: var(--spacing-4);
+  margin-top: var(--spacing-4);
+}
+
+.lanthanides,
+.actinides {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+/* Acessibilidade para elementos de legenda */
+.legend {
+  margin-top: var(--spacing-4);
+  padding: var(--spacing-3);
+  background-color: var(--color-background-card);
+  border-radius: var(--border-radius-md);
+}
+
+.legend h3 {
+  margin-bottom: var(--spacing-3);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+/* Melhorar acessibilidade de elementos de favoritos */
+.favorites-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: 100vh;
+  background-color: var(--color-background);
+  box-shadow: var(--shadow-lg);
+  z-index: var(--z-fixed);
+  transform: translateX(100%);
+  transition: transform var(--transition-normal);
+  overflow-y: auto;
+}
+
+.favorites-panel.active {
+  transform: translateX(0);
+}
+
+.favorites-list {
+  padding: var(--spacing-4);
+}
+
+.empty-favorites {
+  padding: var(--spacing-6);
+  text-align: center;
+  color: var(--color-text-light);
+}
+
+.empty-favorites i {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-3);
+  opacity: 0.5;
+}
+
+/* Acessibilidade para elementos de gráfico */
+.chart-area {
+  margin: var(--spacing-4) 0;
+  padding: var(--spacing-4);
+  background-color: var(--color-background-card);
+  border-radius: var(--border-radius-md);
+  display: none;
+}
+
+.chart-area.active {
+  display: block;
+}
+
+.btn-close-chart {
+  margin-top: var(--spacing-3);
+  padding: var(--spacing-2) var(--spacing-3);
+  background-color: var(--color-background-hover);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.btn-close-chart:hover,
+.btn-close-chart:focus {
+  background-color: var(--color-background);
+}
+
+/* Melhorar acessibilidade de elementos de seção */
+.search-section,
+.periodic-section {
+  margin-bottom: var(--spacing-6);
+}
+
+/* Acessibilidade para elementos de container */
+.periodic-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+
+/* Melhorar acessibilidade de elementos de filtro */
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-3);
+  margin-top: var(--spacing-3);
+}
+
+/* Acessibilidade para elementos de modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--z-modal);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition-normal),
+    visibility var(--transition-normal);
+}
+
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background-color: var(--color-background);
+  border-radius: var(--border-radius-lg);
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  transform: scale(0.9);
+  transition: transform var(--transition-normal);
+}
+
+.modal.active .modal-content {
+  transform: scale(1);
+}
+
+/* Melhorar acessibilidade de elementos de cabeçalho de modal */
+.modal-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  padding: var(--spacing-4);
+  border-bottom: 1px solid var(--color-border);
+  position: relative;
+}
+
+.modal-header h2 {
+  margin: 0;
+  flex: 1;
+}
+
+.close {
+  position: absolute;
+  top: var(--spacing-3);
+  right: var(--spacing-3);
+  background: none;
+  border: none;
+  font-size: var(--font-size-lg);
+  cursor: pointer;
+  color: var(--color-text-light);
+  transition: color var(--transition-fast);
+}
+
+.close:hover,
+.close:focus {
+  color: var(--color-text);
+}
+
+/* Acessibilidade para elementos de abas */
+.modal-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-background-card);
+}
+
+.tab-btn {
+  flex: 1;
+  padding: var(--spacing-3) var(--spacing-4);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+  border-bottom: 2px solid transparent;
+}
+
+.tab-btn:hover,
+.tab-btn:focus {
+  background-color: var(--color-background-hover);
+}
+
+.tab-btn.active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-bottom-color: var(--color-primary);
+}
+
+/* Melhorar acessibilidade de elementos de conteúdo de aba */
+.tab-content {
+  display: none;
+  padding: var(--spacing-4);
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Acessibilidade para elementos de detalhes */
+.element-details {
+  min-height: 300px;
+}
+
+/* Melhorar acessibilidade de elementos de símbolo */
+.element-symbol {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: var(--spacing-2);
+}
+
+/* Acessibilidade para elementos de número */
+.element-number {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  text-align: center;
+}
+
+/* Melhorar acessibilidade de elementos de favorito */
+.favorite-btn {
+  background: none;
+  border: none;
+  font-size: var(--font-size-lg);
+  cursor: pointer;
+  color: var(--color-text-light);
+  transition: color var(--transition-fast);
+  padding: var(--spacing-1);
+  border-radius: var(--border-radius-sm);
+}
+
+.favorite-btn:hover,
+.favorite-btn:focus {
+  color: var(--color-warning);
+  background-color: var(--color-background-hover);
+}
+
+.favorite-btn.active {
+  color: var(--color-warning);
+}
+
+/* Acessibilidade para elementos de comparação */
+.comparison-container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: var(--spacing-4);
+  align-items: start;
+  margin: var(--spacing-4) 0;
+}
+
+.element-comparison {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3);
+}
+
+.element-select {
+  padding: var(--spacing-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  background-color: var(--color-background-card);
+}
+
+.comparison-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-text-light);
+}
+
+/* Melhorar acessibilidade de elementos de propriedades de comparação */
+.comparison-properties {
+  margin-top: var(--spacing-4);
+  padding-top: var(--spacing-4);
+  border-top: 1px solid var(--color-border);
+}
+
+.comparison-grid {
+  display: grid;
+  gap: var(--spacing-2);
+  margin-top: var(--spacing-3);
+}
+
+/* Acessibilidade para elementos de conteúdo sobre */
+.about-content {
+  padding: var(--spacing-4);
+}
+
+.about-content section {
+  margin-bottom: var(--spacing-4);
+}
+
+.about-content h3 {
+  margin-bottom: var(--spacing-2);
+  color: var(--color-primary);
+}
+
+.about-content ul {
+  padding-left: var(--spacing-4);
+}
+
+.about-content li {
+  margin-bottom: var(--spacing-1);
+}
+
+/* Melhorar acessibilidade de elementos de rodapé */
+.main-footer {
+  margin-top: var(--spacing-8);
+  padding: var(--spacing-4) 0;
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-background-card);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-4);
+}
+
+/* Responsividade para acessibilidade */
+@media (max-width: 768px) {
+  .header-controls {
+    flex-wrap: wrap;
+  }
+
+  .filters {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-container {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-3);
+  }
+
+  .comparison-arrows {
+    transform: rotate(90deg);
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .modal-content {
+    margin: var(--spacing-2);
+    max-width: calc(100vw - var(--spacing-4));
+  }
+
+  .modal-tabs {
+    flex-direction: column;
+  }
+
+  .tab-btn {
+    text-align: left;
+  }
+}
+
+/* Melhorar acessibilidade para modo de alto contraste */
+@media (prefers-contrast: high) {
+  *:focus {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  .btn-icon,
+  .tab-btn,
+  .close {
+    border: 2px solid transparent;
+  }
+
+  .btn-icon:focus,
+  .tab-btn:focus,
+  .close:focus {
+    border-color: var(--color-primary);
+  }
+}
+
+/* Melhorar acessibilidade para preferência de movimento reduzido */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .modal-content {
+    transform: none;
+  }
+
+  .favorites-panel,
+  .mobile-menu {
+    transition: none;
+  }
+}
