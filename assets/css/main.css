@@ -13,6 +13,7 @@
 @import url('./modules/layout/header.css');
 @import url('./modules/layout/footer.css');
 @import url('./modules/layout/section.css');
+@import url('./modules/layout/content-page.css');
 
 /* Componentes */
 @import url('./modules/components/buttons.css');
@@ -37,3 +38,8 @@
 @import url('./modules/features/favorites.css');
 @import url('./modules/features/trends.css');
 @import url('./modules/features/charts.css');
+
+/* Novos módulos de funcionalidades */
+@import url('./modules/features/quiz.css');
+@import url('./modules/features/accessibility.css');
+@import url('./modules/features/export.css');

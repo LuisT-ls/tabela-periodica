@@ -1,0 +1,488 @@
+/* Estilos para o Sistema de Exportação */
+
+.export-modal {
+  z-index: var(--z-modal);
+}
+
+.export-content {
+  max-width: 900px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.export-body {
+  padding: var(--spacing-6);
+}
+
+.export-section {
+  margin-bottom: var(--spacing-6);
+  padding: var(--spacing-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  background: var(--color-background-alt);
+}
+
+.export-section h3 {
+  margin: 0 0 var(--spacing-4) 0;
+  color: var(--color-text);
+  font-size: var(--font-size-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.export-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-4);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+.filter-group label {
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+}
+
+.filter-group select {
+  padding: var(--spacing-2) var(--spacing-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-md);
+  background: var(--color-background-card);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+}
+
+.field-selector {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: var(--spacing-2);
+}
+
+.field-selector label {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-2);
+  background: var(--color-background-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+  transition: all var(--transition-fast);
+}
+
+.field-selector label:hover {
+  background: var(--color-primary-light);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.field-selector input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--color-primary);
+}
+
+.share-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--spacing-3);
+}
+
+.share-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-3) var(--spacing-4);
+  border: 1px solid var(--color-border);
+  background: var(--color-background-card);
+  border-radius: var(--border-radius-lg);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+}
+
+.share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.share-btn[data-platform='whatsapp']:hover {
+  background: #25d366;
+  color: white;
+  border-color: #25d366;
+}
+
+.share-btn[data-platform='telegram']:hover {
+  background: #0088cc;
+  color: white;
+  border-color: #0088cc;
+}
+
+.share-btn[data-platform='email']:hover {
+  background: #ea4335;
+  color: white;
+  border-color: #ea4335;
+}
+
+.share-btn[data-platform='copy']:hover {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.share-btn[data-platform='qr']:hover {
+  background: var(--color-secondary);
+  color: white;
+  border-color: var(--color-secondary);
+}
+
+.advanced-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-3);
+}
+
+.advanced-options label {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-3);
+  background: var(--color-background-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-md);
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+  transition: all var(--transition-fast);
+}
+
+.advanced-options label:hover {
+  background: var(--color-primary-light);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.advanced-options input[type='checkbox'] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--color-primary);
+}
+
+.export-footer {
+  padding: var(--spacing-4);
+  border-top: 1px solid var(--color-border);
+  background: var(--color-background-alt);
+  display: flex;
+  gap: var(--spacing-3);
+  justify-content: flex-end;
+}
+
+.export-footer .btn {
+  padding: var(--spacing-3) var(--spacing-4);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Seleção personalizada de elementos */
+.custom-selection {
+  margin-top: var(--spacing-4);
+  padding: var(--spacing-4);
+  background: var(--color-background-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+}
+
+.element-selector h4 {
+  margin: 0 0 var(--spacing-3) 0;
+  color: var(--color-text);
+  font-size: var(--font-size-md);
+}
+
+.element-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: var(--spacing-2);
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: var(--spacing-3);
+  padding: var(--spacing-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-md);
+  background: var(--color-background-alt);
+}
+
+.element-checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-1);
+  padding: var(--spacing-2);
+  background: var(--color-background-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-size: var(--font-size-xs);
+  text-align: center;
+}
+
+.element-checkbox:hover {
+  background: var(--color-primary-light);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.element-checkbox input[type='checkbox'] {
+  width: 14px;
+  height: 14px;
+  accent-color: var(--color-primary);
+}
+
+.element-label {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+}
+
+.selection-actions {
+  display: flex;
+  gap: var(--spacing-2);
+  justify-content: center;
+}
+
+.selection-actions .btn {
+  padding: var(--spacing-2) var(--spacing-3);
+  font-size: var(--font-size-sm);
+}
+
+/* Modal de preview */
+.preview-modal .modal-content {
+  max-width: 800px;
+  max-height: 80vh;
+}
+
+.preview-modal .modal-body {
+  padding: var(--spacing-4);
+  overflow-y: auto;
+}
+
+.preview-modal pre {
+  background: var(--color-background-alt);
+  padding: var(--spacing-4);
+  border-radius: var(--border-radius-md);
+  overflow-x: auto;
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+/* Modal de QR Code */
+.qr-modal .modal-content {
+  max-width: 400px;
+  text-align: center;
+}
+
+.qr-code-placeholder {
+  padding: var(--spacing-6);
+  background: var(--color-background-alt);
+  border-radius: var(--border-radius-lg);
+  border: 2px dashed var(--color-border);
+}
+
+.qr-code-placeholder i {
+  font-size: 4rem;
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-4);
+}
+
+.qr-code-placeholder p {
+  color: var(--color-text-light);
+  margin: var(--spacing-2) 0;
+}
+
+/* Estados de carregamento */
+.export-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-3);
+  padding: var(--spacing-6);
+  color: var(--color-text-light);
+}
+
+.export-loading::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--color-border);
+  border-top: 2px solid var(--color-primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Indicadores de progresso */
+.export-progress {
+  width: 100%;
+  height: 8px;
+  background: var(--color-background-alt);
+  border-radius: var(--border-radius-full);
+  overflow: hidden;
+  margin: var(--spacing-3) 0;
+}
+
+.export-progress-bar {
+  height: 100%;
+  background: var(--color-primary);
+  transition: width var(--transition-normal);
+  border-radius: var(--border-radius-full);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .export-content {
+    margin: var(--spacing-2);
+    max-height: 95vh;
+  }
+
+  .export-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .share-options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .advanced-options {
+    grid-template-columns: 1fr;
+  }
+
+  .element-grid {
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    max-height: 150px;
+  }
+
+  .export-footer {
+    flex-direction: column;
+  }
+
+  .export-footer .btn {
+    width: 100%;
+  }
+}
+
+/* Animações */
+@keyframes exportFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.export-section {
+  animation: exportFadeIn 0.3s ease-out;
+}
+
+.export-section:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.export-section:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.export-section:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+/* Estados de hover melhorados */
+.share-btn,
+.advanced-options label,
+.element-checkbox {
+  transition: all var(--transition-normal);
+}
+
+.share-btn:active,
+.advanced-options label:active,
+.element-checkbox:active {
+  transform: scale(0.95);
+}
+
+/* Melhorias para acessibilidade */
+.share-btn:focus,
+.advanced-options label:focus,
+.element-checkbox:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Estados de erro */
+.export-error {
+  background: var(--color-error);
+  color: white;
+  padding: var(--spacing-3);
+  border-radius: var(--border-radius-md);
+  margin: var(--spacing-3) 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.export-error::before {
+  content: '⚠';
+  font-size: var(--font-size-lg);
+}
+
+/* Estados de sucesso */
+.export-success {
+  background: var(--color-success);
+  color: white;
+  padding: var(--spacing-3);
+  border-radius: var(--border-radius-md);
+  margin: var(--spacing-3) 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.export-success::before {
+  content: '✓';
+  font-size: var(--font-size-lg);
+}
+
+/* Tooltips para botões */
+.share-btn[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-text);
+  color: var(--color-background-card);
+  padding: var(--spacing-1) var(--spacing-2);
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-xs);
+  white-space: nowrap;
+  z-index: var(--z-tooltip);
+  margin-bottom: var(--spacing-1);
+}
+
+.share-btn {
+  position: relative;
+}
